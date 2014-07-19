@@ -177,8 +177,8 @@ ul,ol         { list-style:none; }
 .personal_txt_next{ width:100%; float:left; margin-top:-2px;}
 
 
-.wrapper { /*min-width:954px;*/width:100%; float:left; }
-.page {}
+.wrapper { /*min-width:954px;*/ max-width: 1024px; margin: 0 auto; }
+.page { }
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
