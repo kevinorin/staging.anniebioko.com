@@ -177,7 +177,7 @@ ul,ol         { list-style:none; }
 .personal_txt_next{ width:100%; float:left; margin-top:-2px;}
 
 
-.wrapper { /*min-width:954px;*/ max-width: 1024px; margin: 0 auto; }
+.wrapper { width:100%; max-width:1024px; margin:0 auto; }
 .page { }
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
@@ -2023,7 +2023,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 .guest-select {width:305px !important;}
 /*** My editing ****/
-#strip{width:100%; float:left; background:#353535; padding:12px 0; text-transform:uppercase;}
+#strip{width:100%; float:left; background:#353535; margin-top:-5px; padding:12px 0; text-transform:uppercase;}
 .container_main{width:940px; margin:0 auto;}
 .container{width:100%; float:left; font-family: 'proxima_nova_altsemibold';}
 .follow_us{width:308px; float:left; padding-left:58px;}
@@ -2250,6 +2250,7 @@ float:left;
 }
 
 @media only screen and (max-width : 480px) {
+#carrousel_area { display:none !important;}
 #carrousel_area .carrousel .banner_description{  
     display: block;
     float: left;
@@ -2301,7 +2302,7 @@ float:left;
 #checkout-review-table-wrapper table#checkout-review-table { font-size: 12px;}
 }
 
-.mini-cart{ display: none; margin-top: 67px; position: absolute; width: 17%; z-index: 999;}
+.mini-cart{ display:none; top: 70px; position:absolute; width: 17%; z-index: 999; border: 1px solid #ccc; background: #fff; right: 10px;}
 .msg:hover .mini-cart{ display:block;}
 
 @media only screen and (max-width : 900px) {
