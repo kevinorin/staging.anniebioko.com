@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<config>
+	
+	<personalization>
+		
+			<groups>
+  
+				<general>
+					<label>Addiconal information</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<personal_information>
+							<label>Personal Information </label>
+						        
+							<frontend_type>textarea</frontend_type>
+							<required>true</required>
+						</personal_information>
+						
+						<!--<delivery_date>
+							<label>Delivery Date</label>
+							<frontend_type>text</frontend_type>
+							<frontend_model>product_personalization/system_config_date</frontend_model>
+							<required>true</required>
+						</delivery_date>-->
+						
+						<!--<need_help_with_wording>
+							<label>Need help with wording?t5tfg5tfg5</label>
+							<comment>Here is a comment of field "Need help with wording?"</comment>
+							<frontend_type>select</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</need_help_with_wording>-->
+						
+						<!--<example_for_file>
+							<label>Just a example for file </label>
+							<frontend_type>file</frontend_type>
+							<comment><![CDATA[ <p>Allowed file types: png, gif, jpg, jpeg, eps, ai, pdf. Not all browsers support all these formats!</p> ]]></comment>
+							<allowed_file_types>png, gif, jpg, jpeg, eps, ai, pdf</allowed_file_types>
+							<required>true</required>
+						</example_for_file>-->
+						
+					<!--<need_help_with_wording_checkbox>
+							<label>Need help with wording?gfdgdfd </label>
+							<backend_label>Wont help with wording?</backend_label>
+							<frontend_type>checkbox</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</need_help_with_wording_checkbox>-->
+						
+						<!--<test_multy_select>
+							<label>Just to see how multi select work</label>
+							<frontend_type>multiselect</frontend_type>
+							<sort_order>5</sort_order>
+							<size>5</size>
+							<source_model>product_personalization/multiselect_source_example</source_model>
+						</test_multy_select>-->
+						
+						<!--<addicional_instruction>
+							<label>Additional Instructions</label>
+							<frontend_type>textarea</frontend_type>
+							<comment>Here is a comment of field "Additional Instructions"</comment>
+						</addicional_instruction>-->
+
+
+					</fields>	
+				</general>		
+			</groups>
+		
+	</personalization>
+	
+</config>

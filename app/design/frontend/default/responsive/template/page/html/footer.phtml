@@ -1,0 +1,66 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+    <div class="footer row">
+            <div class="col-md-3 col-sm-6 col-xs-12"> <!-- col 1 -->
+                 <p class="title">Contact Details</p>
+                <?php echo Mage::getStoreConfig('setting/footer/contact'); ?>
+            </div>
+         
+            <div class="col-md-3 col-sm-6 col-xs-12"> <!-- col 2 -->
+                <?php echo $this->getChildHtml('footer.newsletter') ?> 
+            </div>
+            
+            <div class="col-md-3 col-sm-6 col-xs-12"> <!-- col 3 -->
+                <?php echo $this->getChildHtml('social.network') ?>
+            </div>
+               
+            <div class="col-md-3 col-sm-6 col-xs-12"> <!-- col 4 -->
+                <p class="title">Useful links</p>
+                <table class="table">
+                    <tr><!-- row 1 -->
+                        <td>
+                            <?php echo $this->getChildHtml('cms_footer_links') ?>
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 2 -->
+                        <td>
+                            <?php echo $this->getChildHtml('footer_links') ?>
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 3 -->
+                        <td>
+                            <address><?php echo $this->getCopyright() ?></address>
+                            <img src="http://magento-demo.net/MAG171/skin/frontend/default/MAG090172/images/payment-img.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>    
+    </div>
+</div>

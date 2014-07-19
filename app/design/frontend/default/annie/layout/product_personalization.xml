@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+	<catalog_product_view>
+		<reference name="head"><action method="addCss"><stylesheet>css/product-personalization.css</stylesheet></action></reference>
+		<reference name="product.info" >
+			<block type="catalog/product_view" name="other" as="other" template="product_personalization/catalog/product/options/wrapper.phtml" translate="label">
+				<block type="product_personalization/catalog_product_view_personalize" template="product_personalization/catalog/product/options/wrapper/personalize.phtml" />
+			</block>
+		</reference>
+	</catalog_product_view>
+
+
+    <product_personalization_personalize_index>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+		<reference name="head"><action method="addCss"><stylesheet>css/product-personalization.css</stylesheet></action></reference>
+		<reference name="content">
+			<block type="product_personalization/personalize_header" name="product.personalization.header" template="product_personalization/personalize/header.phtml" />
+			<block type="product_personalization/personalize" name="product.personalization.content" template="product_personalization/personalize.phtml" />
+		</reference>
+    </product_personalization_personalize_index>
+
+	<checkout_cart_index>
+		<reference name="head"><action method="addCss"><stylesheet>css/product-personalization.css</stylesheet></action></reference>
+		<reference name="content">
+			<block type="product_personalization/personalize_header" name="product.personalization.header" before='-' template="product_personalization/personalize/header.phtml" />
+		</reference>
+	</checkout_cart_index>
+
+	<checkout_onepage_index>
+		<reference name="head"><action method="addCss"><stylesheet>css/product-personalization.css</stylesheet></action></reference>
+		<reference name="content">
+			<block type="product_personalization/personalize_header" name="product.personalization.header" before='-' template="product_personalization/personalize/header.phtml" />
+		</reference>
+	</checkout_onepage_index>
+	
+</layout>

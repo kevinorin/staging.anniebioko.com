@@ -1,0 +1,137 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<div class="header-container">
+    <div class="header">
+        <header>
+        <?php /* ?>
+        <?php if ($this->getIsHomePage()):?>
+        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+        <?php else:?>
+        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+        <?php endif?>
+        <div class="quick-access">
+            <?php echo $this->getChildHtml('topSearch') ?>
+            <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
+            <?php echo $this->getChildHtml('topLinks') ?>
+            <?php echo $this->getChildHtml('store_language') ?>
+        </div>
+        <?php echo $this->getChildHtml('topContainer'); ?>
+        <?php */?>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='http://staging.anniebioko.com/js/slimmenu.css' />
+            <script type="text/javascript" src="http://staging.anniebioko.com/js/jquery.slimmenu.min.js"></script>  
+            <script>
+                 jj( document ).ready(function() {
+                 jj('#navigation').slimmenu(
+                  {
+
+                resizeWidth: '800',
+                collapserTitle: 'Navigation',
+                animSpeed: 'medium',
+                easingEffect: null,
+                indentChildren: false,
+                childrenIndenter: '&nbsp;'
+                   });
+                });
+            </script>
+            <!-- Bugheard script -->
+            <script type='text/javascript'>
+            (function (d, t) {
+              var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+              bh.type = 'text/javascript';
+              bh.src = '//www.bugherd.com/sidebarv2.js?apikey=7cehmqngl5cuqqkghn60nw';
+              s.parentNode.insertBefore(bh, s);
+              })(document, 'script');
+            </script>
+            <!-- /Bugheard script -->
+        <nav>
+            <div id='cssmenu'>
+            <ul id="navigation" class="slimmenu">
+                  <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_nav')->toHtml(); ?>   
+              <?php /* ?>   <li><a href="<?php echo $this->getUrl('shop');  ?>">shop</a>
+
+                    <ul class="submenu">
+                                	<li><a href="#">specials</a></li>
+                                    <li><a href="#">boutIque cards</a></li>
+                                    <li><a href="#">gift sets</a></li>
+                                </ul>
+
+                </li>
+                <li><a href="<?php echo $this->getUrl('about-us');  ?>">about</a></li>
+                <li><a href="<?php echo $this->getUrl('faq');  ?>">faq</a>
+                                        <ul class="submenu">
+                                	<li><a href="#">FAQ</a></li>
+                                    <li><a href="#">CONTACT US</a></li>
+                                </ul>
+
+                               </li><?php */?>
+    <li>
+    <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+    <a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('login') ?></a>
+    <?php else: ?>
+    <a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>"><?php echo $this->__('logout') ?></a>
+    <?php endif; ?>
+                </li>
+            </ul> </div>
+       </nav>
+        <div class="logo">
+        <a href="<?php echo $this->getUrl('') ?>"><img alt="" src="<?php echo $this->getSkinUrl('images/logo.jpg');?>"></a>
+        </div>
+        <div class="header_right">
+        <div class="search">
+        <span>SEARCH</span>
+        <div class="search_item">
+        <?php echo $this->getChildHtml('topSearch') ?> 
+      
+        </div>
+        </div>
+        <div class="msg">
+            <div class="ballon">
+                    <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
+<a href="#" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
+            </div>
+        </div>
+<div class="mini-cart"><?php echo $this->getChildHtml('cart_sidebar')?><div>
+        </div>
+    </header>
+    </div>
+</div>
+<?php if ($this->getIsHomePage()):?>
+
+<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('carrousel_area')->toHtml(); ?>
+
+<?php endif;?>   
+
+
+
+
+<?php //echo $this->getChildHtml('topMenu') ?>
+

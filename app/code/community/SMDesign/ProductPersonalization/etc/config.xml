@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<modules>
+		<SMDesign_ProductPersonalization>
+			<version>0.0.1</version>
+		</SMDesign_ProductPersonalization>
+	</modules>
+
+	<global>
+		<models>
+			<product_personalization>
+				<class>SMDesign_ProductPersonalization_Model</class>
+				<resourceModel>product_personalization_resource</resourceModel>
+			</product_personalization>
+
+			<product_personalization_resource>
+				<class>SMDesign_ProductPersonalization_Model_Resource</class>
+				<entities>
+					<personalized_item>
+						<table>sales_flat_quote_item_personalization</table>
+					</personalized_item>
+				</entities>
+			</product_personalization_resource>
+
+		</models>
+			
+		<resources>
+			<product_personalization_setup>
+				<setup>
+					<module>SMDesign_ProductPersonalization</module>
+					<class>Mage_Catalog_Model_Resource_Setup</class>
+				</setup>
+			</product_personalization_setup>
+		</resources>	
+		
+		<blocks><product_personalization><class>SMDesign_ProductPersonalization_Block</class></product_personalization></blocks>
+		<helpers><product_personalization><class>SMDesign_ProductPersonalization_Helper</class></product_personalization></helpers>
+		
+	
+		<sales>
+			<quote>
+				<item>
+					<product_attributes>
+						<personalization />
+						<image />
+
+					</product_attributes>
+				</item>
+			</quote>
+		</sales>
+		
+	</global>
+	
+	<frontend>
+		<events>
+			
+			<!-- FOR CATALOG PRODUCT VIEW PAGE -->
+			
+			<!-- RUN AFTER CREATE QUOTE ITEM, WE NEED THAT EVENT WHEN PRODUCT GO TO CART AND HAVE POPULATED FIELDS FOR PRODUCT PERSONALIZATION -->
+			<sales_quote_item_save_after>
+                <observers>
+                    <catalog_product_view_product_personalization_save>
+                        <type>model</type>
+                        <class>product_personalization/observer</class>
+                        <method>addPersonalizationDataAfterProductSavedToCart</method>
+                    </catalog_product_view_product_personalization_save>
+                </observers>
+			</sales_quote_item_save_after>
+			
+			<!-- RUN WHEN EDIT PRODUCT FROM CART -->
+			<checkout_cart_update_item_complete>
+                <observers>
+                    <update_product_personalization>
+                        <type>model</type>
+                        <class>product_personalization/observer</class>
+                        <method>updateProductPersonalization</method>
+                    </update_product_personalization>
+                </observers>
+			</checkout_cart_update_item_complete>
+			
+			
+			<controller_action_predispatch_checkout_onepage_index>
+                <observers>
+                    <onepage_checkout_validate_product_personalization>
+                        <type>model</type>
+                        <class>product_personalization/observer</class>
+                        <method>validateProductPersonalization</method>
+                    </onepage_checkout_validate_product_personalization>
+                </observers>
+			</controller_action_predispatch_checkout_onepage_index>
+			
+			
+			<sales_quote_load_after>
+                <observers>
+                    <assing_personalization_data_to_quote_items>
+                        <type>model</type>
+                        <class>product_personalization/observer</class>
+                        <method>assingPersonalizationDataToQuoteItems</method>
+                    </assing_personalization_data_to_quote_items>
+                </observers>
+			</sales_quote_load_after>
+			
+		</events>
+ 
+        <routers>
+            <product_personalization>
+                <use>standard</use>
+                <args>
+                    <module>SMDesign_ProductPersonalization</module>
+                    <frontName>product-personalization</frontName>
+                </args>
+            </product_personalization>
+        </routers>
+        
+		<layout>
+			<updates>
+				<product_personalization>
+					<file>product_personalization.xml</file>
+				</product_personalization>
+			</updates>
+		</layout>
+		
+	</frontend>
+	
+	
+
+	
+	<adminhtml>
+		<layout>
+			<updates>
+				<themecustomisation>
+					<file>product_personalization.xml</file>
+				</themecustomisation>
+			</updates>
+		</layout>
+	</adminhtml>
+	
+    <default>
+        <product_personalization>
+            <general>
+                <can_show_catalog_product_view>0</can_show_catalog_product_view>
+                <can_show_checkout_cart>0</can_show_checkout_cart><!-- in work progress-->
+                <can_show_before_onepage_checkout>1</can_show_before_onepage_checkout>
+            </general>
+			<calendar>
+				<calendar_style>calendar-blue.css</calendar_style>
+			</calendar>
+        </product_personalization>
+    </default>
+	
+</config>

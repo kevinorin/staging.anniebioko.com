@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+
+    </default>
+    <checkout_cart_index>
+    	<block type="checkoutdiscountcode/checkout_cart" name="checkoutdiscountcode.cart" />
+    </checkout_cart_index>
+    
+    <checkout_onepage_index>
+    	<reference name="head">
+    		<action method="addJs"><js>ves_checkoutdiscountcode/checkout.js</js></action>
+    	</reference>
+
+		<reference name ="checkout.onepage">
+			<block name="discountcode" type="checkoutdiscountcode/checkout_onepage_discountcode"  template="ves_checkoutcouponcode/checkout/onepage/discountcode.phtml"  />
+		</reference>
+		
+		<reference name="checkout.progress">
+			<action method="setTemplate" ><template>ves_checkoutcouponcode/checkout/onepage/progress.phtml</template></action>
+		</reference>
+    </checkout_onepage_index>
+    
+    <checkout_onepage_discountcode>
+    	<block name="root"  output="toHtml" type="checkoutdiscountcode/checkout_onepage_discountcode"  template="ves_checkoutcouponcode/checkout/onepage/discountcode.phtml"  />
+    </checkout_onepage_discountcode>
+    
+	<checkout_onepage_progress>
+		<reference name="root">
+			<action method="setTemplate" ><template>ves_checkoutcouponcode/checkout/onepage/progress.phtml</template></action>
+		</reference>
+	</checkout_onepage_progress>
+</layout> 

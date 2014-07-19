@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Checkout_Discount_Code</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license/>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add discount code on onepage checkout page.</summary>
+    <description>Add discount code on onepage checkout page.</description>
+    <notes>Release extension</notes>
+    <authors><author><name>Vnecoms</name><user>auto-converted</user><email>hungvt@vnecoms.com</email></author></authors>
+    <date>2013-11-16</date>
+    <time>05:01:25</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="VES_CheckoutDiscountCode.xml" hash="56f1dc648d258e3ec7f396598075d242"/></dir></target><target name="magecommunity"><dir name="VES"><dir name="CheckoutDiscountCode"><dir name="Block"><dir name="Checkout"><dir name="Onepage"><file name="Discountcode.php" hash="2db3b92a401d23903b32c5a33d94dd47"/><file name="Progress.php" hash="6661487caed5d43af6c691ed762e9629"/></dir><file name="Cart.php" hash="86895a529d2e71e9e7ffb17a6b31723e"/><file name="Onepage.php" hash="6da14079eaef0cf239f4ff89f1593203"/></dir></dir><dir name="Helper"><file name="Data.php" hash="bc58cc96c521e3c6e399d20e4abaa781"/></dir><dir name="Model"><file name="Observer.php" hash="04ac98a23a0855d444e63e245d6e3378"/></dir><dir name="controllers"><file name="IndexController.php" hash="be0b34b8e2d35f5bfba5ab9f603cff1b"/></dir><dir name="etc"><file name="config.xml" hash="45cf2f8fc325389081553792fac9e423"/><file name="system.xml" hash="d47956717c52a534a3a5b43803f743dc"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="ves_checkoutdiscountcode.xml" hash="04532dd09586b346ff36673b068f78cf"/></dir><dir name="template"><dir name="ves_checkoutcouponcode"><dir name="checkout"><dir name="onepage"><file name="discountcode.phtml" hash="6de8add389c0ce5a5aaa2e2a39eb6274"/><file name="progress.phtml" hash="9bbb74039a66f3397394e6be89db5536"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="ves_checkoutdiscountcode"><file name="checkout.js" hash="30e287511e6f459f600254f6c8b024ff"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

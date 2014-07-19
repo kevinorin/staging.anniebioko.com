@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <smdesign_extensions_config translate="label" module="catalog">
+            <label>SMDesign Extensions Config</label>
+            <sort_order>300</sort_order>
+        </smdesign_extensions_config>
+    </tabs>
+	<sections>
+		<product_personalization translate="label" module="catalog">
+			<label>Product Personalization Config</label>
+			<tab>smdesign_extensions_config</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>99999</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+  
+				<general>
+					<label>General</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<can_show_catalog_product_view translate="label">
+							<label>Visible on product details page </label>
+							<frontend_type>select</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</can_show_catalog_product_view>	
+
+						<!-- IN WORK PROGRESS can_show_checkout_cart translate="label">
+							<label>Visible in shopping cart </label>
+							<comment>Visibility</comment>
+							<frontend_type>select</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</can_show_checkout_cart-->
+
+						<can_show_before_onepage_checkout translate="label">
+							<label>Show personalization page right before onepage checkout</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</can_show_before_onepage_checkout>
+
+				
+
+					</fields>	
+				</general>
+				
+				<calendar>
+					<label>Calendar options</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>50</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<calendar_style translate="label">
+							<label>Frontend calendar style</label>
+							<comment>Pop-Up calendar style on frontend, is visible only when you have field type "date"</comment>
+							<frontend_type>select</frontend_type>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>product_personalization/calendar_style</source_model>
+						</calendar_style>
+
+					</fields>	
+				</calendar>
+			</groups>
+		</product_personalization>
+	</sections>
+</config>

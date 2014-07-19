@@ -1,0 +1,65 @@
+
+
+<?php foreach ($this->getOrder()->getAllVisibleItems() as $_item) : $_productOptions = @unserialize($_item->getData('product_options')); ?>
+
+<div class="entry-edit product-personalization">
+	<div class="entry-edit-head">
+		<h4><?php echo $_item->getName() ?></h4>
+	</div>
+
+	<?php foreach ($this->getPersonalizationDataCollectionByGroup($_item) as $key=>$group) : ?>
+	<div class="fieldset">
+	<?php if (isset($group['label'])) : ?>
+
+		<h3><?php echo $group['label'] ?></h3>
+		<?php if (count($group['items']) > 0) : ?>
+		<?php foreach ($group['items'] as $object) :  ?>
+			
+		<ul class="product-personalization-data-row">
+			<li class="label"><?php echo $object->getLabel() ?></li>
+			<li>
+				<?php if ($object->getFileUrl()) : ?>
+				<a href="<?php echo $object->getFileUrl() ?>" target="_blank"><?php echo $object->getValue() ?></a>
+				<?php else : ?>
+					<?php if ($object->getSourceModel() && $model = Mage::getModel($object->getSourceModel())) : $modelOptions = $model->toArray(); ?>
+						<?php $values = explode(',', $object->getValue());  $counter=0; foreach ($values as $value) : $counter++ ?>
+							<?php echo $modelOptions[$value] ?><?php if ($counter != count($values)) : ?>, <?php endif; ?>
+						<?php endforeach; ?>
+					<?php else : ?>
+						<?php echo $object->getValue() ?>
+					<?php endif; ?>
+				<?php endif; ?>
+			
+			</li>
+		</ul>
+		<br class="clearfloat" />
+		<?php endforeach; ?>
+		<?php endif; ?>
+		
+	<?php else : ?>
+		<p>Product not have personalization data.</p>
+		
+		<p><b>Notice: </b> Possible to product has disabled personalisation option in time when order was made for order is created before we include personalization option</p>
+	<?php endif; ?>
+	</div>
+	
+	<?php endforeach; ?>
+</div>
+
+<?php endforeach; ?>
+<style type="text/css">
+.product-personalization-data-row li {
+	float:left;
+	display:block;
+}
+.product-personalization-data-row li.label {
+	width:200px;
+	padding-right: 10px;
+}
+
+.clearfloat {
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+</style>

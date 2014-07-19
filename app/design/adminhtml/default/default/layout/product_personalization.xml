@@ -1,0 +1,12 @@
+<layout>
+	
+	<adminhtml_sales_order_view>
+		<reference name="sales_order_tabs">
+			<block type="product_personalization/adminhtml_sales_order_view_tab_product_personalization" name="order_tab_product_personalization" template="product_personalization/sales/order/view/product/personalization.phtml"></block>
+			<action method="addTab"><name>Personalization</name><block>order_tab_product_personalization</block></action>
+		</reference>
+        <reference name="head">
+            <action method="addCss"><file>themecustomisation.css</file></action>
+        </reference>
+	</adminhtml_sales_order_view>
+</layout>

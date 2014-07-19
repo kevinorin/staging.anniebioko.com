@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout>
+    <adminhtml_sales_order_view>
+        <reference name="content">
+            <block type="core/template" name="sales_order_checkoutfields" template="checkoutfields/checkoutfields.phtml"/>
+        </reference>
+    </adminhtml_sales_order_view>
+</layout>

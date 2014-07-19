@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <SMDesign_ProductPersonalization>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SMDesign_ProductPersonalization>
+    </modules>
+</config>

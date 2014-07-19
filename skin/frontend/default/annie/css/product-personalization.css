@@ -1,0 +1,72 @@
+.clearfloat {
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+.product-personalization-item {
+	margin: 0px 0px 15px 0px;
+}
+
+.product-personalization-item-info {
+	float:left;
+	width:300px;
+}
+.product-personalization-item-info .product-media {
+	padding:5px 0px;
+}
+.product-personalization-content {
+	margin-left:25px;
+	float:left;
+	width:520px;
+}
+.product-personalization-content .field-row {
+	display:block;
+	margin-bottom: 10px;
+}
+.product-personalization-content .field-row textarea {
+	width:100%;
+	min-height: 80px;
+    resize: none;
+}
+.product-personalization-item-line {
+	width:80%;
+	margin:5px auto;
+	text-align: center;
+	color: #E4E4E4;
+	border:1px solid;
+}
+
+/* catalog product view */
+.product-personalization .product-personalization-content,
+.product-options .product-personalization-content {
+	width:auto;
+	margin:0px;
+	
+}
+button.button.btn-product-personalize {
+	float:left;
+	/* margin:10px 14px; */
+}
+
+.product-personalization-header ul {
+	text-align: center;
+}
+.product-personalization-header ul li {
+	display: inline-block;
+	margin: 0 2px 10px;
+	padding: 5px 10px;
+}
+.product-personalization-header ul li.current a {
+	color:#D96708;
+	text-decoration: none;
+}
+.product-personalization {
+ background-color: #fff;
+    border-top: 2px solid #ccc;
+    padding-top: 4px;
+    position: relative;
+
+}
+.product-personalization p.required {
+	text-align: left;
+}
