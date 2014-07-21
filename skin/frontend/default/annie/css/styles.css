@@ -1204,11 +1204,11 @@ color: #000000 !important; cursor: pointer; display: inline-block; font-size: 15
 .product-view .product-img-box .zoom #handle { position:absolute; left:0; top:-1px; width:9px; height:22px; background:url(../images/magnifier_handle.gif) 0 0 no-repeat;  }
 .product-view .product-img-box .zoom .btn-zoom-out { position:absolute; left:2px; top:0; }
 .product-view .product-img-box .zoom .btn-zoom-in { position:absolute; right:2px; top:0; }
-.product-view .product-img-box .more-views h2 { font-size:11px; border-bottom:1px solid #ccc; margin:0 0 8px; text-transform:uppercase; letter-spacing:0.05em; }
+.product-view .product-img-box .more-views h2 { font-size: 12px; margin: 0 0 8px; text-transform:uppercase; letter-spacing:0.05em; font-family: 'Source Sans Pro',sans-serif; font-weight:normal; color:#666666; }
 .product-view .product-img-box .more-views ul { margin-left:-9px }
 
 .product-view .product-img-box .more-views li { float:left; margin:0 0 8px 9px; }
-.product-view .product-img-box .more-views li a { float:left; width:56px; height:56px; border:2px solid #ddd; overflow:hidden; }
+.product-view .product-img-box .more-views li a { float:left; width:56px; height:56px; overflow:hidden; }
 
 .product-image-popup { margin:0 auto; }
 .product-image-popup .buttons-set { float:right; clear:none; border:0; margin:0; padding:0; }
