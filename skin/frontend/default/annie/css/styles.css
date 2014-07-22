@@ -2034,9 +2034,10 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 #mailing_list .newsletter{float:right; background:url(../images/mailing_list.png) 0 0 no-repeat; width:254px; height:40px; line-height:40px;}
 .newsletter input[type="text"]{float:left; width:120px; height:40px; padding-left:12px; font-size:11px; letter-spacing:2px; border:none; background:none;}
 .newsletter input[type="submit"]{float:right; border:none; background:none; width:113px; height:40px; cursor:pointer;}
-#grey_area{width:100%; float:left; background:#e5e5e5; padding:30px 0 70px 0; text-align:center; color:#000; text-transform:uppercase; letter-spacing:2px;}
+#grey_area{ display: none; width:100%; float:left; background:#e5e5e5; padding:30px 0 70px 0; text-align:center; color:#000; text-transform:uppercase; letter-spacing:2px;}
 #grey_area h1{float:left; width:100%; padding-bottom:20px; padding-top:60px; font-size:24px; letter-spacing:0.28em; font-family: 'proxima_nova_altsemibold'; font-weight:normal;}
 #grey_area p {float: left;padding: 0 23%; font-family: 'proxima_nova_rgregular'; letter-spacing:0.2em}
+.cms_home #carrousel_area {display: none; }
 #carrousel_area .carrousel .annie_copy{color:#000000; left:50%; margin-left:-183px; position:absolute; text-align:center; top:180px; width:366px; text-transform: uppercase;}
 .annie_copy span {float: left; font-size: 15px; width: 100%; letter-spacing:0.2em; font-family: 'proxima_nova_alt_rgbold';}
 .annie_copy h2 {float: left; font-size: 24px; letter-spacing: 0.25em; padding: 18px 0 36px; width: 100%; font-weight:normal; font-family: 'proxima_nova_altsemibold';}
