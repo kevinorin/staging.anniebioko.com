@@ -673,8 +673,8 @@ font-size:13px; color:#666666; float:left;}
 
 /* KW Revised Header Right */
 ul.account { float: right; bottom: 15px; position: relative; }
-ul.account li { display: inline-block; padding-left: 10px; font-family: 'proxima_nova_altsemibold'; font-size: 13px; }
-ul.account li a { color: #353535; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
+ul.account li { display: inline-block; padding-left: 10px; }
+ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font-size: 13px; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
 .ballon, .ballon-text { display: inline-block; }
 
 #carrousel_area{width:100%; float:left;}
