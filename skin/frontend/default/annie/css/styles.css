@@ -662,8 +662,7 @@ display:none;}
 .header header .header_right{ float:right; }
 .header_right .search{ height: 15px; line-height: 25px; padding-left: 33px; background: url(../images/search.png) 0 0 no-repeat; position: relative; background-size: 15px;}
 .header_right .search span { width:100%; float:left; height:30px; border:none; background:none; font-size:12px; color:#353535;}
-.search .search_item {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #000000;bottom: -51px;display: none;height: 22px;position: absolute;
-    right: 46px;width: 231px;z-index: 1;}
+.search .search_item {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #000000; display: block; height: 22px; position: relative; width: 231px; z-index: 1; float: right;}
 .search:hover .search_item {display:block;}
 .search .search_item input[type="text"]{width:150px; height:22px; border:none; background:none; line-height:22px; padding:0 8px; font-family: 'Source Sans Pro', sans-serif; 
 font-size:13px; color:#666666; float:left;}
@@ -672,8 +671,10 @@ font-size:13px; color:#666666; float:left;}
 .header_right .msg .ballon{position: absolute; padding: 0px 5px; background: #de5543; text-align: center; overflow: hidden; border-radius: 50%; left: 5px; bottom: 0px; font-size: 10px; color: #fff;}
 
 /* KW Revised Header Right */
-ul.account { float: right; bottom: 15px; position: relative; }
-ul.account li { display: inline-block; padding-left: 10px; }
+ul.account { float: right; bottom: 10px; position: relative; }
+ul.account li { display: inline-block; margin-left: 20px; }
+ul.account li.msg { padding-left: 26px; }
+ul.account li.search { padding-left: 20px; }
 ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font-size: 13px; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
 .ballon, .ballon-text { display: inline-block; }
 
@@ -2089,7 +2090,6 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .account-create button.button span span { background:#fff; border:1px solid; padding-top: 4px; width: 80px;} 
  .customer-account-forgotpassword .fieldset { background:#fff; text-transform: capitalize;}
  .customer-account-forgotpassword .button.button span span{ background:#FFFFFF; border:1px solid #000000; padding-top: 7px; padding: 2px;}
-.search .search_item { bottom:-27px !important;}
 .firecheckout-index-index .page-title { display:none;}
 .customer-account-create .main  { background:#fff; padding:10px;}
 .customer-account-create .main .page-title { border-bottom:none;}
