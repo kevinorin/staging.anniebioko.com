@@ -660,7 +660,7 @@ display:none;}
 
 .header header .logo{/*width:231px; height:51px; position:absolute; left:50%; top:16px; margin-left:-115px;*/}
 .header header .header_right{ float:right; }
-.header_right .search{ height:25px; margin-top: 15px; line-height:25px; padding-left:33px; background:url(../images/search.png) 0 0 no-repeat; position:relative;}
+.header_right .search{ height: 15px; line-height: 25px; padding-left: 33px; background: url(../images/search.png) 0 0 no-repeat; position: relative; background-size: 15px;}
 .header_right .search span { width:100%; float:left; height:30px; border:none; background:none; font-size:12px; color:#353535;}
 .search .search_item {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #000000;bottom: -51px;display: none;height: 22px;position: absolute;
     right: 46px;width: 231px;z-index: 1;}
