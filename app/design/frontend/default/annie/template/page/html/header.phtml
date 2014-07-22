@@ -95,9 +95,9 @@
                                </li><?php */?>
     <li>
     <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
-    <a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('login') ?></a>
+    <a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('sign in') ?></a>
     <?php else: ?>
-    <a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>"><?php echo $this->__('logout') ?></a>
+    <a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>"><?php echo $this->__('sign out') ?></a>
     <?php endif; ?>
                 </li>
             </ul> </div>
