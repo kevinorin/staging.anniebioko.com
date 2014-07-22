@@ -1,7 +1,7 @@
 <?php if ($this->canShowPersonalization()) : ?>
 <!--<button id="bt1" onclick="setVisibility('catalog-product-view-product-personalization-content')" class="button btn-product-personalize "  type="button"><span><span><?php //echo $this->__('Personalize');?></span></span></button>-->
 <input type="checkbox" id="bt1" onclick="setVisibility('catalog-product-view-product-personalization-content')"/>
-<span>Add Personalizatoion</span> <a href="<?php echo Mage::getBaseUrl();   ?>personalize-it" target="_blank">Learn More</a>
+<span>Add Personalization</span> <a href="<?php echo Mage::getBaseUrl();   ?>personalize-it" target="_blank">Learn More</a>
 <br class="clearfloat" />
 <?php echo $this->GetChildHtml('calendar'); ?>
 <div id="catalog-product-view-product-personalization-content" class="product-personalization-content">
