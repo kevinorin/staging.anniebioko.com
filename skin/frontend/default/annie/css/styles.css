@@ -672,6 +672,11 @@ font-size:13px; color:#666666; float:left;}
 .header_right .msg .ballon{position:absolute; padding:5px 10px; background:#de5543; text-align:center; overflow:hidden; border-radius:50%; right:0px; bottom:0px; font-size:14p; 
 color:#fff;}
 
+/* KW Revised Header Right */
+ul.account { float: right; bottom: 15px; position: relative; }
+ul.account li a { color: #353535; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
+
+
 #carrousel_area{width:100%; float:left;}
 #carrousel_area .carrousel{width:100%; list-style:none; text-align:center; position:relative; float:left;}
 #carrousel_area1 .carrousel{width:100%; list-style:none; text-align:center; position:relative; float:left;}
