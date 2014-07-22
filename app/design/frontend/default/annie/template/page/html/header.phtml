@@ -113,22 +113,21 @@
                             <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
                             <a href="#" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
                         </span>
-                        <span class="ballon-txt">shopping cart</span>
+                        <a class="ballon-txt" href="#">shopping cart</a>
                     </li>
-                    <li class="search">
-                        <span>SEARCH</span>
+                    <!--<li class="search">
+                        <a href="#">SEARCH</span>
                         <span class="search_item">
                             <?php echo $this->getChildHtml('topSearch') ?> 
                         </span>
-                    </li>
+                    </li>-->
                 </ul>
-                <!--
                 <div class="search">
-                    <span>SEARCH</span>
                     <div class="search_item">
                         <?php echo $this->getChildHtml('topSearch') ?> 
                     </div>
                 </div>
+                <!--
                 <div class="msg">
                     <div class="ballon">
                         <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
