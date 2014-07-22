@@ -109,10 +109,11 @@
                         <?php endif; ?>
                     </li>
                     <li class="msg">
-                        <div class="ballon">
+                        <span class="ballon">
                             <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
                             <a href="#" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
-                        </div>
+                        </span>
+                        <span class="ballon-txt">shopping cart</span>
                     </li>
                 </ul>
                 <div class="search">

@@ -668,13 +668,14 @@ display:none;}
 .search .search_item input[type="text"]{width:150px; height:22px; border:none; background:none; line-height:22px; padding:0 8px; font-family: 'Source Sans Pro', sans-serif; 
 font-size:13px; color:#666666; float:left;}
 .search .search_item input[type="submit"]{width:36px; height:22px; background:none; border:none; cursor:pointer; border-left:1px solid #000; float:right; text-align:center;}
-.header_right .msg{float:right; width:40px; height:46px; background:url(../images/envelop.png) top left no-repeat; position:relative;}
-.header_right .msg .ballon{position:absolute; padding:5px 10px; background:#de5543; text-align:center; overflow:hidden; border-radius:50%; right:0px; bottom:0px; font-size:14p; 
-color:#fff;}
+.header_right .msg{float:right; width:15px; height:20px; background:url(../images/envelop.png) top left no-repeat; position:relative; background-size: 15px;}
+.header_right .msg .ballon{position: absolute; padding: 0px 5px; background: #de5543; text-align: center; overflow: hidden; border-radius: 50%; left: 5px; bottom: 0px; font-size: 10px; color: #fff;}
 
 /* KW Revised Header Right */
 ul.account { float: right; bottom: 15px; position: relative; }
+ul.account li { display: inline-block; }
 ul.account li a { color: #353535; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
+.ballon, .ballon-text { display: inline-block; }
 
 
 #carrousel_area{width:100%; float:left;}
