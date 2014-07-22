@@ -1927,7 +1927,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 
 /* Footer ================================================================================ */
-.footer-container { background: none repeat scroll 0 0 #353535; float: left; padding: 12px 0; text-transform: uppercase; width: 100%;}
+.footer-container { background: none repeat scroll 0 0 #fff; float: left; padding: 12px 0; text-transform: uppercase; width: 100%;}
 .footer {  margin: 0 auto; font-family: 'proxima_nova_altsemibold';    width: 70%; }
 .footer .store-switcher { display:inline; margin:0 5px 0 0; color:#fff; }
 .footer .store-switcher label { font-weight:bold; vertical-align:middle; }
