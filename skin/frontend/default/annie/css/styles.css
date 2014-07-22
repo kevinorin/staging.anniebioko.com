@@ -1942,9 +1942,9 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .footer .follow_us { float: none; margin: 0 auto; width: 100%;}
 .follow_us { float: left; padding-left: 58px;}
 .follow_us span { color: #000; float: left; font-size: 14px; line-height: 42px;}
-.follow_us a.facebook { display:block;background: url('../images/fb1.png'); height:39px;width:41px;}
-.follow_us a.twitter { background: url('../images/tw1.png'); height:39px;width:41px;}
-.follow_us a.pintrest {background: url('../images/pint1.png'); height:39px;width:41px;}
+.follow_us a.facebook { display:block;background: url('../images/fb1.png') no-repeat; height:39px;width:41px;}
+.follow_us a.twitter { background: url('../images/tw1.png') no-repeat; height:39px;width:41px;}
+.follow_us a.pintrest {background: url('../images/pint1.png') no-repeat; height:39px;width:41px;}
 /* ======================================================================================= */
 
 /* Sample Data============================================================================ */
