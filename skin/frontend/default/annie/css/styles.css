@@ -2585,3 +2585,10 @@ ul.account{margin:10px 0}
 ul.account{float:none; display:inline-block}
 .header header .header_right{margin:0px !important; text-align:center} 
 }
+@media (min-width:800px) and (max-width:910px){
+.header_right{position:absolute; right:10px}
+}
+@media (min-width:800px) and (max-width:836px){
+.header header .logo{width:24%}
+.header header .logo a img{width:100%} 
+}
