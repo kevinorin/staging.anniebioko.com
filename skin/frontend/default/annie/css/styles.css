@@ -2560,3 +2560,19 @@ display:none;
 .products-grid .product-image{width:100%}
 .products-grid .product-image img{width:100%}
 }
+
+@media (min-width:560px) and (max-width:746px){
+.header header .header_right{width:100%; margin:20px 0 !important}
+ul.account{bottom:0px !important}
+
+}
+
+@media (min-width:100px) and (max-width:559px){
+ul.account{margin:10px 0}
+.header_right .search{width:100%}
+.search .search_item{bottom:0px !important; margin-bottom:10px !important; float:none;}
+.search{text-align:center !important}
+}
+@media (min-width:100px) and (max-width:355px){
+.header header .logo{width:56%}
+}
