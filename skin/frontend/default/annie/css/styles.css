@@ -2555,4 +2555,8 @@ display:none;
 display:none;
 }
 
-.products-grid{border:1px solid red !important}
+@media (min-width:800px) and (max-width:960px){
+.products-grid li.item{width:22.9%;}
+.products-grid .product-image{width:100%}
+.products-grid .product-image img{width:100%}
+}
