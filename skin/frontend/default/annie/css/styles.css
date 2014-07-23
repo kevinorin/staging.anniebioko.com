@@ -2569,10 +2569,18 @@ ul.account{bottom:0px !important}
 
 @media (min-width:100px) and (max-width:559px){
 ul.account{margin:10px 0}
-.header_right .search{width:100%}
+.header_right .search,.header header .header_right{width:100% !important}
 .search .search_item{bottom:0px !important; margin-bottom:10px !important; float:none;}
 .search{text-align:center !important}
 }
 @media (min-width:100px) and (max-width:355px){
 .header header .logo{width:56%}
+}
+
+@media (min-width:559px) and (max-width:639px){
+.header_right .search{width:auto !important}
+}
+@media (min-width:100px) and (max-width:559px){
+.header_right .search{float:right !important; width:100% !important; text-align:center !important}
+ul.account{float:left}
 }
