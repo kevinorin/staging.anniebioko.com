@@ -100,7 +100,7 @@
         </div>
         <!-- header right -->
             <div class="header_right">
-                <ul class="account">
+                <ul class="account hidden-ph">
                     <li>
                         <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
                         <a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('sign in') ?></a>
@@ -114,6 +114,20 @@
                             <a href="#" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
                         </span>
                         <a class="ballon-txt" href="/checkout/cart/">shopping cart</a>
+                    </li>
+                    <!--<li class="search">
+                        <a href="#">SEARCH</span>
+                        <span class="search_item">
+                            <?php echo $this->getChildHtml('topSearch') ?> 
+                        </span>
+                    </li>-->
+                </ul>
+				<ul class="">
+                    <li class="msg">
+                        <span class="ballon">
+                            <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
+                            <a href="#" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
+                        </span>
                     </li>
                     <!--<li class="search">
                         <a href="#">SEARCH</span>

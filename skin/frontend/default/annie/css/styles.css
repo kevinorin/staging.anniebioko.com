@@ -2598,4 +2598,8 @@ ul.account{float:none; display:inline-block}
 .header header nav{width:auto !important; line-height:normal !important}
 .menu-collapser{text-indent:-999px; width:auto !important}
 .collapse-button{position:relative !important}
+.header .logo {border:1px solid red; margin: 0 !important; text-align: center;width: 50%;}
+.header .logo a img{width:100%}
+.header_right{width:auto;}
+.hidden-ph{display:none}
 }
