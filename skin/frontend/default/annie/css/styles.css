@@ -182,7 +182,7 @@ ul,ol         { list-style:none; }
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
-.main-container { background: none repeat scroll 0 0 #ffffff; color: #000000; float: left; letter-spacing: 2px; padding: 30px 0 70px; /* text-align: center; text-transform: uppercase; */
+.main-container { background: none repeat scroll 0 0 #cccccc; color: #000000; float: left; letter-spacing: 2px; padding: 30px 0 70px; /* text-align: center; text-transform: uppercase; */
 width: 100%; }
 .main {  margin: 0 auto; width: 940px;}
 
