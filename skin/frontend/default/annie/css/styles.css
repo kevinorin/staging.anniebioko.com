@@ -2599,13 +2599,17 @@ ul.account{float:none; display:inline-block}
 .menu-collapser{text-indent:-999px; width:auto !important}
 .collapse-button{position:relative !important}
 .header .logo { margin: 0 !important; text-align: center;width: 50%;}
-.header .logo a img{width:100%}
+
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important}
 .search1{text-align:center; height: 32px; margin-left: 0; padding: 10px 0 0; width: 100%;}
 .search1 li{float:left; margin-right:5px; width:43px}
 .header header{margin-bottom:20px}
+}
+@media (min-width:100px) and (max-width:340px){
+.header .logo a img{width:100%}
+
 }
 @media (min-width: 1200px) {
   .hidden-lg {
@@ -2619,7 +2623,7 @@ ul.account{float:none; display:inline-block}
 .visible-sm,
 .visible-md,
 .visible-lg {
-  display: none !important;
+  display: none !important; 
 }
 .visible-xs-block,
 .visible-xs-inline,
