@@ -2607,6 +2607,8 @@ ul.account{float:none; display:inline-block}
 .search1 li{float:left; margin-right:5px; width:43px}
 .header header{margin-bottom:20px}
 ol#checkoutSteps{padding:20px 10px}
+.customSearch .search_item{bottom:0px !important}
+.customSearch .search_item input[type="text"]{width:79%}
 }
 @media (min-width:100px) and (max-width:340px){
 .header .logo a img{width:100%}
