@@ -674,7 +674,7 @@ font-size:13px; color:#666666; float:left;}
 ul.account { float: right; bottom: 10px; position: relative; }
 ul.account li { display: inline-block; margin-left: 35px; }
 ul.account li.msg { padding-left: 26px; }
-ul.account li.search { padding-left: 35px; }
+ul.account li.search { padding-left: 34px; }
 ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font-size: 13px; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
 .ballon, .ballon-text { display: inline-block; }
 
