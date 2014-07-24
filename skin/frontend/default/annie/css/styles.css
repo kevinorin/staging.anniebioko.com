@@ -2603,7 +2603,7 @@ ul.account{float:none; display:inline-block}
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important}
-.search1{text-align:center; height: 32px; margin-left: 0; padding:24px 0 0 21px; width: 100%;}
+.search1{text-align:center; height: 32px; margin-left: 0; padding:24px 0 0 21px; position:absolute; right;0}
 .search1 li{float:left; margin-right:5px; width:43px}
 .header header{margin-bottom:20px}
 ol#checkoutSteps{padding:20px 10px}
@@ -2611,6 +2611,7 @@ ol#checkoutSteps{padding:20px 10px}
     margin: 20px 0 -5px;
     width: 100%;}
 .customSearch .search_item input[type="text"]{width:79%}
+button.button{position:absolute}
 }
 @media (min-width:100px) and (max-width:340px){
 .header .logo a img{width:100%}
