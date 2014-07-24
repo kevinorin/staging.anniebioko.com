@@ -2561,6 +2561,7 @@ display:none;
 .products-grid .product-image img{width:100%}
 }
 
+/*
 @media (min-width:560px) and (max-width:746px){
 .header header .header_right{width:100%; margin:20px 0 !important}
 ul.account{bottom:0px !important}
@@ -2591,4 +2592,10 @@ ul.account{float:none; display:inline-block}
 @media (min-width:800px) and (max-width:836px){
 .header header .logo{width:24%}
 .header header .logo a img{width:100%}   
+}
+*/
+@media (min-width:100px) and (max-width:768px){
+.header header nav{width:auto !important; line-height:normal !important}
+.menu-collapser{text-indent:-999px; width:auto !important}
+.collapse-button{position:relative !important}
 }
