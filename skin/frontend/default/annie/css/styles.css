@@ -2597,24 +2597,26 @@ ul.account{float:none; display:inline-block}
 @media (min-width:100px) and (max-width:768px){
 .header header nav{width:auto !important; line-height:normal !important}
 .menu-collapser{text-indent:-999px; width:auto !important}
-.collapse-button{position:relative !important}
+.collapse-button{position:relative !important; margin-top:19px}
 .header .logo { margin: 0 !important; text-align: center;width: 50%;}
 
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important}
-.search1{text-align:center; height: 32px; margin-left: 0; padding: 10px 0 0; width: 100%;}
+.search1{text-align:center; height: 32px; margin-left: 0; padding:24px 0 0 21px; width: 100%;}
 .search1 li{float:left; margin-right:5px; width:43px}
 .header header{margin-bottom:20px}
 ol#checkoutSteps{padding:20px 10px}
-.customSearch .search_item{bottom:0px !important}
+.customSearch .search_item{ bottom: 0 !important;
+    margin: 20px 0 -5px;
+    width: 100%;}
 .customSearch .search_item input[type="text"]{width:79%}
 }
 @media (min-width:100px) and (max-width:340px){
 .header .logo a img{width:100%}
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {  
   .hidden-lg {
     display: none !important;
   }
