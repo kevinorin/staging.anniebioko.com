@@ -2615,6 +2615,10 @@ button.button{position:absolute}
 }
 @media (min-width:100px) and (max-width:340px){
 .header .logo a img{width:100%}
+.header header .logo {
+    margin-left: 11px !important;
+    margin-top: 9px !important;
+}
 
 }
 @media (min-width: 1200px) {  
