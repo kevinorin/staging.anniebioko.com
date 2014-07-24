@@ -2577,7 +2577,7 @@ ul.account{margin:10px 0}
 @media (min-width:100px) and (max-width:370px){
 .header header .logo{width:52% !important}
 }
-
+  
 @media (min-width:559px) and (max-width:639px){
 .header_right .search{width:auto !important; margin:0px !important}
 }
@@ -2602,4 +2602,5 @@ ul.account{float:none; display:inline-block}
 .header .logo a img{width:100%}
 .header_right{width:auto;}
 .hidden-ph{display:none}
+.header header .header_right{width:33%; margin:0px !important}
 }
