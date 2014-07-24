@@ -2603,7 +2603,12 @@ ul.account{float:none; display:inline-block}
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important}
-.search li{float:left; margin-right:5px; width:43px}
+.search1{border: 1px solid red;
+    height: 32px;
+    margin-left: 0;
+    padding: 10px 0 0;
+    width: 100%;}
+.search1 li{float:left; margin-right:5px; width:43px}
 }
 @media (min-width: 1200px) {
   .hidden-lg {
