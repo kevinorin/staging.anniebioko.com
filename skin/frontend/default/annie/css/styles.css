@@ -2598,10 +2598,15 @@ ul.account{float:none; display:inline-block}
 .header header nav{width:auto !important; line-height:normal !important}
 .menu-collapser{text-indent:-999px; width:auto !important}
 .collapse-button{position:relative !important}
-.header .logo {border:1px solid red; margin: 0 !important; text-align: center;width: 50%;}
+.header .logo { margin: 0 !important; text-align: center;width: 50%;}
 .header .logo a img{width:100%}
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important}
-.search li{float:left; margin-right:5px}
+.search li{float:left; margin-right:5px; width:43px}
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
 }
