@@ -5,9 +5,7 @@
 	<catalog_product_view>
 		<reference name="head"><action method="addCss"><stylesheet>css/product-personalization.css</stylesheet></action></reference>
 		<reference name="product.info" >
-			<block type="catalog/product_view" name="other" as="other" template="product_personalization/catalog/product/options/wrapper.phtml" translate="label">
-				<block type="product_personalization/catalog_product_view_personalize" template="product_personalization/catalog/product/options/wrapper/personalize.phtml" />
-			</block>
+			
 		</reference>
 	</catalog_product_view>
 
