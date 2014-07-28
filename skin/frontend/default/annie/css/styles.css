@@ -2619,9 +2619,9 @@ ul.slimmenu.collapsed li{ border-bottom: 1px solid #ddd;
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important; position:absolute; top:0px; right:0}
-.search1{text-align:center; height: 32px; margin-left: 0; padding:0; position:absolute; right:0;  top: 29px;}
+.search1{text-align:center; height: 32px; margin-left: 0; padding:0; position:absolute; right:0;  top: 40px;}
 .search1 li{float:left; margin-right:5px; width:38px}
-.header header{margin-bottom:20px}
+.header header{margin-bottom:65px}
 ol#checkoutSteps{padding:20px 10px} 
 
 .customSearch .search_item {
@@ -2640,7 +2640,7 @@ button.button{position:absolute}
     margin-left: 11px !important;
     margin-top: 9px !important; position:absolute; left:40px;
 }
-
+.customSearch .search_item{left:10px;}
 } 
 @media (min-width: 1200px) {  
   .hidden-lg {
