@@ -2615,7 +2615,7 @@ ul.slimmenu.collapsed li{ border-bottom: 1px solid #ddd;
     margin-left: 11px !important;
     margin-top: 9px !important; position:absolute; left:40px;
 }
-
+.header header nav ul li:first-child{padding-left:0;}
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important; position:absolute; top:0px; right:0}
@@ -2627,7 +2627,7 @@ ol#checkoutSteps{padding:20px 10px}
 .customSearch .search_item {
     left: 30%;
     margin: 20px 0 -5px; 
-    position: absolute;
+    position: absolute; 
     top: 80px !important;
     width: 270px;
 }
@@ -2857,3 +2857,5 @@ button.button{position:absolute}
     display: none !important;
   }
 }
+
+.header header nav ul li:first-child{padding-left:0;}
