@@ -2618,14 +2618,19 @@ ul.slimmenu.collapsed li{ border-bottom: 1px solid #ddd;
 
 .header_right{width:auto;}
 .hidden-ph{display:none}
-.header header .header_right{width:33%; margin:0px !important}
+.header header .header_right{width:33%; margin:0px !important; position:absolute; top:0px; right:0}
 .search1{text-align:center; height: 32px; margin-left: 0; padding:0; position:absolute; right:0;  top: 29px;}
 .search1 li{float:left; margin-right:5px; width:38px}
 .header header{margin-bottom:20px}
 ol#checkoutSteps{padding:20px 10px} 
-.customSearch .search_item{ bottom: 0 !important;
-    margin: 20px 0 -5px;
-    width: 100%;}
+
+.customSearch .search_item {
+    left: 30%;
+    margin: 20px 0 -5px; 
+    position: absolute;
+    top: 80px !important;
+    width: 270px;
+}
 .customSearch .search_item input[type="text"]{width:79%}
 button.button{position:absolute}
 }
