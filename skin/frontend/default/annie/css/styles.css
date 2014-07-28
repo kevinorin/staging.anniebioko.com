@@ -2865,4 +2865,9 @@ button.button{position:absolute}
 .opc-wrapper-opc .opc-col-left .fields .field{width:100% !important}
 .opc-wrapper-opc input{background:#fff; height:36px !important}
 .opc-wrapper-opc .opc-col-left .fields .field{width:100% !important} 
-.opc-wrapper-opc .opc-col-center{width:100% !important}  
+.opc-wrapper-opc .opc-col-center{width:100% !important} 
+.opc-wrapper-opc .opc-col-center{margin:0px !important; margin-bottom:20px !important}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col1-layout .main{width:100%; padding:15px; background:#fff}
+} 
