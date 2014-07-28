@@ -1180,7 +1180,7 @@ background-color:#fff; }
 .add-to-cart label {  margin-right:5px;margin-left:5px; font-weight:bold; color:#666; display:none;}
 .add-to-cart .qty {  margin-right:5px;display:none; }
 .add-to-cart button.button { /*float:left;margin-top:-9px; */font-family: 'source_sans_prosemibold'; color: #80683c; position: relative; right: -57px;
-color: #000000 !important; cursor: pointer; display: inline-block; font-size: 15px; height:28px; letter-spacing: normal; text-align: center; text-decoration: none;/* width:89px !important;*/top: -8px;
+cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decoration: none;/* width:89px !important;*/top: -8px;
 }
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:8% !important;}
