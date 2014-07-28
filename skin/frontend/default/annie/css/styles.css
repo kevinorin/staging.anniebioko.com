@@ -2595,10 +2595,22 @@ ul.account{float:none; display:inline-block}
 }
 */
 @media (min-width:100px) and (max-width:768px){
-.header header nav{width:auto !important; line-height:normal !important}
+.header header nav{width:100% !important; line-height:normal !important}
 .menu-collapser{text-indent:-999px; width:auto !important}
 .collapse-button{position:relative !important; margin-top:19px}
 .header .logo { margin: 0 !important; text-align: center;width: 50%;}
+.header header nav{width:100% !important;}
+ul.slimmenu.collapsed li{ border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px 10px;
+    width: 100%;}
+	ul.slimmenu.collapsed li a{border:none !important}
+	ul.slimmenu li .sub-collapser > i{color: #333;
+    display: inline-block;
+    font-size: 13px; 
+    margin-top: 14px;
+    vertical-align: middle;}
 
 .header_right{width:auto;}
 .hidden-ph{display:none}
