@@ -1179,8 +1179,8 @@ background-color:#fff; }
 /* Add to Cart */
 .add-to-cart label {  margin-right:5px;margin-left:5px; font-weight:bold; color:#666; display:none;}
 .add-to-cart .qty {  margin-right:5px;display:none; }
-.add-to-cart button.button { /*float:left;margin-top:-9px; */font-family: 'source_sans_prosemibold'; color: #80683c; position: relative; right: -57px;
-cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decoration: none;/* width:89px !important;*/top: -8px;
+.add-to-cart button.button { /*float:left;margin-top:-9px; */font-family: 'source_sans_prosemibold'; color: #80683c; position: relative;
+cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decoration: none;/* width:89px !important;*/;
 }
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:8% !important;}
@@ -1280,7 +1280,7 @@ cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decor
 .product-options-bottom .tier-prices .price,
 .product-options-bottom .tier-prices .benefit { color:#e26703; }
 .product-options-bottom .price-box { float:left; margin:0; padding:0; }
-.product-options-bottom .add-to-links { clear:both; padding:5px 0 0; text-align:right; }
+.product-options-bottom .add-to-links { clear:both; padding:0; }
 .col3-layout .product-options-bottom .price-box { float:none; padding:0 0 5px; }
 .product-options-bottom .price-label { float:left; padding-right:5px; }
 .product-options-bottom .price-tax { float:left; }
@@ -2168,7 +2168,7 @@ ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px sol
 .select-wrapper, .select-wrapper select{ width: 200px; height: 26px; line-height: 26px; font-size:12px; color:#000000; text-transform:uppercase; 
 position: relative; /* right: -14px; */ margin-top:10px;}
 .select-wrapper:hover { background: url("../images/select.jpg") no-repeat right center; border-color: #239fdb;}
-.select-wrapper .holder{ display: block; margin: 0 35px 0 5px; white-space: nowrap; overflow: hidden; cursor: pointer; z-index: -1; letter-spacing:0.05em;}
+.select-wrapper .holder{ display: block; margin: 0 35px 0 0; white-space: nowrap; overflow: hidden; cursor: pointer; z-index: -1; letter-spacing:0.05em;}
 .select-wrapper select{ margin: 0; position: absolute; z-index: 2; cursor: pointer; outline: none; opacity: 0; /* CSS hacks for older browsers */
 _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); -khtml-opacity: 0; -moz-opacity: 0;}
     /* Let's Beautify Our Form */
