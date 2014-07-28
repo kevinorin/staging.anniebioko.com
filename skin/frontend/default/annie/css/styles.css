@@ -1263,7 +1263,7 @@ color: #000000 !important; cursor: pointer; display: inline-block; font-size: 15
 .product-options p.note { margin:0; font-size:11px; }
 .product-options p.required { position:absolute; right:20px; top:20px; }
 
-.product-options-bottom {/* background-color:#fffada;  padding:15px 20px; */ /*border:1px solid #e4e4e4; border-top:0;*/ width:54%; float:right;}
+.product-options-bottom {/* background-color:#fffada;  padding:15px 20px; */ /*border:1px solid #e4e4e4; border-top:0;*/ width:400px; float:right;}
 .product-options-bottom .product-pricing,
 .product-options-bottom .tier-prices { margin:0; padding:0 0 10px; border:0; background:0; color:#e26703; }
 .product-options-bottom .tier-prices li { background:0; padding:2px 0; }
