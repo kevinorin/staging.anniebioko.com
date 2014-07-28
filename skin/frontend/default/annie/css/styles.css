@@ -245,7 +245,7 @@ button.button span span {/* padding:1px; padding:2px 4px 0 3px; */}
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
 .mini-cart button.button span span {background:#fff;border:1px #000 solid;}
 button.btn-checkout span { height:40px; border:0; background:url(../images/btn_checkout.gif) 0 0 no-repeat; padding:0 0 0 9px; font:bold 15px/40px Arial, Helvetica, sans-serif; color:#fff; }
-button.btn-checkout span span { background-position:100% 0; padding:0 25px 0 16px; }
+button.btn-checkout span span { background-position:100% 0; padding:5px 0; }
 button.btn-checkout.no-checkout span { background-position:0 100%; color:#b8baba; }
 button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 
@@ -2133,7 +2133,7 @@ table#shopping-cart-table td.a-center a{ font-size:12px;font-family: 'source_san
 .btn-remove2 :hover a{ text-decoration:none;}
 .cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:15px; color:#000; letter-spacing:0px;}
 .data-table tfoot{ border:none; display:none;}
-.button.btn-checkout { background:none; border: 1px solid #000000; text-transform: uppercase;}
+.button.btn-checkout { background:none; color:#80683c; text-transform: uppercase;}
 .button.btn-checkout span{ border:none; color:#000000; background:none;}
 .block .block-title{ margin-top:25px;}
 .account-login .new-users h2{ background:none;}
