@@ -61,11 +61,8 @@ button.button.btn-product-personalize {
 	text-decoration: none;
 }
 .product-personalization {
- background-color: #fff;
-    border-top: 2px solid #ccc;
-    padding-top: 4px;
+ 	background-color: #fff;
     position: relative;
-
 }
 .product-personalization p.required {
 	text-align: left;
