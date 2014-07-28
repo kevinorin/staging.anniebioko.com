@@ -2862,5 +2862,6 @@ button.button{position:absolute}
 
 .col1-layout .main{width:960px; padding:15px; background:#fff}
 .opc-wrapper-opc .opc-col-left .customer-name .field{width:100% !important;}
-.opc-wrapper-opc .opc-col-left .fields .field{width:100%}
-.opc-wrapper-opc input{background:#fff; height:30px}
+.opc-wrapper-opc .opc-col-left .fields .field{width:100% !important}
+.opc-wrapper-opc input{background:#fff; height:36px !important}
+.opc-wrapper-opc .opc-col-left .fields .field{width:100% !important}   
