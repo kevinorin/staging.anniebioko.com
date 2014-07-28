@@ -101,7 +101,7 @@ body{font-family: 'source_sans_proregular';}
 
 img           { border:0; vertical-align:top; }
 
-a             { color:#1e7ec8; text-decoration:underline; }
+a             { color:#1e7ec8; text-decoration:none; }
 a:hover       { text-decoration:none; }
 :focus        { outline:0; }
 
