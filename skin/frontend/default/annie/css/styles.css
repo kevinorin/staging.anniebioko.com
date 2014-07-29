@@ -2129,7 +2129,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #a3a3a3 !important;}
 .data-table tbody th, .data-table tbody td{ border:none;}
 .data-table tfoot tr.first td{ background:none;}
-.nobr{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase; margin-left:-96px;margin-right:-86px;}
+.nobr{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase; margin-left:-96px;margin-right:-60px;}
 .data-table thead th{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase;}
 .block{ border:none;}
 .block-viewed .block-title strong{ background:none;}
@@ -2140,7 +2140,7 @@ table#shopping-cart-table td.a-center a{ font-size:12px; text-decoration:underli
 .cart .totals{ width:100%; background:none; border:none;}
 .cart .totals td{ padding:0px 15px 10px 7px;}
 .btn-remove2{ background:none; text-decoration:none;}
-.btn-remove2 :hover a{ text-decoration:none;}
+.btn-remove2 :hover a{ text-decoration:none;} 
 .cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:15px; color:#000; letter-spacing:0px;}
 .data-table tfoot{ border:none; display:none;}
 .button.btn-checkout { background:none; color:#80683c; text-transform: uppercase;}
