@@ -2874,3 +2874,9 @@ button.button{position:absolute}
     overflow: hidden;
     width: 98%;}
 	.col2-set{width:100% !important}
+
+@media (min-width: 10px) and (max-width: 767px) { 
+.follow_us span{width:100%}
+}	
+.checkout-types .button{position:relative !important}
+.footer-container{clear:both; background:#333}
