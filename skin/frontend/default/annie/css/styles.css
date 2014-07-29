@@ -2862,4 +2862,4 @@ button.button{position:absolute}
 .buttons-set .apply-coupon{position:relative !important}
 
 
-#shopping-cart-table tbody td:nth-child(6){border:1px solid red}
+#shopping-cart-table tbody td:nth-child(6){display:none}
