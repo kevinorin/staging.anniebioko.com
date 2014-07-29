@@ -75,7 +75,9 @@
             <?php if ($_product->isSaleable() && $this->hasOptions()):?>
                 <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
             <?php endif;?>
-
+			<div class="product-options-bottom">
+    <?php echo $this->getChildHtml('', true, true);?>
+</div>
         </div>
 
         <div class="product-img-box">
@@ -85,7 +87,7 @@
             <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
         <?php endif;?>
    
-
+ 
     </form>
     <script type="text/javascript">
     //<![CDATA[
