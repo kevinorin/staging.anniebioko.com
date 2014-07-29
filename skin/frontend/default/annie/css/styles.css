@@ -2129,7 +2129,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #a3a3a3 !important;}
 .data-table tbody th, .data-table tbody td{ border:none;}
 .data-table tfoot tr.first td{ background:none;}
-.nobr{ color: #666666;font-family: 'source_sans_prosemibold';font-size: 14px;font-weight: normal;margin-left: -146px;margin-right: 31px;text-transform: uppercase;}
+.nobr{ color: #666666;font-family: 'source_sans_prosemibold';font-size: 14px;font-weight: normal;margin-left: 1px;margin-right: 31px;text-transform: uppercase;}
 .data-table thead th{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase;}
 .block{ border:none;}
 .block-viewed .block-title strong{ background:none;}
@@ -2876,7 +2876,8 @@ button.button{position:absolute}
 	.col2-set{width:100% !important}
 
 @media (min-width: 10px) and (max-width: 767px) { 
-.follow_us span{width:100%}
+.follow_us span{width:100%}   
 }	
 .checkout-types .button{position:relative !important}
 .footer-container{clear:both; background:#333}
+.totals a{text-decoration:underline; font-size:14px}
