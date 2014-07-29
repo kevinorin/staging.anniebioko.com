@@ -121,7 +121,7 @@
                 <tbody><?php $i=0; ?>
                 <?php foreach($this->getItems() as $_item): ?>
                     <?php
-					echo $i;	
+					print_r($_item);	
 					echo $this->getItemHtml($_item) ?>
 					<?php $i++; ?>
                 <?php endforeach ?>
