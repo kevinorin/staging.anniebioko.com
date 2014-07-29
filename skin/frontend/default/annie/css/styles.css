@@ -2846,3 +2846,17 @@ button.button{position:absolute}
     display: none !important;
   }
 }
+
+.col1-layout .main{width:960px; padding:15px; background:#fff}
+.opc-wrapper-opc .opc-col-left .customer-name .field{width:100% !important;}
+.opc-wrapper-opc .opc-col-left .fields .field{width:100% !important}
+.opc-wrapper-opc input{background:#fff; height:36px !important}
+.opc-wrapper-opc .opc-col-left .fields .field{width:100% !important} 
+.opc-wrapper-opc .opc-col-center{width:100% !important} 
+.opc-wrapper-opc .opc-col-center{margin:0px !important; margin-bottom:20px !important}
+
+@media (min-width: 10px) and (max-width: 991px) {
+.col1-layout .main{width:88%; padding:15px; background:#fff}
+} 
+.opc-wrapper-opc *{font-family:'source_sans_proregular' !important}
+.buttons-set .apply-coupon{position:relative !important}
