@@ -2898,7 +2898,7 @@ button.button{position:absolute}
     float: right;
     padding: 0;
     position: relative;
-    right: 8px; width:420px !important}  
+    right: -14px; width:420px !important}  
 	
 .product-view .product-img-box .more-views li a {
     float: left ;
@@ -2909,5 +2909,12 @@ button.button{position:absolute}
 
 .product-view .product-img-box {
     float: left; 
-    width: 343px !important; 
+    width: 343px !important; min-height:580px
+}
+.product-options-bottom {
+    float: right;
+    left: 6px;
+    margin-left: 40px;
+    position: relative;
+    width: 400px;
 }
