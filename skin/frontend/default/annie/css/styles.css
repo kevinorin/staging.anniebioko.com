@@ -2898,7 +2898,7 @@ button.button{position:absolute}
     float: right;
     padding: 0;
     position: relative;
-    right: -203px; width:auto !important}  
+    right: 8px; width:420px !important}  
 	
 .product-view .product-img-box .more-views li a {
     float: left ;
@@ -2909,5 +2909,5 @@ button.button{position:absolute}
 
 .product-view .product-img-box {
     float: left; 
-    width: 343px !important;
+    width: 343px !important; 
 }
