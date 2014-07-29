@@ -2455,9 +2455,9 @@ ol#checkoutSteps button.button{ float:right;}
 
 
 }
-
+#strip{background:#333 !important}
 @media only screen and (max-width : 360px) {
-    #strip{position:relative;top:832px;background:#fff;}
+    #strip{position:relative;top:832px;background:#fff; }
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
     .follow_us span{color:#fff;}  
