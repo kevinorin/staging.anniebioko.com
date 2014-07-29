@@ -86,7 +86,7 @@
                     <?php endif; ?>
                 </thead>
                 <tfoot>
-                    <tr> 
+                    <tr>
                         <td colspan="50" class="a-right">
                             <?php if($this->getContinueShoppingUrl()): ?>
                                 <button type="button" title="<?php echo $this->__('Continue Shopping') ?>" class="button btn-continue" onclick="setLocation('<?php echo $this->getContinueShoppingUrl() ?>')"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
@@ -118,12 +118,9 @@
                         </td>
                     </tr>
                 </tfoot>
-                <tbody><?php $i=0; ?>
+                <tbody>
                 <?php foreach($this->getItems() as $_item): ?>
-                    <?php
-					print_r($_item);	
-					echo $this->getItemHtml($_item) ?>
-					<?php $i++; ?>
+                    <?php echo $this->getItemHtml($_item) ?>
                 <?php endforeach ?>
                 </tbody>
             </table>
