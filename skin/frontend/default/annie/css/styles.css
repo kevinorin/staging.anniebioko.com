@@ -2890,11 +2890,17 @@ button.button{position:absolute}
 #shopping-cart-table thead th:nth-child(2) span.nobr{margin-left: -139px;}
 .buttons-set .button,#send2{position:relative !important}
 .select-wrapper .holder{font-weight:bold}
-.btn-cart{padding:0px 10px !important; color:#000; border:1px solid #000 !important; position:relative !important}
-.add-to-links{display:none}
+.btn-cart {
+    border: 1px solid #000 !important;
+    color: #000 !important;
+    height: 40px !important;
+    padding: 11px 21px !important;
+    position: relative !important;
+}
+.add-to-links{display:none}    
 .btn-cart span{padding:0px}
 .availability{display:none}
-.product-options {
+.product-options { 
     float: right;
     padding: 0;
     position: relative;
@@ -2918,3 +2924,4 @@ button.button{position:absolute}
     position: relative;
     width: 400px;
 }
+.product-personalization .product-personalization-content, .product-options .product-personalization-content{width:100% !important}
