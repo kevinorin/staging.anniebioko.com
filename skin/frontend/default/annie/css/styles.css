@@ -2884,6 +2884,6 @@ button.button{position:absolute}
 .btn-proceed-checkout{padding:0px 10px !important; border:1px solid #000 !important}
 .btn-proceed-checkout span{padding:0px !important}
 .cart_txt{margin-top:70px}   
-.cart_txt p{font-size:12px}
-   
-#shopping-cart-table thead th:nth-child: span.nobr{margin-left: -139px;}
+.cart_txt p{font-size:20px}
+                
+#shopping-cart-table thead th:nth-child(2) span.nobr{margin-left: -139px;}
