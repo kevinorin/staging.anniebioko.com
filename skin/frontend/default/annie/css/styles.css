@@ -2865,8 +2865,7 @@ button.button{position:absolute}
 #shopping-cart-table tbody td:nth-child(6){display:none}
 #shopping-cart-table tbody td{padding:20px 0; vertical-align:middle}
 
-.product-image img{  height: 140px;
-    width: 140px;}
+
 .input-text{text-align:center !important}
 
 .cart form{ 
