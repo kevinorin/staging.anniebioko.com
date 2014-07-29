@@ -215,9 +215,9 @@ width: 100%; }
 
 /* Content Columns */
 .col2-set .col-1 { float:left; width:48.5%; }
-.account-login .col2-set .col-1 { border:1px solid #ccc; }
+.account-login .col2-set .col-1 { }
 .col2-set .col-2 { float:right; width:48.5%; }
-.account-login .col2-set .col-2 { border:1px solid #ccc; }
+.account-login .col2-set .col-2 {  }
 .account-login .content a {border:none !important; text-decoration:underline;}
 
 .col2-set .col-narrow { width:32%; }
@@ -2129,13 +2129,13 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #a3a3a3 !important;}
 .data-table tbody th, .data-table tbody td{ border:none;}
 .data-table tfoot tr.first td{ background:none;}
-.nobr{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase; margin-left:-96px;margin-right:-60px;}
+.nobr{ color: #666666;font-family: 'source_sans_prosemibold';font-size: 14px;font-weight: normal;margin-left: -146px;margin-right: 31px;text-transform: uppercase;}
 .data-table thead th{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase;}
 .block{ border:none;}
 .block-viewed .block-title strong{ background:none;}
 .block .block-title strong{ font-family: 'proxima_nova_alt_rgbold'; font-size:15px; color:#010000; padding:0px;}
 .product-name a{ font-family: 'source_sans_proregular'; font-size:15px; color:#010000;font-weight: normal; line-height:18px; text-decoration:none;}
-.price{ font-family: 'source_sans_proregular'; font-size:15px; color:#707070;}
+.price{ font-family: 'source_sans_proregular'; font-size:15px; color:#000;}
 table#shopping-cart-table td.a-center a{ font-size:12px; text-decoration:underline; color:#000000;}
 .cart .totals{ width:100%; background:none; border:none;}
 .cart .totals td{ padding:0px 15px 10px 7px;}
