@@ -2899,3 +2899,15 @@ button.button{position:absolute}
     padding: 0;
     position: relative;
     right: -203px; width:auto !important}  
+	
+.product-view .product-img-box .more-views li a {
+    float: left ;
+    height: 78px !important ;
+    overflow: hidden;
+    width: 79px !important;
+}
+
+.product-view .product-img-box {
+    float: left; 
+    width: 343px !important;
+}
