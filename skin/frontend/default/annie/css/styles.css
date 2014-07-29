@@ -1957,7 +1957,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .footer-container .bottom-container { margin:0 0 5px; }
 .footer .follow_us { float: none; margin: 0 auto; width: 100%;}
 .follow_us { float: left; padding-left: 58px;}
-.follow_us span { color: #000; float: left; font-size: 14px; line-height: 42px;}
+.follow_us span { color: #fff; float: left; font-size: 14px; line-height: 42px;}
 .follow_us a.facebook { display:block;background: url('../images/fb1.png') no-repeat; height:39px;width:41px;}
 .follow_us a.twitter { background: url('../images/tw1.png') no-repeat; height:39px;width:41px;}
 .follow_us a.pintrest {background: url('../images/pint1.png') no-repeat; height:39px;width:41px;}
@@ -2031,7 +2031,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .form-list li:after,
 .form-list .field:after,
 .buttons-set:after,
-.page-print .print-head:after,
+.page-print .print-head:after, 
 .advanced-search-summary:after,
 .gift-messages-form .item:after,
 .send-friend .form-list li p:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
@@ -2039,13 +2039,13 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 .guest-select {width:305px !important;}
 /*** My editing ****/
-#strip{width:100%; float:left; margin-top:-5px; padding:12px 0; text-transform:uppercase;}
+#strip{width:100%; float:left; margin-top:-5px; padding:12px 0; text-transform:uppercase; background:#333}
 .container_main{width:940px; margin:0 auto;}
 .container{width:100%; float:left; font-family: 'proxima_nova_altsemibold';}
 .follow_us{width:308px; float:left; padding-left:58px;}
 .follow_us a{float:left; margin-left:18px;}
 #mailing_list{width:454px; float:right;}
-#mailing_list label{float:left; line-height:42px; font-size:14px; color:#000;}
+#mailing_list label{float:left; line-height:42px; font-size:14px; color:#fff;}
 #mailing_list .newsletter{float:right; background:url(../images/mailing_list.png) 0 0 no-repeat; width:254px; height:40px; line-height:40px;}
 .newsletter input[type="text"]{float:left; width:120px; height:40px; padding-left:12px; font-size:11px; letter-spacing:2px; border:none; background:none;}
 .newsletter input[type="submit"]{float:right; border:none; background:none; width:113px; height:40px; cursor:pointer;}
@@ -2460,7 +2460,7 @@ ol#checkoutSteps button.button{ float:right;}
     #strip{position:relative;top:832px;background:#fff;}
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
-    .follow_us span{color:#000;}  
+    .follow_us span{color:#fff;}  
     .follow_us a.facebook{background: url('../images/fb1.png') repeat scroll 0 0 transparent;}
     .follow_us a.twitter{background: url('../images/tw1.png') repeat scroll 0 0 transparent;}
     .follow_us a.pintrest{background: url('../images/pint1.png') repeat scroll 0 0 transparent;}
