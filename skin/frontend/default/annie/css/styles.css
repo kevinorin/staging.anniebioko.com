@@ -2893,7 +2893,7 @@ button.button{position:absolute}
 .btn-cart{padding:0px 10px !important; color:#000; border:1px solid #000 !important; position:relative !important}
 .add-to-links{display:none}
 .btn-cart span{padding:0px}
-.breadcrumb,.availability{display:none}
+.availability{display:none}
 .product-options {
     float: right;
     padding: 0;
