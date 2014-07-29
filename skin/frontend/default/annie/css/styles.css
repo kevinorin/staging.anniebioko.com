@@ -192,7 +192,7 @@ ul,ol         { list-style:none; }
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
-.main-container { background: none repeat scroll 0 0 #ffffff; color: #000000; float: left; letter-spacing: 2px; padding: 30px 0 70px; /* text-align: center; text-transform: uppercase; */
+.main-container { background: none repeat scroll 0 0 #ffffff; color: #000000; float: left; letter-spacing: 2px; padding: 30px 0 20px; /* text-align: center; text-transform: uppercase; */
 width: 100%; }
 .main {  margin: 0 auto; width: 940px;}
 
@@ -2881,6 +2881,7 @@ button.button{position:absolute}
 .checkout-types .button{position:relative !important}
 .footer-container{clear:both; background:#333}
 .totals a{text-decoration:underline; font-size:14px}
-.btn-proceed-checkout{padding:10px; border:1px solid #000}
+.btn-proceed-checkout{padding:0px 10px !important; border:1px solid #000 !important}
 .btn-proceed-checkout span{padding:0px !important}
+.cart_txt{margin-top:70px}   
 .cart_txt p{font-size:12px}
