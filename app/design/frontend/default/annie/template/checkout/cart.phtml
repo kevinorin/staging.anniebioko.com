@@ -118,11 +118,12 @@
                         </td>
                     </tr>
                 </tfoot>
-                <tbody>
+                <tbody><?php $i=0; ?>
                 <?php foreach($this->getItems() as $_item): ?>
                     <?php
-					echo 1;	
+					echo $i;	
 					echo $this->getItemHtml($_item) ?>
+					<?php $i++; ?>
                 <?php endforeach ?>
                 </tbody>
             </table>
