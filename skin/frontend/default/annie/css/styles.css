@@ -2858,8 +2858,8 @@ button.button{position:absolute}
 @media (min-width: 10px) and (max-width: 991px) {
 .col1-layout .main{width:88%; padding:15px; background:#fff}
 } 
-.opc-wrapper-opc *{font-family:'source_sans_proregular' !important}
+
 .buttons-set .apply-coupon{position:relative !important}
 
-
+     
 #shopping-cart-table tbody td:nth-child(6){display:none}
