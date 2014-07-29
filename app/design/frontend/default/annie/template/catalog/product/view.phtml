@@ -50,7 +50,7 @@
 
         <div class="product-shop description">
             <div class="product-name">
-                <h5>TEST<?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h5>
+                <h5><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h5>
                  <?php echo $this->getChildHtml('product_type_data') ?>
                 <p><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></p>
             </div>
@@ -73,6 +73,10 @@
             <?php echo $this->getChildHtml('other');?>
 
             <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+            <?php endif;?>
+
+            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
                 <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
             <?php endif;?>
 			
@@ -81,9 +85,7 @@
         <div class="product-img-box">
             <?php echo $this->getChildHtml('media') ?>
         </div>
-        <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
-        <?php endif;?>
+        
    
  
     </form>
