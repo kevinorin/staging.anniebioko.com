@@ -2135,7 +2135,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .block-viewed .block-title strong{ background:none;}
 .block .block-title strong{ font-family: 'proxima_nova_alt_rgbold'; font-size:15px; color:#010000; padding:0px;}
 .product-name a{ font-family: 'source_sans_proregular'; font-size:15px; color:#010000;font-weight: normal; line-height:18px; text-decoration:none;}
-.price{ font-family: 'source_sans_proregular'; font-size:15px; color:#707070;}
+.price{ font-family: 'source_sans_proregular'; font-size:15px; color:#000;}
 table#shopping-cart-table td.a-center a{ font-size:12px; text-decoration:underline; color:#000000;}
 .cart .totals{ width:100%; background:none; border:none;}
 .cart .totals td{ padding:0px 15px 10px 7px;}
