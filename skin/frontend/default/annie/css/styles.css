@@ -1164,7 +1164,7 @@ background-color:#fff; }
 
 /* Tier Prices */
 .product-pricing,
-.tier-prices { margin:10px 0; padding:10px; background-color:#f4f7f7; border:1px solid #dadddd; color:#424242; }
+.tier-prices { margin:10px 0; padding:10px; background-color:#f4f7f7; border:1px solid #dadddd; color:#80683c; }
 .tier-prices li { line-height:1.4; background:url(../images/i_tier.gif) no-repeat 0 3px; padding:2px 0 2px 10px; }
 .tier-prices .benefit { font-style:italic; font-weight:bold; color:#2f2f2f; }
 .tier-prices .price { font-weight:bold; color:#2f2f2f; }
@@ -1957,7 +1957,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .footer-container .bottom-container { margin:0 0 5px; }
 .footer .follow_us { float: none; margin: 0 auto; width: 100%;}
 .follow_us { float: left; padding-left: 58px;}
-.follow_us span { color: #fff; float: left; font-size: 14px; line-height: 42px;}
+.follow_us span { color: #000; float: left; font-size: 14px; line-height: 42px;}
 .follow_us a.facebook { display:block;background: url('../images/fb1.png') no-repeat; height:39px;width:41px;}
 .follow_us a.twitter { background: url('../images/tw1.png') no-repeat; height:39px;width:41px;}
 .follow_us a.pintrest {background: url('../images/pint1.png') no-repeat; height:39px;width:41px;}
@@ -2882,7 +2882,7 @@ button.button{position:absolute}
 .registered-users{margin:0px; padding:0px} 
 }	
 .checkout-types .button{position:relative !important}
-.footer-container{clear:both; background:#333}
+.footer-container{clear:both;}
 .totals a{text-decoration:underline; font-size:14px}
 .btn-proceed-checkout{padding:0px 10px !important; border:1px solid #000 !important}
 .btn-proceed-checkout span{padding:0px !important}
@@ -2892,13 +2892,6 @@ button.button{position:absolute}
 #shopping-cart-table thead th:nth-child(2) span.nobr{margin-left: -139px;}
 .buttons-set .button,#send2{position:relative !important}
 .select-wrapper .holder{font-weight:bold}
-.btn-cart {
-    border: 1px solid #000 !important;
-    color: #000 !important;
-    height: 40px !important;
-    padding: 11px 21px !important;
-    position: relative !important;
-} 
 .add-to-links{display:none}    
 .btn-cart span{padding:0px}
 .availability{display:none}
@@ -2927,4 +2920,3 @@ button.button{position:absolute}
     width: 400px;
 }
 .product-personalization .product-personalization-content, .product-options .product-personalization-content{width:100% !important}
-.follow_us span{color:#fff !important}        
