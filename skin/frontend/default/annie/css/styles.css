@@ -2881,3 +2881,6 @@ button.button{position:absolute}
 .checkout-types .button{position:relative !important}
 .footer-container{clear:both; background:#333}
 .totals a{text-decoration:underline; font-size:14px}
+.btn-proceed-checkout{padding:10px; border:1px solid #000}
+.btn-proceed-checkout span{padding:0px !important}
+.cart_txt p{font-size:12px}
