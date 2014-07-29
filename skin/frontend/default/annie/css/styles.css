@@ -2876,7 +2876,9 @@ button.button{position:absolute}
 	.col2-set{width:100% !important}
 
 @media (min-width: 10px) and (max-width: 767px) { 
-.follow_us span{width:100%}   
+.follow_us span{width:100%}  
+.account-login .content{min-height: inherit;}
+.registered-users{margin:0px; padding:0px} 
 }	
 .checkout-types .button{position:relative !important}
 .footer-container{clear:both; background:#333}
