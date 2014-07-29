@@ -215,9 +215,9 @@ width: 100%; }
 
 /* Content Columns */
 .col2-set .col-1 { float:left; width:48.5%; }
-.account-login .col2-set .col-1 { border:1px solid #ccc; }
+.account-login .col2-set .col-1 { }
 .col2-set .col-2 { float:right; width:48.5%; }
-.account-login .col2-set .col-2 { border:1px solid #ccc; }
+.account-login .col2-set .col-2 {  }
 .account-login .content a {border:none !important; text-decoration:underline;}
 
 .col2-set .col-narrow { width:32%; }
