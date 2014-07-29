@@ -2868,3 +2868,9 @@ button.button{position:absolute}
 .product-image img{  height: 140px;
     width: 140px;}
 .input-text{text-align:center !important}
+
+.cart form{ 
+   
+    overflow: hidden;
+    width: 98%;}
+	.col2-set{width:100% !important}
