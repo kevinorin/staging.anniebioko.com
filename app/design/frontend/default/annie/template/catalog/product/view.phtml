@@ -53,10 +53,6 @@
                 <h5><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h5>
                  <?php echo $this->getChildHtml('product_type_data') ?>
                 <p><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></p>
-
-                <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
-        <?php endif;?>
             </div>
    <!--  <select onchange="personal_information_.style.fontfamily=this">
      <option value="Raleigh" selected="selected">Raleigh</option>
@@ -85,7 +81,9 @@
         <div class="product-img-box">
             <?php echo $this->getChildHtml('media') ?>
         </div>
-        
+        <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+        <?php endif;?>
    
  
     </form>
