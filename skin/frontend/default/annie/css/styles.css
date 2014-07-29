@@ -2889,3 +2889,4 @@ button.button{position:absolute}
 .cart_txt p{font-size:20px}
                 
 #shopping-cart-table thead th:nth-child(2) span.nobr{margin-left: -139px;}
+.buttons-set .button,#send2{position:relative !important}
