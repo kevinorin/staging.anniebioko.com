@@ -2894,3 +2894,8 @@ button.button{position:absolute}
 .add-to-links{display:none}
 .btn-cart span{padding:0px}
 .breadcrumb,.availability{display:none}
+.product-options {
+    float: right;
+    padding: 0;
+    position: relative;
+    right: -203px; width:auto !important}  
