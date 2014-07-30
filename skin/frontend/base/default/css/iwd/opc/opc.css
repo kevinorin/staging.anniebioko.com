@@ -37,11 +37,11 @@
 #frotateG_07{left:26px;bottom:0;-moz-animation-delay:0.81s;-webkit-animation-delay:0.81s;-ms-animation-delay:0.81s;-o-animation-delay:0.81s;animation-delay:0.81s;}
 #frotateG_08{left:8px;bottom:8px;-moz-animation-delay:0.9s;-webkit-animation-delay:0.9s;-ms-animation-delay:0.9s;-o-animation-delay:0.9s;animation-delay:0.9s;}
 
-@-moz-keyframes f_fadeG{0%{background-color:#00909e}100%{background-color:#FFFFFF}}
-@-webkit-keyframes f_fadeG{0%{background-color:#00909e}100%{background-color:#FFFFFF}}
-@-ms-keyframes f_fadeG{0%{background-color:#00909e}100%{background-color:#FFFFFF}}
-@-o-keyframes f_fadeG{0%{background-color:#00909e}100%{background-color:#FFFFFF}}
-@keyframes f_fadeG{0%{background-color:#00909e}100%{background-color:#FFFFFF}}
+@-moz-keyframes f_fadeG{0%{background-color:#80683c}100%{background-color:#FFFFFF}}
+@-webkit-keyframes f_fadeG{0%{background-color:#80683c}100%{background-color:#FFFFFF}}
+@-ms-keyframes f_fadeG{0%{background-color:#80683c}100%{background-color:#FFFFFF}}
+@-o-keyframes f_fadeG{0%{background-color:#80683c}100%{background-color:#FFFFFF}}
+@keyframes f_fadeG{0%{background-color:#80683c}100%{background-color:#FFFFFF}}
 
 .opc-ajax-loader{background-color: rgba(0, 0, 0, 0.6);height: 100%;left: 0;position: fixed;top: 0;width: 100%;display:none;z-index: 10000 !important;}
 .opc-checkout-cart{}
@@ -70,7 +70,7 @@
 
 /** LOGIN FORM **/
 .opc-wrapper-opc .text-login{color:#6b6b6b; font-size:14px; font-weight:400;}
-.opc-wrapper-opc .text-login a{color:#00909e;text-transform:uppercase;font-weight:600;text-decoration: none;cursor:pointer;}
+.opc-wrapper-opc .text-login a{color:#80683c;text-transform:uppercase;font-weight:600;text-decoration: none;cursor:pointer;}
 .opc-wrapper-opc .form-list .input-box{width:100%}
 .opc-wrapper-opc .form-list .input-box input[type="text"],
 .opc-wrapper-opc .form-list .input-box input[type="password"]{width:100%}
@@ -155,7 +155,7 @@
 .opc-wrapper-opc #checkout-review-submit li{margin-bottom:0;margin-top: 0;}
 .opc-wrapper-opc #checkout-review-submit .checkout-agreements{padding:0}
 .opc-wrapper-opc #checkout-review-submit .view-agreement{text-decoration:none;color:#676767; font-size:14px;cursor:pointer;font-weight: normal;}
-.opc-wrapper-opc #checkout-review-submit .view-agreement:hover{color:#00909e;}
+.opc-wrapper-opc #checkout-review-submit .view-agreement:hover{color:#80683c;}
 .opc-wrapper-opc #checkout-review-submit .agreement-content{margin-top:20px;margin-bottom:0}
 
 
@@ -164,8 +164,8 @@
 .opc-wrapper-opc .discount-block .input-box {width:100%;padding:0}
 .opc-wrapper-opc .discount-block input[type="text"]{border:1px solid #d8d8d8; height:22px;padding:0;width:100%;}
 .opc-wrapper-opc .discount-block .button{display:block;height:44px;border:none;margin: 0 auto;float:left;}
-.opc-wrapper-opc .discount-block .button span{background:#00909e;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;padding: 0;}
-.opc-wrapper-opc .discount-block .button span span{background:#00909e;color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
+.opc-wrapper-opc .discount-block .button span{background:#80683c;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;padding: 0;}
+.opc-wrapper-opc .discount-block .button span span{background:#80683c;color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
 .opc-wrapper-opc .discount-block .buttons-set{margin-top:20px;overflow:hidden;}
 .opc-wrapper-opc .discount-block .appl-ycoupon{float:left}
 .opc-wrapper-opc .discount-block .remove-coupon{float: right !important;}
@@ -200,8 +200,8 @@
 .opc-message-container{text-align: center;}
 .opc-messages-action{text-align:center;margin-top:20px}
 .opc-messages-action .button{display:block;height:44px;border:none;margin: 0 auto;}
-.opc-messages-action .button span{background:#00909e;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;}
-.opc-messages-action .button span span{background:#00909e;color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
+.opc-messages-action .button span{background:#80683c;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;}
+.opc-messages-action .button span span{background:#80683c;color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
 .close-message-wrapper {background: url("images/close.png") no-repeat scroll 0 0 transparent;display: block;height: 8px;position: absolute;width: 8px;z-index: 1005;right: 18px;top: 15px;cursor:pointer}
 
 .design_package_rwd .opc-messages-action .button span{background:none !important;border:none;height:auto !important;line-height:24px !important;-webkit-border-radius: 0 !important;border-radius: 0 !important;}
@@ -209,12 +209,12 @@
 
 /** BUTTONS */
 .opc-wrapper-opc .btn{height:35px;border:none;margin: 0 auto;background:none !important;cursor:pointer}
-.opc-wrapper-opc .btn span{background:#00909e;border:none;height:35px;line-height:35px;-webkit-border-radius: 3px;border-radius: 3px;display:block;padding: 0;}
-.opc-wrapper-opc .btn span span{background:#00909e;color:#ffffff;font-size:12px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 10px}
+.opc-wrapper-opc .btn span{background:#80683c;border:none;height:35px;line-height:35px;-webkit-border-radius: 3px;border-radius: 3px;display:block;padding: 0;}
+.opc-wrapper-opc .btn span span{background:#80683c;color:#ffffff;font-size:12px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 10px}
 
 .opc-wrapper-opc .btn-checkout{display:block;width:100%;height:45px;}
-.opc-wrapper-opc .btn-checkout span{background:#00909e;-webkit-border-radius: 3px;border-radius: 3px;width:100%;line-height: 46px;padding: 0 !important;height: 45px;padding: 0;}
-.opc-wrapper-opc .btn-checkout span span{background:#00909e;color:#ffffff;font-size:18px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f}
+.opc-wrapper-opc .btn-checkout span{background:#80683c;-webkit-border-radius: 3px;border-radius: 3px;width:100%;line-height: 46px;padding: 0 !important;height: 45px;padding: 0;}
+.opc-wrapper-opc .btn-checkout span span{background:#80683c;color:#ffffff;font-size:18px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f}
 .opc-wrapper-opc .buttons-set{border:none;margin-top:10px}
 
 .design_package_rwd .btn-checkout{padding:0 !important;}
