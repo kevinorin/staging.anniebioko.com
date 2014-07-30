@@ -2163,7 +2163,7 @@ ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px sol
 .step-title{border-bottom:1px solid #a3a3a3 !important; border-top:none !important; border-left:none !important; border-right:none !important;}
 .step.a-item {border: medium none !important;}
 .select-wrapper{ float: left; display: inline-block; /*border: 1px solid #d8d8d8; */  background: url("../images/select.jpg") no-repeat right center; cursor: pointer;}
-.select-wrapper, .select-wrapper select{ width: 200px; height: 26px; line-height: 26px; font-size:12px; color:#000000; text-transform:uppercase; 
+.select-wrapper, .select-wrapper select{ width: 200px; height: 26px; line-height: 26px; font-size:12px; color:#000000; text-transform:capitalize; 
 position: relative; /* right: -14px; */ margin-top:10px;}
 .select-wrapper:hover { background: url("../images/select.jpg") no-repeat right center; border-color: #239fdb;}
 .select-wrapper .holder{ display: block; margin: 0 35px 0 0; white-space: nowrap; overflow: hidden; cursor: pointer; z-index: -1; letter-spacing:0.05em;}
