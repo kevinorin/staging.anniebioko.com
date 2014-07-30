@@ -1955,7 +1955,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .footer li { display:inline; background:url(../images/bkg_pipe2.gif) 100% 60% no-repeat; padding:0 7px 0 4px; }
 .footer li.last { background:none !important; padding-right:0 !important; }
 .footer-container .bottom-container { margin:0 0 5px; }
-.footer .follow_us { float: none; margin: 0 auto; width: 100%;}
+.footer .follow_us { float: none; margin: 0 auto; max-width: 395px;}
 .follow_us { float: left; padding-left: 58px;}
 .follow_us span { color: #000; float: left; font-size: 14px; line-height: 42px;}
 .follow_us a.facebook { display:block;background: url('../images/fb1.png') no-repeat; height:39px;width:41px;}
