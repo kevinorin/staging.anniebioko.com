@@ -459,7 +459,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .title-buttons h6 { float:left; }
 
 .subtitle,
-.sub-title { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
+.sub-title { clear:both; padding:15px 0 0; font-size:14px; font-weight:bold; margin:0 0 6px; color:#e25203; }
 
 /* Pager */
 .pager { font-size:11px; background:#fff url(../images/bkg_toolbar.gif) 0 100% repeat-x; padding:4px 8px; border-top:1px solid #e2e2e2; text-align:center; }
@@ -696,10 +696,10 @@ ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font
  left:50%; margin-left:-272px; top:80px; text-align:center; color:#000;}
 #carrousel_area1 .carrousel .banner_description { display: none; width:545px; height:280px; border-radius:35px; background:#fff; zoom: 1; filter: alpha(opacity=80); opacity: 0.8; position:absolute;
  left:50%; margin-left:-272px; top:80px; text-align:center; color:#000;}
-.banner_description .description_box{padding-top:52px; font-size:15px; letter-spacing:2px; text-transform:uppercase;}
-.description_box span{float:left; width:100%; font-size:15px; font-family: 'proxima_nova_alt_rgbold'; letter-spe}
+.banner_description .description_box{padding-top:52px; font-size:14px; letter-spacing:2px; text-transform:uppercase;}
+.description_box span{float:left; width:100%; font-size:14px; font-family: 'proxima_nova_alt_rgbold'; letter-spe}
 .description_box h2{font-weight: normal;width:100%; float:left; font-size:24px; color:#000; letter-spacing:2px; padding:18px 0 42px 0; text-transform:uppercase; font-family: 'proxima_nova_altsemibold';}
-.description_box a{width:151px; height:41px; border:1px solid #000; text-align:center; line-height:41px; font-size:15px; color:#000; letter-spacing: 0.04em; display:inline-block; text-decoration:none;  font-family: 'proxima_nova_altsemibold'; }
+.description_box a{width:151px; height:41px; border:1px solid #000; text-align:center; line-height:41px; font-size:14px; color:#000; letter-spacing: 0.04em; display:inline-block; text-decoration:none;  font-family: 'proxima_nova_altsemibold'; }
 .description_box a:hover{color:#fff; background:#000;}
 .description_box .pagination {float: left;text-align: center; width: 100%; padding-top:20px;}
 .description_box .pagination a {background: url("../images/pagination.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); border: medium none;
@@ -710,7 +710,7 @@ ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font
 .banner_copy .content{width:100%; float:left; text-align:center; margin-top:154px; color:#000; letter-spacing:0.25em; text-transform:uppercase; font-family: 'proxima_nova_altsemibold';}
 .content h2{width:100%; float:left; font-size:24px; padding-bottom:22px;font-weight: normal;color: #000;}
 .content span{width:100%; float:left; font-size:14px; color:#666666; padding-bottom:24px; font-family: 'proxima_nova_alt_rgbold'; letter-spacing:0.25em; }
-.content a {border: 1px solid #000000; color: #000000; display: none; font-size: 15px; height: 41px; letter-spacing: normal; line-height: 41px;
+.content a {border: 1px solid #000000; color: #000000; display: none; font-size:14px; height: 41px; letter-spacing: normal; line-height: 41px;
     text-align: center; text-decoration: none; width: 151px;}
 .content a:hover{background:none repeat scroll 0 0 #000000;color:#fff;}
 .account-login  .content a:hover{background:none;color:#000000}
@@ -719,9 +719,9 @@ ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font
 .service ul li{width:264px; float:left; padding:60px 18px; min-height: 280px; text-align:center; background:#fff;}
 .service ul li+li{margin-left:20px;}
 .service ul li h2{width:100%; float:left; text-align:center; padding-top:10px; font-size:18px; color:#000; font-weight:normal; letter-spacing:0.04em; font-family: 'proxima_nova_altsemibold';}
-.service ul li p{float:left; line-height:20px; color:#666666; padding:22px 0 0 0 !important; text-transform:none; font-family: 'source_sans_proregular' font-size:15px; 
+.service ul li p{float:left; line-height:20px; color:#666666; padding:22px 0 0 0 !important; text-transform:none; font-family: 'source_sans_proregular' font-size:14px; 
 letter-spacing:0.01em; }
-.faq { background: none repeat scroll 0 0 #FFFFFF; color: #000000; float: left; font-size: 15px; letter-spacing: normal; padding: 5%; text-align: left; text-transform: none; width: 90%;}
+.faq { background: none repeat scroll 0 0 #FFFFFF; color: #000000; float: left; font-size:14px; letter-spacing: normal; padding: 5%; text-align: left; text-transform: none; width: 90%;}
 .faq ul { border-bottom: 1px solid #E5E5E8; float: left; list-style: none outside none; padding-bottom: 20px; width: 100%;}
 .faq ul li { float: left; padding: 18px 0; width: 100%; font-size: 14px;}
 .faq ul li label { float: left; text-transform: uppercase; width: 45%; font-family: 'source_sans_prosemibold'; letter-spacing:0.04em;}
@@ -729,7 +729,7 @@ letter-spacing:0.01em; }
 .faq h3 { float: left; font-size: 14px; padding-bottom: 10px; padding-top: 20px; width: 100%; color: #000;}
 .faq_bottom p { float: left; font-size: 14px; /*  padding: 0 6% */}
 .contact{width:90%; float:left; background:#fff; padding:5%;}
-.contact .form{width:488px; float:left; font-size:15px; font-family: 'proxima_nova_altsemibold'; text-align:left;}
+.contact .form{width:488px; float:left; font-size:14px; font-family: 'proxima_nova_altsemibold'; text-align:left;}
 .contact .form ul{width:100%; float:left; list-style:none;}
 .contact .form ul li{width:100%; float:left; padding-bottom:30px;}
 .contact .form ul li label{width:100%; float:left; padding-bottom:15px;text-transform: uppercase; letter-spacing:0.04em; }
@@ -737,12 +737,12 @@ letter-spacing:0.01em; }
 .contact .form ul li textarea{width:99%; float:left; border:1px solid #b4b4b4; height:240px; line-height:28px; background:#fff;}
 .contact .form ul li span{width:212px; float:left;}
 .contact .form ul li span+span{width:212px; float:right;}
-.contact .form ul li input[type="submit"]{border: 1px solid #000000; color: #000000; font-size: 15px; height: 41px; letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; background:none; float:left; cursor:pointer}
+.contact .form ul li input[type="submit"]{border: 1px solid #000000; color: #000000; font-size:14px; height: 41px; letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; background:none; float:left; cursor:pointer}
 .contact .address{width:210px; float:right; text-align:left; font-weight:normal; font-family: 'proxima_nova_rgregular';  }
 .contact .address span{font-family: 'proxima_nova_altsemibold'; width:100%; padding-bottom:15px;}
 .contact .address strong{font-family: 'proxima_nova_altsemibold'; font-weight:normal;}
 .contact .address p{line-height:22px; padding:0 !important; text-transform:none; letter-spacing:0.04em; }
-.contact .form ul li button { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #000000; color: #000000; cursor: pointer; float: left; font-size: 15px; height: 41px;
+.contact .form ul li button { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #000000; color: #000000; cursor: pointer; float: left; font-size:14px; height: 41px;
 letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; text-transform:uppercase;  font-family: 'proxima_nova_altsemibold'; }
 
 /********** < Navigation */
@@ -1009,8 +1009,8 @@ background-color:#fff; }
 .products-grid .product-name { /*min-height:2.7em;*/ margin:0 0 5px; font-weight:bold; font-size:13px; color:#203548; }
 .products-grid .product-name a { color:#203548; }
 .products-grid .detais{ float: left; padding: 30px 22px; width: 176px; font-family: 'proxima_nova_rgregular';}
-.products-grid .detais h6{ color: #000000; float: left; font-family: 'Source Sans Pro',sans-serif; font-size: 15px; padding-bottom: 12px; text-align: center; width: 100%;}
-.products-grid .detais h6 a{ font-family: 'proxima_nova_altsemibold'; color: #000000; font-size: 15px; text-decoration: none; font-weight:normal; letter-spacing:0.04em;}
+.products-grid .detais h6{ color: #000000; float: left; font-family: 'Source Sans Pro',sans-serif; font-size:14px; padding-bottom: 12px; text-align: center; width: 100%;}
+.products-grid .detais h6 a{ font-family: 'proxima_nova_altsemibold'; color: #000000; font-size:14px; text-decoration: none; font-weight:normal; letter-spacing:0.04em;}
 .products-grid .detais p { color: #666666; font-size: 14px; letter-spacing:0; line-height: 20px; padding: 0 !important; text-align: center; text-transform: none;}
 
 .products-grid .price-box { margin:5px 0; }
@@ -1092,7 +1092,7 @@ background-color:#fff; }
 
 /* Regular price */
 .regular-price { color:#c76200; }
-.regular-price .price { font-size:15px; color:#000000; }
+.regular-price .price { font-size:14px; color:#000000; }
 .block .regular-price, .block .regular-price .price { color:#2f2f2f; }
 
 /* Old price */
@@ -1180,7 +1180,7 @@ background-color:#fff; }
 .add-to-cart label {  margin-right:5px;margin-left:5px; font-weight:bold; color:#666; display:none;}
 .add-to-cart .qty {  margin-right:5px;display:none; }
 .add-to-cart button.button { /*float:left;margin-top:-9px; */font-family: 'source_sans_prosemibold'; color: #80683c; position: relative;
-cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decoration: none;/* width:89px !important;*/;
+cursor: pointer; display: inline-block; font-size:14px; height:28px; text-decoration: none;/* width:89px !important;*/;
 }
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:15px !important;}
@@ -1204,7 +1204,7 @@ cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decor
 .product-essential h2 { font:bold 13px/1.35 Arial, Helvetica, sans-serif; }
 
 .product-collateral { background:#faf7ee url(../images/bkg_product_collateral.gif) 0 0 repeat-x; padding:25px; }
-.product-collateral h2 { font-weight:bold; font-size:15px; color:#e26703; border-bottom:1px solid #e5dcc3; padding:0 0 1px; margin:0 0 15px; }
+.product-collateral h2 { font-weight:bold; font-size:14px; color:#e26703; border-bottom:1px solid #e5dcc3; padding:0 0 1px; margin:0 0 15px; }
 .product-collateral .box-collateral { margin:0 0 25px; }
 
 /* Product Images */
@@ -1460,7 +1460,7 @@ cursor: pointer; display: inline-block; font-size: 15px; height:28px; text-decor
 .cart .totals tfoot th { padding:5px 15px 5px 7px; }
 .cart .totals tfoot td { padding-top:5px; padding-bottom:5px; }
 .cart .totals tfoot th strong,
-.cart .totals tfoot td strong { font-size:15px; }
+.cart .totals tfoot td strong { font-size:14px; }
 .cart .totals .checkout-types { font-size:13px; padding:8px 15px 15px; text-align:right;float:right; }
 .cart .totals .checkout-types li { clear:both; margin:10px 0; }
 
@@ -1632,7 +1632,7 @@ background: none repeat scroll 0 0 #F2F2F2; border-color: #A3AEB3; border-image:
 
 .opc .active .step-title { background:none repeat scroll 0 0 #E5E5E5; border-bottom: 1px solid #a3a3a3; color: #121111; cursor: default; padding-bottom: 15px;}
 .opc .active .step-title .number { background:#a3a3a3; color:#fff; }
-.opc .active .step-title h2 { color:#010000;font-family: 'proxima_nova_altsemibold'; font-size:15px; text-transform:uppercase; font-weight:normal;}
+.opc .active .step-title h2 { color:#010000;font-family: 'proxima_nova_altsemibold'; font-size:14px; text-transform:uppercase; font-weight:normal;}
 /*.opc .active .step-title a { display:none; }*/
 
 .opc .step { border:1px solid #c8c8c8; border-top:0; /* background:#fbfaf6 url(../images/bkg_checkout.gif) 0 0 repeat-x; */ padding:15px 30px; position:relative; }
@@ -2054,11 +2054,11 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 #grey_area p {float: left;padding: 0 23%; font-family: 'proxima_nova_rgregular'; letter-spacing:0.2em}
 .cms-home #carrousel_area { display: none; }
 #carrousel_area .carrousel .annie_copy{color:#000000; left:50%; margin-left:-183px; position:absolute; text-align:center; top:180px; width:366px; text-transform: uppercase;}
-.annie_copy span {float: left; font-size: 15px; width: 100%; letter-spacing:0.2em; font-family: 'proxima_nova_alt_rgbold';}
+.annie_copy span {float: left; font-size:14px; width: 100%; letter-spacing:0.2em; font-family: 'proxima_nova_alt_rgbold';}
 .annie_copy h2 {float: left; font-size: 24px; letter-spacing: 0.25em; padding: 18px 0 36px; width: 100%; font-weight:normal; font-family: 'proxima_nova_altsemibold';}
-.annie_copy a {border: 1px solid #000000; color: #000000; display: inline-block; font-size: 15px; letter-spacing: 0.04em; line-height: 22px;
+.annie_copy a {border: 1px solid #000000; color: #000000; display: inline-block; font-size:14px; letter-spacing: 0.04em; line-height: 22px;
     padding: 10px 0; text-align: center; text-decoration: none; width: 241px; font-family: 'proxima_nova_altsemibold';}
-.product_detail{width:88%; float:left; background:#fff; padding:6%; text-align:left; font-size:15px; letter-spacing:0.04em; text-transform:none; color:#000;}
+.product_detail{width:88%; float:left; background:#fff; padding:6%; text-align:left; font-size:14px; letter-spacing:0.04em; text-transform:none; color:#000;}
 .product_detail .product_main{width:384px; float:left;}
 .product_main .breadcrumb{color: #666666; float: left; font-family: 'source_sans_prosemibold'; font-size: 12px; padding-bottom: 33px; text-transform: uppercase; width: 100%;}
 .product_main .breadcrumb a{float:left; padding-right:6px; color:#666666; text-decoration:none;}
@@ -2072,7 +2072,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .thumbs ul li+li{padding:0 0 0 10px;}
 .product_detail .description{width:392px; float:right; font-size:14px !important; color:#666666; letter-spacing: normal; font-family: 'Source Sans Pro',sans-serif; line-height:20px;
 padding-top: 40px;}
-.description h5{width:100%; float:left; font-family: 'source_sans_prosemibold'; font-weight:normal; font-size:15px; color:#000;/* padding-bottom:20px; */ letter-spacing:0.04em;}
+.description h5{width:100%; float:left; font-family: 'source_sans_prosemibold'; font-weight:normal; font-size:14px; color:#000;/* padding-bottom:20px; */ letter-spacing:0.04em;}
 .description p{/* float:left; line-height:20px; padding:0 0 15px 0 !important; */}
 .description ul{float:left; width:100%; list-style:none;}
 .description ul li{float:left; width:100%; padding:5px 0;}
@@ -2083,7 +2083,7 @@ padding-top: 40px;}
 .description .selection label{float:left; margin-right:15px;}
 .description .selection a{float:left; color:#000;}
 .description textarea{width:362px; border:1px solid #b4b4b4; padding:10px; height:83px;}
-.description input[type="submit"] {border: 1px solid #000000;color: #000000;display: inline-block;font-size: 15px;height: 41px; letter-spacing: normal; line-height: 41px;
+.description input[type="submit"] {border: 1px solid #000000;color: #000000;display: inline-block;font-size:14px;height: 41px; letter-spacing: normal; line-height: 41px;
 text-align: center;text-decoration: none;width: 151px; background:#fff; margin-top:20px; cursor:pointer;}
 .select { position: absolute; width: 164px !important; /* With the padding included, the width is 190 pixels: the actual width of the image. */ height: 12px; padding: 0 !important;
 color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no-repeat; overflow: hidden;}
@@ -2122,7 +2122,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 
 /***************************checkout************************/
 
-.title-buttons h3{ color: #010000;  font-family: 'proxima_nova_alt_rgbold'; font-size: 15px; font-weight: normal; text-transform: uppercase;}
+.title-buttons h3{ color: #010000;  font-family: 'proxima_nova_alt_rgbold'; font-size: 14px; font-weight: normal; text-transform: uppercase;}
 .data-table thead th{ background:none;}
 .data-table{ border:none;}
 .data-table thead th{ border-right:none; border-bottom:solid 1px #a3a3a3;}
@@ -2133,33 +2133,33 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .data-table thead th{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase;}
 .block{ border:none;}
 .block-viewed .block-title strong{ background:none;}
-.block .block-title strong{ font-family: 'proxima_nova_alt_rgbold'; font-size:15px; color:#010000; padding:0px;}
-.product-name a{ font-family: 'source_sans_proregular'; font-size:15px; color:#010000;font-weight: normal; line-height:18px; text-decoration:none;}
-.price{ font-family: 'source_sans_proregular'; font-size:15px; color:#707070;}
+.block .block-title strong{ font-family: 'proxima_nova_alt_rgbold'; font-size:14px; color:#010000; padding:0px;}
+.product-name a{ font-family: 'source_sans_proregular'; font-size:14px; color:#010000;font-weight: normal; line-height:18px; text-decoration:none;}
+.price{ font-family: 'source_sans_proregular'; font-size:14px; color:#707070;}
 table#shopping-cart-table td.a-center a{ font-size:12px;font-family: 'source_sans_proregular'; color:#000000;}
 .cart .totals{ width:100%; background:none; border:none;}
 .cart .totals td{ padding:0px 15px 10px 7px;}
 .btn-remove2{ background:none; text-decoration:none;}
 .btn-remove2 :hover a{ text-decoration:none;}
-.cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:15px; color:#000; letter-spacing:0px;}
+.cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
 .data-table tfoot{ border:none; display:none;}
 .button.btn-checkout { background:none; color:#80683c; text-transform: uppercase;}
 .button.btn-checkout span{ border:none; color:#000000; background:none;}
 .block .block-title{ margin-top:25px;}
 .account-login .new-users h2{ background:none;}
-.account-login .content h2{ font-family: 'source_sans_proregular'; font-size:15px; color:#232222; padding:0 0px 5px 0px;}
+.account-login .content h2{ font-family: 'source_sans_proregular'; font-size:14px; color:#232222; padding:0 0px 5px 0px;}
 .form-list input.input-text{ width:210px; height:26px; padding:2px;}
 .account-login .content p{ color:#707070;}
 .form-list label{ font-size:13px; color:#666666; font-weight:normal;}
 .account-login .buttons-set{ background:none;}
 .account-login .registered-users h2{ background:none;}
-.account-login .buttons-set a{ font-family: 'source_sans_proregular'; font-size:15px; color:#000; letter-spacing:0px;}
+.account-login .buttons-set a{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
 .account-login button span span{padding: 12px;width: auto;float: left;height: 30px;display: block;padding-bottom: 0px;
 }
 ol#checkoutSteps{ background:#ffffff; padding:50px 75px;}
 ol#checkoutSteps li#opc-login .form-list label { color: #666666; font-size: 13px; font-weight: normal;}
 ol#checkoutSteps li#opc-login a.f-left{ color:#000000; text-decoration:underline; font-size:13px;}
-ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px solid #000000; font-size:15px;font-family: 'proxima_nova_altsemibold'; text-transform:uppercase;}
+ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px solid #000000; font-size:14px;font-family: 'proxima_nova_altsemibold'; text-transform:uppercase;}
 /***************************checkout end************************/
 
 .step-title{border-bottom:1px solid #a3a3a3 !important; border-top:none !important; border-left:none !important; border-right:none !important;}
