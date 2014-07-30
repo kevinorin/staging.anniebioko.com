@@ -163,9 +163,9 @@
 .opc-wrapper-opc .discount-block{margin-top: 40px;}
 .opc-wrapper-opc .discount-block .input-box {width:100%;padding:0}
 .opc-wrapper-opc .discount-block input[type="text"]{border:1px solid #d8d8d8; height:22px;padding:0;width:100%;}
-.opc-wrapper-opc .discount-block .button{display:block;height:44px;border:none;margin: 0 auto;float:left;}
-.opc-wrapper-opc .discount-block .button span{background:#80683c;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;padding: 0;}
-.opc-wrapper-opc .discount-block .button span span{color:#00909e;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
+.opc-wrapper-opc .discount-block .button{display:block;border:none;margin: 0 auto;float:left;}
+.opc-wrapper-opc .discount-block .button span{border:none;-webkit-border-radius: 3px;border-radius: 3px;padding: 0;}
+.opc-wrapper-opc .discount-block .button span span{color:#80683c;font-size:16px;font-weight:bold;text-transform:uppercase;padding:0 20px}
 .opc-wrapper-opc .discount-block .buttons-set{margin-top:20px;overflow:hidden;}
 .opc-wrapper-opc .discount-block .appl-ycoupon{float:left}
 .opc-wrapper-opc .discount-block .remove-coupon{float: right !important;}
@@ -222,8 +222,8 @@
 .design_package_rwd .btn-checkout span span{background:none;color:#ffffff;font-size:18px;font-weight:bold;text-transform:uppercase;text-shadow:none;}
 
 .opc-wrapper-opc .btn-checkout.button-disabled{}
-.opc-wrapper-opc .btn-checkout.button-disabled span span{background: url(images/ajax-loader-button.png) no-repeat scroll 10px 10px transparent;}
-.opc-wrapper-opc .btn-checkout.button-disabled span {cursor: default;background-color:rgba(0,144,158, .3); text-shadow:none}
+.opc-wrapper-opc .btn-checkout.button-disabled span span{}
+.opc-wrapper-opc .btn-checkout.button-disabled span {cursor: default;background-color:#80683c; text-shadow:none}
 
 .design_package_rwd .btn-checkout.button-disabled{background-color:transparent;}
 
