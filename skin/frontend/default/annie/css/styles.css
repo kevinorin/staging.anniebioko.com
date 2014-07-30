@@ -254,8 +254,7 @@ button.button span { display:block; /* height:19px; */ /*border:1px solid #de540
 button.button span span {/* padding:1px; padding:2px 4px 0 3px; */}
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
 .mini-cart button.button span span {background:#fff;border:1px #000 solid;}
-button.btn-checkout span { color: #80683c; border:0; padding:0 0 0 9px; font-size: 14px; }
-button.btn-checkout span span { background-position:100% 0; padding:5px 0; }
+button.btn-checkout span { color: #80683c; border:0; padding:0 0 0 9px; font-size: 15px; }
 button.btn-checkout.no-checkout span { background-position:0 100%; color:#b8baba; }
 button.btn-checkout.no-checkout span span { background-position:100% 100%; }
 
@@ -1180,7 +1179,7 @@ background-color:#fff; }
 .add-to-cart label {  margin-right:5px;margin-left:5px; font-weight:bold; color:#666; display:none;}
 .add-to-cart .qty {  margin-right:5px;display:none; }
 .add-to-cart button.button { /*float:left;margin-top:-9px; */font-family: 'source_sans_prosemibold'; color: #80683c; position: relative;
-cursor: pointer; display: inline-block; font-size:14px; height:28px; text-decoration: none;/* width:89px !important;*/;
+cursor: pointer; display: inline-block; font-size:16px; text-decoration: none; text-transform: uppercase;
 }
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:15px !important;}
@@ -2144,7 +2143,6 @@ table#shopping-cart-table td.a-center a{ font-size:12px;font-family: 'source_san
 .cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
 .data-table tfoot{ border:none; display:none;}
 .button.btn-checkout { background:none; color:#80683c; text-transform: uppercase;}
-.button.btn-checkout span{ border:none; color:#000000; background:none;}
 .block .block-title{ margin-top:25px;}
 .account-login .new-users h2{ background:none;}
 .account-login .content h2{ font-family: 'source_sans_proregular'; font-size:14px; color:#232222; padding:0 0px 5px 0px;}
