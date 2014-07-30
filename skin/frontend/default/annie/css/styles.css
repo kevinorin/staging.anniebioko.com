@@ -2592,10 +2592,10 @@ ul.account{float:none; display:inline-block}
 }
 */
 @media (min-width:100px) and (max-width:768px){
-.header header nav{width:auto !important; line-height:normal !important}
+.header header nav{width:80px; line-height:normal !important}
 .menu-collapser{text-indent:-999px; width:auto !important}
 .collapse-button{position:relative !important; margin-top:19px}
-.header .logo { margin: 0 !important; text-align: center;width: 50%;}
+.header .logo { margin: 0 auto !important; position: relative; width: 205px;}
 
 .header_right{width:auto;}
 .hidden-ph{display:none}
