@@ -56,7 +56,8 @@
 .opc-wrapper-opc p{font-size:16px; color:#393939;text-align:left;margin: 0 0 10px;}
 .opc-wrapper-opc input{box-shadow:none;background: none}
 .opc-wrapper-opc input:focus{box-shadow:none;}
-.opc-wrapper-opc .opc-col-left{width:30%;float: left;margin-right:20px;}
+.opc-wrapper-opc .opc-col-left{ width: 100%;}
+.opc-wrapper-opc ul.form-list { max-width: 300px; }
 .opc-wrapper-opc .opc-col-center{float: left;width:30%;margin-right:20px;margin-left:20px;}
 .opc-wrapper-opc .opc-col-right{float: left;width: 30%;margin-left:20px;}
 .opc-wrapper-opc a:hover{color:#80683c;}
