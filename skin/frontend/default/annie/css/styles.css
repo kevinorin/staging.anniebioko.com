@@ -2175,17 +2175,6 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
 .step-title {background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;}
 .buttons-set {width: 220px; padding-top:0 !important;}
 .f-left, .left {float: left !important; letter-spacing: normal; padding-bottom: 20px;}
-.cart_txt
-{
-float: right;
-font-size: 17px;
-text-align: right;
-}
-#onepage-guest-register-button
-{
-margin-top:16px;
-float:left;
-}
 
 @media only screen and (max-width : 1024px) {
 #carrousel_area .carrousel .banner_description{ height:225px; top:48px;}
@@ -2883,11 +2872,25 @@ button.button{position:absolute}
 }   
 .checkout-types .button{position:relative !important}
 .footer-container{clear:both;}
-.totals a{text-decoration:underline; font-size:14px}
+.totals a{font-size:14px}
 .btn-proceed-checkout{}
 .btn-proceed-checkout span{padding:0px !important}
-.cart_txt{margin-top:70px}   
-.cart_txt p{font-size:20px}
+
+.cart_txt p{font-size:14px}
+.cart_txt
+{
+    font-size: 14px;
+    margin-top:70px;
+    text-align: right;
+    width: 100%
+    ;
+}
+#onepage-guest-register-button
+{
+    margin-top:16px;
+    float:left;
+}
+
                 
 #shopping-cart-table thead th:nth-child(2) span.nobr{ }
 .buttons-set .button,#send2{position:relative !important}
