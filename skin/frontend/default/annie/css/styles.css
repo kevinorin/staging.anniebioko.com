@@ -2647,7 +2647,7 @@ button.button{position:absolute}
   display: none !important;
 }
 @media (max-width: 767px) {
-.search.hidden-lg.customSearch.visible-xs { display: none;}
+.customSearch .search_item { display: none;}
   .visible-xs {
     display: block !important;
   }
