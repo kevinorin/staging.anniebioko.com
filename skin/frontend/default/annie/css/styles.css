@@ -676,12 +676,12 @@ display:none;}
 .search .search_item input[type="text"]{width:150px; height:22px; border:none; background:none; line-height:22px; padding:0 8px; font-family: 'Source Sans Pro', sans-serif; 
 font-size:13px; color:#666666; float:left;}
 .search .search_item input[type="submit"]{width:61px; height:22px; background:none; border:none; cursor:pointer; border-left:1px solid #000; float:right; text-align:center;}
-.header_right .msg{ height:20px; background:url(../images/envelop.png) top left no-repeat; position:relative; background-size: 15px;}
+.header_right .msg{ height:20px; background:url(../images/envelop.png) top left no-repeat; position:relative; background-size: 15px; top: 4px;}
 .header_right .msg .ballon{position: absolute; padding: 0px 5px; background: #000; text-align: center; overflow: hidden; border-radius: 50%; left: 5px; bottom: 0px; font-size: 10px; color: #fff;}
 
 /* KW Revised Header Right */
 ul.account { float: right; bottom: 10px; position: relative; }
-ul.account li { display: inline-block; margin-left: 35px; }
+ul.account li { display: inline-block; margin-left: 15px; }
 ul.account li.msg { padding-left: 26px; }
 ul.account li.search { padding-left: 34px; }
 ul.account li a { color: #353535;  font-family: 'proxima_nova_altsemibold'; font-size: 13px; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; }
