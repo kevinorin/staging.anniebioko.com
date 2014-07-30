@@ -165,7 +165,7 @@
 .opc-wrapper-opc .discount-block input[type="text"]{border:1px solid #d8d8d8; height:22px;padding:0;width:100%;}
 .opc-wrapper-opc .discount-block .button{display:block;height:44px;border:none;margin: 0 auto;float:left;}
 .opc-wrapper-opc .discount-block .button span{background:#80683c;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;padding: 0;}
-.opc-wrapper-opc .discount-block .button span span{background:#80683c;color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
+.opc-wrapper-opc .discount-block .button span span{color:#00909e;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
 .opc-wrapper-opc .discount-block .buttons-set{margin-top:20px;overflow:hidden;}
 .opc-wrapper-opc .discount-block .appl-ycoupon{float:left}
 .opc-wrapper-opc .discount-block .remove-coupon{float: right !important;}
