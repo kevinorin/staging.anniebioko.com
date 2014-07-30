@@ -254,7 +254,7 @@ button.button span { display:block; /* height:19px; */ /*border:1px solid #de540
 button.button span span {/* padding:1px; padding:2px 4px 0 3px; */}
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
 .mini-cart button.button span span {background:#fff;border:1px #000 solid;}
-button.btn-checkout span { border:0; padding:0 0 0 9px; font-size: 14px; }
+button.btn-checkout span { color: #80683c; border:0; padding:0 0 0 9px; font-size: 14px; }
 button.btn-checkout span span { background-position:100% 0; padding:5px 0; }
 button.btn-checkout.no-checkout span { background-position:0 100%; color:#b8baba; }
 button.btn-checkout.no-checkout span span { background-position:100% 100%; }
