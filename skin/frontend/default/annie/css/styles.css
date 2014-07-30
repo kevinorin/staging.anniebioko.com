@@ -254,7 +254,7 @@ button.button span { display:block; /* height:19px; */ /*border:1px solid #de540
 button.button span span {/* padding:1px; padding:2px 4px 0 3px; */}
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
 .mini-cart button.button span span {background:#fff;border:1px #000 solid;}
-button.btn-checkout span { height:40px; border:0; background:url(../images/btn_checkout.gif) 0 0 no-repeat; padding:0 0 0 9px; font:bold 15px/40px Arial, Helvetica, sans-serif; color:#fff; }
+button.btn-checkout span { border:0; padding:0 0 0 9px; font-size: 40px; }
 button.btn-checkout span span { background-position:100% 0; padding:5px 0; }
 button.btn-checkout.no-checkout span { background-position:0 100%; color:#b8baba; }
 button.btn-checkout.no-checkout span span { background-position:100% 100%; }
@@ -2129,7 +2129,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #a3a3a3 !important;}
 .data-table tbody th, .data-table tbody td{ border:none;}
 .data-table tfoot tr.first td{ background:none;}
-.nobr{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase; margin-left:-96px;margin-right:-86px;}
+.nobr{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase; }
 .data-table thead th{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase;}
 .block{ border:none;}
 .block-viewed .block-title strong{ background:none;}
@@ -2884,12 +2884,12 @@ button.button{position:absolute}
 .checkout-types .button{position:relative !important}
 .footer-container{clear:both;}
 .totals a{text-decoration:underline; font-size:14px}
-.btn-proceed-checkout{padding:0px 10px !important; border:1px solid #000 !important}
+.btn-proceed-checkout{}
 .btn-proceed-checkout span{padding:0px !important}
 .cart_txt{margin-top:70px}   
 .cart_txt p{font-size:20px}
                 
-#shopping-cart-table thead th:nth-child(2) span.nobr{margin-left: -139px;}
+#shopping-cart-table thead th:nth-child(2) span.nobr{ }
 .buttons-set .button,#send2{position:relative !important}
 .select-wrapper .holder{font-weight:bold}
 .add-to-links{display:none}    
@@ -2918,3 +2918,8 @@ button.button{position:absolute}
     position: relative;
 }
 .product-personalization .product-personalization-content, .product-options .product-personalization-content{width:100% !important}
+
+#shopping-cart-table tr th:nth-child(1),
+#shopping-cart-table tr td:nth-child(3) {
+display: none;
+}
