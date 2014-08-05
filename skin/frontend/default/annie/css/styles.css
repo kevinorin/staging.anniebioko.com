@@ -2096,7 +2096,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .description .social a{float:left; margin-right:13px;}
 .account-login .content  { background:#fff;}
 .account-login .content p{ font-family: 'Source Sans Pro',sans-serif; font-size: 13px; margin: 0 0 10px; text-align: left; text-transform: capitalize; letter-spacing: 0px;}
-.account-login button span span{ background:#fff; border:1px solid; padding-top: 3px;}
+.account-login button span span{ padding-top: 3px;}
 .account-login .buttons-set a{ font-size:12px;}
 .fluid_container { max-width:100% !important; width:100% !important; min-height:100%; }
 .main-container form#firecheckout-form { text-transform:none; background:#fff; float:left; letter-spacing:0px; width:96%; padding:2% !important; text-align:left;}
