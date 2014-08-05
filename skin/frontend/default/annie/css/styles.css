@@ -2148,7 +2148,7 @@ table#shopping-cart-table td.a-center a{ font-size:12px;font-family: 'source_san
 .btn-remove2 :hover a{ text-decoration:none;}
 .cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
 .data-table tfoot{ border:none; display:none;}
-.button.btn-checkout { background:none; color:#80683c; text-transform: uppercase;}
+.button.btn-checkout { background:none; color:#80683c; text-transform: capitalize; font-style: italic;}
 .block .block-title{ margin-top:25px;}
 .account-login .new-users h2{ background:none;}
 .account-login .content h2{ font-family: 'source_sans_proregular'; font-size:14px; color:#232222; padding:0 0px 5px 0px;}
@@ -2158,8 +2158,7 @@ table#shopping-cart-table td.a-center a{ font-size:12px;font-family: 'source_san
 .account-login .buttons-set{ background:none;}
 .account-login .registered-users h2{ background:none;}
 .account-login .buttons-set a{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
-.account-login button span span{padding: 12px;width: auto;float: left;height: 30px;display: block;padding-bottom: 0px;
-}
+.account-login button span span{float: left; color:#80683c; display: block;padding-bottom: 0px; font-style: italic;}
 ol#checkoutSteps{ background:#ffffff; padding:50px 75px;}
 ol#checkoutSteps li#opc-login .form-list label { color: #666666; font-size: 13px; font-weight: normal;}
 ol#checkoutSteps li#opc-login a.f-left{ color:#000000; text-decoration:underline; font-size:13px;}
