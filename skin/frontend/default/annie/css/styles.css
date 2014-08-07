@@ -2226,6 +2226,10 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
 .product-options { width: 315px;}
 }
 
+@media only screen and (max-width : 465px) {
+    .follow_us span { width:100%; }
+}
+
 @media only screen and (max-width : 640px) {
 .gen-slider-pager1-pos-bottom-right .control-nav{ display:none;}
 .banner_description .description_box { padding-top: 25px;}
@@ -2491,7 +2495,7 @@ button.btn-checkout span span{ padding:0px;}
     #strip{position:relative;top:832px; background:#fff;}
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
-    .follow_us span{color:#000;}
+    .follow_us span{color:#000;width:100%;}
      .newsletter input[type="text"]{}
     .follow_us a.facebook{background: url('../images/fb1.png') repeat scroll 0 0 transparent;}
     .follow_us a.twitter{background: url('../images/tw1.png') repeat scroll 0 0 transparent;}
