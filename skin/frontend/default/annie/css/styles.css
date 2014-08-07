@@ -2605,6 +2605,7 @@ ul.account{float:none; display:inline-block}
 .header_right{width:auto;}
 .hidden-ph{display:none}
 .header header .header_right{width:33%; margin:0px !important}
+.header_right .right-info { display:none;}
 .search1{text-align:center; height: 32px; margin-left: 0; padding:24px 0 0 21px; position:absolute; right:0}
 .search1 li{float:left; margin-right:5px; width:38px}
 .header header{margin-bottom:20px}
@@ -2930,3 +2931,8 @@ button.button{position:absolute}
 #shopping-cart-table tr td:nth-child(3) {
 display: none;
 }
+.header_right { min-width:233px; }
+.header_right .right-info { position:relative; margin-top:25px; }
+.header_right .right-info ul.account { top:-5px; }
+.header_right .search { display:none; }
+.header_right .search-toggle { background:url(../images/search.png) no-repeat; height:23px; text-transform:uppercase; padding:3px 0 0 29px; font-weight:normal; font-size:12px; cursor:pointer; position:absolute; }

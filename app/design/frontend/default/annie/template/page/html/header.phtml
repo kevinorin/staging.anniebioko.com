@@ -48,7 +48,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' type='text/css' href='http://staging.anniebioko.com/js/slimmenu.css' />
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-            <script type="text/javascript" src="http://staging.anniebioko.com/js/jquery.slimmenu.min.js"></script>  
+            <script type="text/javascript" src="http://staging.anniebioko.com/js/jquery.slimmenu.min.js"></script>
             <script>
                  jj( document ).ready(function() {
                  jj('#navigation').slimmenu(
@@ -76,7 +76,7 @@
         <nav>
             <div id='cssmenu'>
             <ul id="navigation" class="slimmenu">
-                  <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_nav')->toHtml(); ?>   
+                  <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_nav')->toHtml(); ?>
               <?php /* ?>   <li><a href="<?php echo $this->getUrl('shop');  ?>">shop</a>
 
                     <ul class="submenu">
@@ -101,28 +101,31 @@
         </div>
         <!-- header right -->
             <div class="header_right">
-                <ul class="account hidden-ph">
-                    <li>
-                        <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
-                        <a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('sign in') ?></a>
-                        <?php else: ?>
-                        <a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>"><?php echo $this->__('sign out') ?></a>
-                        <?php endif; ?>
-                    </li>
-                    <li class="msg">
-                        <span class="ballon">
-                            <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
-                            <a href="/checkout/cart/" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
-                        </span>
-                        <a class="ballon-txt" href="/checkout/cart/"></a>
-                    </li>
-                    <!--<li class="search">
-                        <a href="#">SEARCH</span>
-                        <span class="search_item">
-                            <?php echo $this->getChildHtml('topSearch') ?> 
-                        </span>
-                    </li>-->
-                </ul>
+                <div class="right-info">
+                    <div class="search-toggle"><?php echo $this->__('Search'); ?></div>
+                    <ul class="account hidden-ph">
+                        <li>
+                            <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+                            <a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('sign in') ?></a>
+                            <?php else: ?>
+                            <a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>"><?php echo $this->__('sign out') ?></a>
+                            <?php endif; ?>
+                        </li>
+                        <li class="msg">
+                            <span class="ballon">
+                                <?php $_cartQty = Mage::getSingleton('checkout/cart')->getItemsCount();?>
+                                <a href="/checkout/cart/" style="color:#fff;text-decoration:none;"><?php echo $_cartQty;  ?></a>
+                            </span>
+                            <a class="ballon-txt" href="/checkout/cart/"></a>
+                        </li>
+                        <!--<li class="search">
+                            <a href="#">SEARCH</span>
+                            <span class="search_item">
+                                <?php echo $this->getChildHtml('topSearch') ?>
+                            </span>
+                        </li>-->
+                    </ul>
+                </div>
 				<ul class="search1 visible-xs">
 					<li><i class="fa fa-search"></i></li>
                     <li class="msg">
@@ -134,16 +137,16 @@
                     <!--<li class="search">
                         <a href="#">SEARCH</span>
                         <span class="search_item">
-                            <?php echo $this->getChildHtml('topSearch') ?> 
+                            <?php echo $this->getChildHtml('topSearch') ?>
                         </span>
                     </li>-->
                 </ul>
 				 <!--<div class="search_item">
-					<?php echo $this->getChildHtml('topSearch') ?> 
+					<?php echo $this->getChildHtml('topSearch') ?>
 				</div>-->
                 <div class="search hidden-ph">
                     <div class="search_item">
-                        <?php echo $this->getChildHtml('topSearch') ?>  
+                        <?php echo $this->getChildHtml('topSearch') ?>
                     </div>
                 </div>
                 <!--
@@ -161,7 +164,7 @@
             <!-- /header right -->
 			 <div class="search hidden-lg customSearch visible-xs">
 				<div class="search_item">
-					<?php echo $this->getChildHtml('topSearch') ?>  
+					<?php echo $this->getChildHtml('topSearch') ?>
 				</div>
 			</div>
         </header>
@@ -173,7 +176,20 @@
 
 <?php if ($this->getIsHomePage()):?>
 <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('carrousel_area')->toHtml(); ?>
-<?php endif;?>   
+<?php endif;?>
 
 <?php //echo $this->getChildHtml('topMenu') ?>
 
+<script type="text/javascript">
+    jQuery('.header_right .search-toggle').on('click', function() {
+        if (jQuery('.header_right').hasClass('open')) {
+            jQuery('.header_right .search').hide();
+            jQuery('.header_right .right-info').css({marginTop: '25px'});
+            jQuery('.header_right').removeClass('open');
+        } else {
+            jQuery('.header_right .right-info').css({marginTop: '0'});
+            jQuery('.header_right .search').show();
+            jQuery('.header_right').addClass('open');
+        }
+    });
+</script>
