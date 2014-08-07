@@ -41,7 +41,7 @@
 .product-options .product-personalization-content {
 	width:auto;
 	margin:0px;
-	
+
 }
 button.button.btn-product-personalize {
 	float:left;
@@ -63,6 +63,9 @@ button.button.btn-product-personalize {
 .product-personalization {
  	background-color: #fff;
     position: relative;
+}
+.catalog-product-view .product-personalization {
+    background:transparent;
 }
 .product-personalization p.required {
 	text-align: left;
