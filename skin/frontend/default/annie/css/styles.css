@@ -92,8 +92,8 @@ h6            { font-size:11px; font-family: 'Avenir Next Condensed DemiBold', A
  button.btn-checkout span,
  .totals a {
     font-family: 'Avenir Next Condensed BoldItalic', Arial !important;
-    color: #80683c !important; 
-}   
+    color: #80683c !important;
+}
 
 /* Forms */
 form          { display:inline; }
@@ -2916,7 +2916,7 @@ display: none;
 .header_right .search-toggle { background:url(../images/search.png) no-repeat; height:23px; text-transform:uppercase; padding:3px 0 0 29px; font-weight:normal; font-size:12px; cursor:pointer; position:absolute; }
 
 .follow_us { margin: 0 auto; }
-.cms-index-index .follow_us p { display:inline-block; float:left; }
 @media (min-width: 960px) {
+    .cms-index-index .follow_us p { display:inline-block; float:left; }
     .cms-index-index .follow_us p span { padding-right:15px; }
 }
