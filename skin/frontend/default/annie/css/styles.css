@@ -2467,7 +2467,7 @@ button.btn-checkout span span{ padding:0px;}
     #strip{position:relative;top:832px; background:#fff;}
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
-    .follow_us span{color:#000;width:100%;}
+    .follow_us span{color:#000;width:100%;display:block;}
      .newsletter input[type="text"]{}
     .follow_us a.facebook{background: url('../images/fb1.png') repeat scroll 0 0 transparent;}
     .follow_us a.twitter{background: url('../images/tw1.png') repeat scroll 0 0 transparent;}
