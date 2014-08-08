@@ -2909,7 +2909,7 @@ display: none;
 }
 .header_right { min-width:233px; }
 .header_right .right-info { position:relative; margin-top:25px; }
-.header_right .right-info ul.account { top:-5px; }
+.header_right .right-info ul.account { top:-5px; margin: 0; }
 .header_right .search { display:none; }
 .header_right .search-toggle { background:url(../images/search.png) no-repeat; height:23px; text-transform:uppercase; padding:3px 0 0 29px; font-weight:normal; font-size:12px; cursor:pointer; position:absolute; }
 
