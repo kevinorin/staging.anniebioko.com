@@ -24,7 +24,6 @@
  */
 
 /* Reset ================================================================================= */
-* { margin:0; padding:0; font-family: 'Avenir Next Condensed Regular' !important; }
 
 @font-face {
     font-family: 'Avenir Next Condensed Regular';
@@ -59,12 +58,12 @@ a:hover       { text-decoration:none; }
 /* Headings */
 h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
-h1            { font-size:20px; font-family: 'Avenir Next Condensed DemiBold', Arial; }
-h2            { font-size:18px; font-family: 'Avenir Next Condensed DemiBold', Arial; }
-h3            { font-size:16px;}
-h4            { font-size:14px;}
-h5            { font-size:12px;}
-h6            { font-size:11px;}
+h1            { font-size:20px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
+h2            { font-size:18px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
+h3            { font-size:16px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h4            { font-size:14px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h5            { font-size:12px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h6            { font-size:11px; font-family: 'Avenir Next Condensed Regular', Arial;}
 
 /* Forms */
 form          { display:inline; }
@@ -2015,7 +2014,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .thumbs ul li+li{padding:0 0 0 10px;}
 .product_detail .description{width:392px; float:right; font-size:14px !important; color:#666666;  line-height:20px;
 padding-top: 40px;}
-.description h5{width:100%; float:left; font-family: 'source_sans_prosemibold'; font-weight:normal; font-size:14px; color:#000;/* padding-bottom:20px; */ letter-spacing:0.04em;}
+.description h5{width:100%; float:left; font-weight:normal; font-size:14px; color:#000;/* padding-bottom:20px; */ letter-spacing:0.04em;}
 .description p{/* float:left; line-height:20px; padding:0 0 15px 0 !important; */}
 .description ul{float:left; width:100%; list-style:none;}
 .description ul li{float:left; width:100%; padding:5px 0;}
