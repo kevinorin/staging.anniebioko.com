@@ -2231,33 +2231,39 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
 }
 
 @media only screen and (max-width : 640px) {
-.gen-slider-pager1-pos-bottom-right .control-nav{ display:none;}
-.banner_description .description_box { padding-top: 25px;}
-#carrousel_area .carrousel .banner_description { height: 158px; margin-left: -230px; width: 465px;}
-#carrousel_area .carrousel .annie_copy{ top:90px;}
-.banner_copy .content { margin-top: 40px;}
-.service ul li { padding: 60px 3%; width: 94%; min-height:165px;}
-.service ul li + li{ margin-left:0; margin-top:20px;}
-.footer { width: 89%;}
-.faq ul li label, .faq ul li .content{ width:100%;}
+    .gen-slider-pager1-pos-bottom-right .control-nav{ display:none;}
+    .banner_description .description_box { padding-top: 25px;}
+    #carrousel_area .carrousel .banner_description { height: 158px; margin-left: -230px; width: 465px;}
+    #carrousel_area .carrousel .annie_copy{ top:90px;}
+    .banner_copy .content { margin-top: 40px;}
+    .service ul li { padding: 60px 3%; width: 94%; min-height:165px;}
+    .service ul li + li{ margin-left:0; margin-top:20px;}
+    .footer { width: 89%;}
+    .faq ul li label, .faq ul li .content{ width:100%;}
 
-.contact .form, .contact .form ul li span, .contact .form ul li span + span, .contact .address{ width:100%;}
-.contact .form ul li span{ padding-bottom:30px;}
-.contact .form ul li span + span{ padding-bottom:0px;}
-.form-list .field, .form-list .input-box, .form-list input.input-text {    width: 100%;}
-.account-login .buttons-set a{ font-size:11px;}
-.col1-layout .product-view .product-shop { width: 44%;}
-.add-to-cart button.button{ margin-top:20px;}
-.product-options-bottom .add-to-cart button.button{ margin-top:0px;}
-.products-grid li.item { width: 44.1%;}
-.product-options-bottom{ width:225px;}
-.product-options { width: 232px;}
-.product-options-bottom .add-to-cart button.button { margin-top: 20px;}
-
+    .contact .form, .contact .form ul li span, .contact .form ul li span + span, .contact .address{ width:100%;}
+    .contact .form ul li span{ padding-bottom:30px;}
+    .contact .form ul li span + span{ padding-bottom:0px;}
+    .form-list .field, .form-list .input-box, .form-list input.input-text {    width: 100%;}
+    .account-login .buttons-set a{ font-size:11px;}
+    .col1-layout .product-view .product-shop { width: 44%;}
+    .add-to-cart button.button{ margin-top:20px;}
+    .product-options-bottom .add-to-cart button.button{ margin-top:0px;}
+    .products-grid li.item { width: 44.1%;}
+    .product-options-bottom{ width:225px;}
+    .product-options { width: 232px;}
+    .product-options-bottom .add-to-cart button.button { margin-top: 20px;}
+    .header header nav { width:150px !important; max-width:150px; }
 }
 
 @media only screen and (max-width : 568px) {
-.product-view .product-img-box .product-image-zoom{width:100%}
+    .product-view .product-img-box .product-image-zoom { width:100%; }
+    .header-container .header_right .search1.visible-xs { top:20px; }
+}
+
+@media only screen and (max-width : 350px) {
+    .header header nav { max-width:40px; }
+    .header-container .header_right .search1.visible-xs .fa-search { opacity:0; }
 }
 
 @media only screen and (max-width : 480px) {
