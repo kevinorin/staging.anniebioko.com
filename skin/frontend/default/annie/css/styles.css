@@ -85,9 +85,10 @@ h2            { font-size:18px; font-family: 'Avenir Next Condensed DemiBold', A
 h3            { font-size:16px; font-family: 'Avenir Next Condensed Regular', Arial;}
 h4            { font-size:14px; font-family: 'Avenir Next Condensed Regular', Arial;}
 h5            { font-size:12px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
-h6            { font-size:11px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h6            { font-size:11px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
 
- .add-to-cart button.button {
+ .add-to-cart button.button,
+ .account-login button span span {
     font-family: 'Avenir Next Condensed BoldItalic', Arial;
     color: #80683c; 
 }   
@@ -2060,7 +2061,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .description .social a{float:left; margin-right:13px;}
 .account-login .content  { background:#fff;}
 .account-login .content p{ font-family: 'Source Sans Pro',sans-serif; font-size: 13px; margin: 0 0 10px; text-align: left; text-transform: capitalize; letter-spacing: 0px;}
-.account-login button span span{ padding-top: 3px;}
+.account-login button span span{ padding: 4px;}
 .account-login .buttons-set a{ font-size:12px;}
 .fluid_container { max-width:100% !important; width:100% !important; min-height:100%; }
 .main-container form#firecheckout-form { text-transform:none; background:#fff; float:left; letter-spacing:0px; width:96%; padding:2% !important; text-align:left;}
@@ -2141,7 +2142,7 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
     /* Let's Beautify Our Form */
 .step-title {background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;}
 .buttons-set {width: 220px; padding-top:0 !important;}
-.f-left, .left {float: left !important; letter-spacing: normal; padding-bottom: 20px;}
+.f-left, .left {float: left !important; letter-spacing: normal;}
 
 @media only screen and (max-width : 1024px) {
 #carrousel_area .carrousel .banner_description{ height:225px; top:48px;}
