@@ -1955,7 +1955,6 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .footer li { display:inline; background:url(../images/bkg_pipe2.gif) 100% 60% no-repeat; padding:0 7px 0 4px; }
 .footer li.last { background:none !important; padding-right:0 !important; }
 .footer-container .bottom-container { margin:0 0 5px; }
-.footer .follow_us { float: none; margin: 0 auto; max-width: 395px;}
 .follow_us { }
 .follow_us span { color: #000; float: left; font-size: 14px; line-height: 42px;}
 .follow_us a.facebook { display:block;background: url('../images/fb1.png') no-repeat; height:39px;width:41px;}
@@ -2946,3 +2945,9 @@ display: none;
 .header_right .right-info ul.account { top:-5px; }
 .header_right .search { display:none; }
 .header_right .search-toggle { background:url(../images/search.png) no-repeat; height:23px; text-transform:uppercase; padding:3px 0 0 29px; font-weight:normal; font-size:12px; cursor:pointer; position:absolute; }
+
+.follow_us { float: left; margin: 0 auto; }
+.cms-index-index .follow_us p { display:inline-block; float:left; }
+@media (min-width: 960px) {
+    .cms-index-index .follow_us p span { padding-right:15px; }
+}
