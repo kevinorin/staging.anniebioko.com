@@ -20,6 +20,12 @@
 .md-modal-header .close {cursor: pointer;position: absolute;right: 10px;text-decoration: none;top:10px;z-index: 1000;background: url("images/close.png") no-repeat scroll 0 0 transparent;display: block;height: 8px;width: 8px;text-indent: -999em;border:none}
 #agreement-modal-body{max-height:200px;overflow:hidden; overflow-y:auto}
 
+#checkout-payment-method-load dd,
+#checkout-payment-method-load {
+	margin: 0;
+	padding: 0;
+}
+
 .left{float:left !important;}
 .right{float:right !important;}	
 .clear{clear:both !important;}
@@ -48,7 +54,7 @@
 
 /** BASE OPC ELEMENTS **/
 .opc-wrapper-opc{overflow: hidden;margin: 0 auto;}
-.opc-wrapper-opc *{font-family: 'avenirnextcondensed' !important; color:#80683c;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.opc-wrapper-opc *{font-family: 'Avenir Next Condensed Regular', Arial; color:#80683c;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 .opc-wrapper-opc label{color:#393939;font-weight:normal;font-size:14px;line-height: 1.25em;margin-bottom:2px;text-align: left;}
 .opc-wrapper-opc h3{color:#404040; font-size:16px;text-align:left;border-bottom:1px solid #b6b6b6;padding-bottom:8px;line-height: 1;margin-bottom: 20px; text-transform: uppercase;}
 .opc-wrapper-opc .validation-advice{font-weight:normal;text-align: left;}
@@ -57,13 +63,14 @@
 .opc-wrapper-opc input{box-shadow:none;background: none}
 .opc-wrapper-opc input:focus{box-shadow:none;}
 .opc-wrapper-opc .opc-col-left{ width: 100%;}
-.opc-wrapper-opc ul.form-list { max-width: 300px; }
+.opc-wrapper-opc ul.form-list { max-width: 300px; margin:0; padding:0;}
 .opc-wrapper-opc .opc-col-center{float: left;width:30%;margin-right:20px;margin-left:20px;}
 .opc-wrapper-opc .opc-col-right{float: left;width: 30%;margin-left:20px;}
 .opc-wrapper-opc a:hover{color:#80683c;}
 .opc-wrapper-opc input.input-text:focus, .opc-wrapper-opc select:focus, .opc-wrapper-opc  textarea:focus {background-color: #fff;}
 .opc-wrapper-opc span.validation-passed, .opc-wrapper-opc div.validation-passed{background-image:none}
-
+#billing-new-address-form ul { margin: 20px 0; padding: 0; }
+#billing-new-address-form fieldset { padding: 0; }
 
 /*FIX FOR INFORTIS THEMES*/
 #root-wrapper .in-col1 .opc-wrapper-opc input{height:36px !important}
@@ -214,7 +221,7 @@
 
 .opc-wrapper-opc .btn-checkout{display:block;width:100%;height:45px;}
 .opc-wrapper-opc .btn-checkout span{background:#80683c;-webkit-border-radius: 3px;border-radius: 3px;width:100%;line-height: 46px;padding: 0 !important;height: 45px;padding: 0;}
-.opc-wrapper-opc .btn-checkout span span{background:#80683c;color:#ffffff;font-size:18px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f}
+.opc-wrapper-opc .btn-checkout span span{color:#ffffff !important;font-size:18px;font-weight:bold;text-transform:uppercase;}
 .opc-wrapper-opc .buttons-set{border:none;margin-top:10px}
 
 .design_package_rwd .btn-checkout{padding:0 !important;}

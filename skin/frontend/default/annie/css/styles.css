@@ -88,9 +88,11 @@ h5            { font-size:12px; font-family: 'Avenir Next Condensed DemiBold', A
 h6            { font-size:11px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
 
  .add-to-cart button.button,
- .account-login button span span {
-    font-family: 'Avenir Next Condensed BoldItalic', Arial;
-    color: #80683c; 
+ .account-login button span span,
+ button.btn-checkout span,
+ .totals a {
+    font-family: 'Avenir Next Condensed BoldItalic', Arial !important;
+    color: #80683c !important; 
 }   
 
 /* Forms */
@@ -774,7 +776,6 @@ letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; tex
 .block .block-title strong span {}
 .block .block-title a { text-decoration:none !important; }
 .block .block-subtitle { margin:0; padding:5px 9px; font-size:1em; font-weight:bold; color:#0a263c; background:#fff; }
-.block .block-content { background:#f8f7f5; }
 .block .block-content li.item { padding:7px 9px;
 background-color:#fff; }
 .block .block-content .product-name { color:#1e7ec8; }
@@ -2218,7 +2219,7 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
     .product-options-bottom{ width:225px;}
     .product-options { width: 232px;}
     .product-options-bottom .add-to-cart button.button { margin-top: 20px;}
-    .header header nav { width:150px !important; max-width:150px; }
+    .header header nav { width:50px !important; max-width:60px; }
 }
 
 @media only screen and (max-width : 568px) {
