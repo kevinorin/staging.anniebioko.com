@@ -37,7 +37,7 @@
     var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
 </script>
 <div id="messages_product_view"><?php //echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
-<div class="product-view product_detail">   
+<div class="product-view product_detail">
     <?php     echo $this->getLayout()->getBlock("breadcrumbs")->toHtml(); ?>
 
     <div class="product-essential">
@@ -70,22 +70,27 @@
             <?php //echo $this->getTierPriceHtml() ?>
             <?php //echo $this->getChildHtml('extrahint') ?>
             <?php //echo $this->getChildHtml('addtocart') ?>
-            <?php echo $this->getChildHtml('other');?>
 
             <?php if ($_product->isSaleable() && $this->hasOptions()):?>
                 <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
             <?php endif;?>
-			
+
         </div>
 
         <div class="product-img-box">
             <?php echo $this->getChildHtml('media') ?>
         </div>
-        <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
-        <?php endif;?>
-   
- 
+
+        <div class="product-shop options">
+            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+                <?php echo $this->getChildHtml('other') ?>
+                <?php echo $this->getChildHtml('prices') ?>
+                <?php echo $this->getChildHtml('addtocart') ?>
+                <?php echo $this->getChildHtml('addto') ?>
+            <?php endif;?>
+        </div>
+
     </form>
     <script type="text/javascript">
     //<![CDATA[
