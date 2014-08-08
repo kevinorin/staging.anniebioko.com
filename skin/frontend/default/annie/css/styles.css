@@ -58,13 +58,13 @@ a:hover       { text-decoration:none; }
 
 /* Headings */
 h1,h2,h3,
-h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c; font-family: 'Avenir Next Condensed DemiBold', Arial; }
-h1            { font-size:20px; font-weight:normal; }
-h2            { font-size:18px; font-weight:normal; }
-h3            { font-size:16px; font-weight:bold; }
-h4            { font-size:14px; font-weight:bold; }
-h5            { font-size:12px; font-weight:bold; }
-h6            { font-size:11px; font-weight:bold; }
+h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
+h1            { font-size:20px; font-family: 'Avenir Next Condensed DemiBold', Arial; }
+h2            { font-size:18px; font-family: 'Avenir Next Condensed DemiBold', Arial; }
+h3            { font-size:16px;}
+h4            { font-size:14px;}
+h5            { font-size:12px;}
+h6            { font-size:11px;}
 
 /* Forms */
 form          { display:inline; }
@@ -1878,7 +1878,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 /* Footer ================================================================================ */
 .footer-container { background: none repeat scroll 0 0 #fff; padding: 12px 0; text-transform: uppercase; width: 100%;}
-.footer {  margin: 0 auto; font-family: 'proxima_nova_altsemibold';    width: 70%; }
+.footer {  margin: 0 auto; width: 70%; }
 .footer .store-switcher { display:inline; margin:0 5px 0 0; color:#fff; }
 .footer .store-switcher label { font-weight:bold; vertical-align:middle; }
 .footer .store-switcher select { padding:0; vertical-align:middle; }
@@ -1994,27 +1994,26 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .newsletter input[type="text"]{float:left; width:120px; height:27px; padding-left:10px; font-size:11px; letter-spacing:2px; border:none; background:none;}
 .newsletter input[type="submit"]{float:right; border:none; background:none; width:113px; height:40px; cursor:pointer;}
 #grey_area{ display: none; width:100%; float:left; background:#e5e5e5; padding:30px 0 70px 0; text-align:center; color:#000; text-transform:uppercase; letter-spacing:2px;}
-#grey_area h1{float:left; width:100%; padding-bottom:20px; padding-top:60px; font-size:24px; letter-spacing:0.28em; font-family: 'proxima_nova_altsemibold'; font-weight:normal;}
-#grey_area p {float: left;padding: 0 23%; font-family: 'proxima_nova_rgregular'; letter-spacing:0.2em}
+#grey_area h1{float:left; width:100%; padding-bottom:20px; padding-top:60px; font-size:24px; letter-spacing:0.28em; font-weight:normal;}
+#grey_area p {float: left;padding: 0 23%;letter-spacing:0.2em}
 .cms-home #carrousel_area { display: none; }
 #carrousel_area .carrousel .annie_copy{color:#000000; left:50%; margin-left:-183px; position:absolute; text-align:center; top:180px; width:366px; text-transform: uppercase;}
-.annie_copy span {float: left; font-size:14px; width: 100%; letter-spacing:0.2em; font-family: 'proxima_nova_alt_rgbold';}
-.annie_copy h2 {float: left; font-size: 24px; letter-spacing: 0.25em; padding: 18px 0 36px; width: 100%; font-weight:normal; font-family: 'proxima_nova_altsemibold';}
+.annie_copy span {float: left; font-size:14px; width: 100%; letter-spacing:0.2em; }
+.annie_copy h2 {float: left; font-size: 24px; letter-spacing: 0.25em; padding: 18px 0 36px; width: 100%; font-weight:normal;}
 .annie_copy a {border: 1px solid #000000; color: #000000; display: inline-block; font-size:14px; letter-spacing: 0.04em; line-height: 22px;
-    padding: 10px 0; text-align: center; text-decoration: none; width: 241px; font-family: 'proxima_nova_altsemibold';}
+    padding: 10px 0; text-align: center; text-decoration: none; width: 241px;}
 .product_detail{width:88%; float:left; background:#fff; padding:6%; text-align:left; font-size:14px; letter-spacing:0.04em; text-transform:none; color:#000;}
 .product_detail .product_main{width:384px; float:left;}
-.product_main .breadcrumb{color: #666666; float: left; font-family: 'source_sans_prosemibold'; font-size: 12px; padding-bottom: 33px; text-transform: uppercase; width: 100%;}
+.product_main .breadcrumb{color: #666666; float: left; font-size: 12px; padding-bottom: 33px; text-transform: uppercase; width: 100%;}
 .product_main .breadcrumb a{float:left; padding-right:6px; color:#666666; text-decoration:none;}
 .product_main .breadcrumb a:hover{color:#010000;}
-.product_main .breadcrumb strong{color: #000000;
-    font-family: 'source_sans_prosemibold';}
+.product_main .breadcrumb strong{color: #000000;}
 .product_detail .thumbs{width:100%; float:left;}
 .thumbs .title{width:100%; float:left; font-size:12px; color:#666666; text-transform:uppercase; padding-bottom:15px;}
 .thumbs ul{width:100%; float:left; list-style:none;}
 .thumbs ul li{float:left;}
 .thumbs ul li+li{padding:0 0 0 10px;}
-.product_detail .description{width:392px; float:right; font-size:14px !important; color:#666666; letter-spacing: normal; font-family: 'Source Sans Pro',sans-serif; line-height:20px;
+.product_detail .description{width:392px; float:right; font-size:14px !important; color:#666666;  line-height:20px;
 padding-top: 40px;}
 .description h5{width:100%; float:left; font-family: 'source_sans_prosemibold'; font-weight:normal; font-size:14px; color:#000;/* padding-bottom:20px; */ letter-spacing:0.04em;}
 .description p{/* float:left; line-height:20px; padding:0 0 15px 0 !important; */}
@@ -2066,42 +2065,42 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 
 /***************************checkout************************/
 
-.title-buttons h3{ color: #010000;  font-family: 'proxima_nova_alt_rgbold'; font-size: 14px; font-weight: normal; text-transform: uppercase;}
+.title-buttons h3{ color: #010000; font-size: 14px; font-weight: normal; text-transform: uppercase;}
 .data-table thead th{ background:none;}
 .data-table{ border:none;}
 .data-table thead th{ border-right:none; border-bottom:solid 1px #a3a3a3;}
 .data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #a3a3a3 !important;}
 .data-table tbody th, .data-table tbody td{ border:none;}
 .data-table tfoot tr.first td{ background:none;}
-.nobr{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase; }
-.data-table thead th{ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; text-transform: uppercase;}
+.nobr{ color: #666666; font-size: 13px; font-weight: normal; text-transform: uppercase; }
+.data-table thead th{ color: #666666;font-size: 13px; font-weight: normal; text-transform: uppercase;}
 .block{ border:none;}
 .block-viewed .block-title strong{ background:none;}
-.block .block-title strong{ font-family: 'proxima_nova_alt_rgbold'; font-size:14px; color:#010000; padding:0px;}
-.product-name a{ font-family: 'source_sans_proregular'; font-size:14px; color:#010000;font-weight: normal; line-height:18px; text-decoration:none;}
-.price{ font-family: 'source_sans_proregular'; font-size:14px; color:#707070;}
-table#shopping-cart-table td.a-center a{ font-size:12px;font-family: 'source_sans_proregular'; color:#000000;}
+.block .block-title strong{ font-size:14px; color:#010000; padding:0px;}
+.product-name a{ font-size:14px; color:#010000;font-weight: normal; line-height:18px; text-decoration:none;}
+.price{ font-size:14px; color:#707070;}
+table#shopping-cart-table td.a-center a{ font-size:12px; color:#000000;}
 .cart .totals{ width:100%; background:none; border:none;}
 .cart .totals td{ padding:0px 15px 10px 7px;}
 .btn-remove2{ background:none; text-decoration:none;}
 .btn-remove2 :hover a{ text-decoration:none;}
-.cart-table .product-name{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
+.cart-table .product-name{ font-size:14px; color:#000; letter-spacing:0px;}
 .data-table tfoot{ border:none; display:none;}
 .button.btn-checkout { background:none; color:#80683c; text-transform: capitalize; font-style: italic;}
 .block .block-title{ margin-top:25px;}
 .account-login .new-users h2{ background:none;}
-.account-login .content h2{ font-family: 'source_sans_proregular'; font-size:14px; color:#232222; padding:0 0px 5px 0px;}
+.account-login .content h2{ font-size:14px; color:#232222; padding:0 0px 5px 0px;}
 .form-list input.input-text{ width:210px; height:26px; padding:2px;}
 .account-login .content p{ color:#707070;}
 .form-list label{ font-size:13px; color:#666666; font-weight:normal;}
 .account-login .buttons-set{ background:none;}
 .account-login .registered-users h2{ background:none;}
-.account-login .buttons-set a{ font-family: 'source_sans_proregular'; font-size:14px; color:#000; letter-spacing:0px;}
+.account-login .buttons-set a{ font-size:14px; color:#000; letter-spacing:0px;}
 .account-login button span span{float: left; color:#80683c; display: block;padding-bottom: 0px; font-style: italic;}
 ol#checkoutSteps{ background:#ffffff; padding:50px 75px;}
 ol#checkoutSteps li#opc-login .form-list label { color: #666666; font-size: 13px; font-weight: normal;}
 ol#checkoutSteps li#opc-login a.f-left{ color:#000000; text-decoration:underline; font-size:13px;}
-ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px solid #000000; font-size:14px;font-family: 'proxima_nova_altsemibold'; text-transform:uppercase;}
+ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px solid #000000; font-size:14px; text-transform:uppercase;}
 /***************************checkout end************************/
 
 .step-title{border-bottom:1px solid #a3a3a3 !important; border-top:none !important; border-left:none !important; border-right:none !important;}
