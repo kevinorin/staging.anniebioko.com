@@ -2927,3 +2927,11 @@ display: none;
     .cms-index-index .follow_us p { display:inline-block; float:left; }
     .cms-index-index .follow_us p span { padding-right:15px; }
 }
+
+@media only screen and (max-width: 350px) {
+    .header-container .header_right .search1.visible-xs .fa-search { opacity:1; }
+    .header-container .header_right .search1.visible-xs > li { padding-top:2px; }
+    .header-container .header_right .search1.visible-xs { top:0; }
+    .header header .logo { width:150px; }
+    .menu-collapser { top:-5px; }
+}
