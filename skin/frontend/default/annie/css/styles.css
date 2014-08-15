@@ -37,37 +37,17 @@
 }
 
 @font-face {
-    font-family: 'Avenir Next Condensed DemiBold';
-    src: url('../fonts/AvenirNextCondensed-DemiBold.eot');
-    src: url('../fonts/AvenirNextCondensed-DemiBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AvenirNextCondensed-DemiBold.woff') format('woff'),
-         url('../fonts/AvenirNextCondensed-DemiBold.ttf') format('truetype'),
-         url('../fonts/AvenirNextCondensed-DemiBold.svg#avenir_next_condensed_regular') format('svg');
+    font-family: 'Avenir Next Condensed UltraLight';
+    src: url('../fonts/AvenirNextCondensed-UltraLight.eot');
+    src: url('../fonts/AvenirNextCondensed-UltraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AvenirNextCondensed-UltraLight.woff') format('woff'),
+         url('../fonts/AvenirNextCondensed-UltraLight.ttf') format('truetype'),
+         url('../fonts/AvenirNextCondensed-UltraLight.svg#avenir_next_condensed_regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Avenir Next Condensed BoldItalic';
-    src: url('../fonts/AvenirNextCondensed-BoldItalic.eot');
-    src: url('../fonts/AvenirNextCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AvenirNextCondensed-BoldItalic.woff') format('woff'),
-         url('../fonts/AvenirNextCondensed-BoldItalic.ttf') format('truetype'),
-         url('../fonts/AvenirNextCondensed-BoldItalic.svg#avenir_next_condensed_regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir Next Condensed Bold';
-    src: url('../fonts/AvenirNextCondensed-Bold.eot');
-    src: url('../fonts/AvenirNextCondensed-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AvenirNextCondensed-Bold.woff') format('woff'),
-         url('../fonts/AvenirNextCondensed-Bold.ttf') format('truetype'),
-         url('../fonts/AvenirNextCondensed-Bold.svg#avenir_next_condensed_regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@
 
 body {font-family: 'Avenir Next Condensed Regular', Arial;}
 
@@ -80,18 +60,18 @@ a:hover       { text-decoration:none; }
 /* Headings */
 h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
-h1            { font-size:20px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
-h2            { font-size:18px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
-h3            { font-size:16px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h1            { font-size:20px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h2            { font-size:18px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h3            { font-size:16px; font-family: 'Avenir Next Condensed UltraLight', Arial;}
 h4            { font-size:14px; font-family: 'Avenir Next Condensed Regular', Arial;}
-h5            { font-size:12px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
-h6            { font-size:11px; font-family: 'Avenir Next Condensed DemiBold', Arial;}
+h5            { font-size:12px; font-family: 'Avenir Next Condensed Regular', Arial;}
+h6            { font-size:11px; font-family: 'Avenir Next Condensed Regular', Arial;}
 
  .add-to-cart button.button,
  .account-login button span span,
  button.btn-checkout span,
  .totals a {
-    font-family: 'Avenir Next Condensed BoldItalic', Arial !important;
+    font-family: 'Avenir Next Condensed Regular', Arial !important;
     color: #80683c !important;
 }
 
