@@ -65,7 +65,7 @@ h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
 h1            { font-size:20px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
-h3            { font-size:16px; font-family: 'Avenir Next UltraLight', Arial, sans-serif;}
+h3            { font-size:16px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h4            { font-size:14px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h5            { font-size:12px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
@@ -755,7 +755,7 @@ letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; tex
 /* Sidebar =============================================================================== */
 .block { border:1px solid #c4c1bc; margin:0 0 15px; }
 .block .block-title { /* background:url(../images/bkg_block-title.gif) 0 0 repeat-x; */ background:#fff; border-bottom:1px solid #ddd; padding:2px 9px; }
-.block .block-title strong { display:block; font:bold 12px/16px Arial, Helvetica, sans-serif; min-height:16px; padding:1px 0 1px; text-transform:uppercase; color:#e26703; }
+.block .block-title strong { display:block; font-size:16px; font-family: 'Avenir Next Regular', Arial, sans-serif; min-height:16px; padding:1px 0 1px; text-transform:uppercase; color:#e26703; }
 .block .block-title strong span {}
 .block .block-title a { text-decoration:none !important; }
 .block .block-subtitle { margin:0; padding:5px 9px; font-size:1em; font-weight:bold; color:#0a263c; background:#fff; }
