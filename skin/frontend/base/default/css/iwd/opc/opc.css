@@ -220,8 +220,8 @@
 .opc-wrapper-opc .btn span span{background:#80683c;color:#ffffff;font-size:12px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 10px}
 
 .opc-wrapper-opc .btn-checkout{display:block;width:100%;height:45px;}
-.opc-wrapper-opc .btn-checkout span{background:#80683c;-webkit-border-radius: 3px;border-radius: 3px;width:100%;line-height: 46px;padding: 0 !important;height: 45px;padding: 0;}
-.opc-wrapper-opc .btn-checkout span span{color:#ffffff !important;font-size:18px;font-weight:bold;text-transform:uppercase;}
+.opc-wrapper-opc .btn-checkout span{width:100%;line-height: 46px;padding: 0 !important;height: 45px;padding: 0;}
+.opc-wrapper-opc .btn-checkout span span{color:#80683c !important;font-size:18px;font-weight:bold;text-transform:uppercase;}
 .opc-wrapper-opc .buttons-set{border:none;margin-top:10px}
 
 .design_package_rwd .btn-checkout{padding:0 !important;}
