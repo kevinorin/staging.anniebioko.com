@@ -42,7 +42,7 @@
     src: url('../fonts/AvenirNextCondensed-UltraLight.eot?#iefix') format('embedded-opentype'),
          url('../fonts/AvenirNextCondensed-UltraLight.woff') format('woff'),
          url('../fonts/AvenirNextCondensed-UltraLight.ttf') format('truetype'),
-         url('../fonts/AvenirNextCondensed-UltraLight.svg#avenir_next_condensed_regular') format('svg');
+         url('../fonts/AvenirNextCondensed-UltraLight.svg#avenir_next_condensed_ultralight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
