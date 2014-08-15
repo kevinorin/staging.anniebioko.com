@@ -49,7 +49,9 @@
 
 @
 
-body {font-family: 'Avenir Next Regular', Arial;}
+body, p {
+    font-family: 'Avenir Next UltraLight', Arial, sans-serif;
+}
 
 img           { border:0; vertical-align:top; }
 
