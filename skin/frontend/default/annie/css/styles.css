@@ -60,12 +60,12 @@ a:hover       { text-decoration:none; }
 /* Headings */
 h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
-h1            { font-size:20px; font-family: 'Avenir Next Regular', Arial;}
-h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial;}
-h3            { font-size:16px; font-family: 'Avenir Next Condensed UltraLight', Arial;}
-h4            { font-size:14px; font-family: 'Avenir Next Regular', Arial;}
-h5            { font-size:12px; font-family: 'Avenir Next Regular', Arial;}
-h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial;}
+h1            { font-size:20px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
+h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
+h3            { font-size:16px; font-family: 'Avenir Next UltraLight', Arial, sans-serif;}
+h4            { font-size:14px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
+h5            { font-size:12px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
+h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 
  .add-to-cart button.button,
  .account-login button span span,
@@ -1168,7 +1168,7 @@ font-style: italic;}
 .product-view .product-img-box .zoom #handle { position:absolute; left:0; top:-1px; width:9px; height:22px; background:url(../images/magnifier_handle.gif) 0 0 no-repeat;  }
 .product-view .product-img-box .zoom .btn-zoom-out { position:absolute; left:2px; top:0; }
 .product-view .product-img-box .zoom .btn-zoom-in { position:absolute; right:2px; top:0; }
-.product-view .product-img-box .more-views h2 { font-size: 12px; margin: 0 0 8px; text-transform:uppercase; letter-spacing:0.05em; font-family: 'Source Sans Pro',sans-serif; font-weight:normal; color:#666666; }
+.product-view .product-img-box .more-views h2 { font-size: 12px; margin: 0 0 8px; text-transform:uppercase; letter-spacing:0.05em; font-family: 'Avenir Next Regular', Arial, sans-serif; font-weight:normal; color:#666666; }
 .product-view .product-img-box .more-views ul { margin-left:-9px }
 
 .product-view .product-img-box .more-views li { float:left; margin:0 0 8px 9px; }
@@ -1587,7 +1587,7 @@ background: none repeat scroll 0 0 #F2F2F2; border-color: #A3AEB3; border-image:
 .opc .step .tool-tip { right:30px; }
 
 #opc-login .buttons-set { border-top:0; }
-#opc-login h3 {/*border-bottom: 1px solid #E4E4E4;*/ color: #666666; font-family: 'source_sans_prosemibold'; font-size: 13px; font-weight: normal; padding-bottom: 2px;
+#opc-login h3 {/*border-bottom: 1px solid #E4E4E4;*/ color: #666666; font-family: 'Avenir Next Regular', Arial, sans-serif; font-size: 13px; font-weight: normal; padding-bottom: 2px;
 text-transform: uppercase;}
 #opc-login h4 { font-size:1em; font-weight:bold; margin:0; color:#2f2f2f; }
 
@@ -2048,7 +2048,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .description .social{width:100%; margin-top:30px; float:left;}
 .description .social a{float:left; margin-right:13px;}
 .account-login .content  { background:#fff;}
-.account-login .content p{ font-family: 'Source Sans Pro',sans-serif; font-size: 13px; margin: 0 0 10px; text-align: left; text-transform: capitalize; letter-spacing: 0px;}
+.account-login .content p{ font-family: 'Avenir Next Regular', Arial, sans-serif; font-size: 13px; margin: 0 0 10px; text-align: left; text-transform: capitalize; letter-spacing: 0px;}
 .account-login button span span{ padding: 4px;}
 .account-login .buttons-set a{ font-size:12px;}
 .fluid_container { max-width:100% !important; width:100% !important; min-height:100%; }
