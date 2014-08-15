@@ -76,6 +76,7 @@ h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial, sans-
  .totals a {
     font-family: 'Avenir Next Regular', Arial !important;
     color: #80683c !important;
+    font-style: italic;
 }
 
 /* Forms */
