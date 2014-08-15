@@ -77,7 +77,7 @@
 
 /** LOGIN FORM **/
 .opc-wrapper-opc .text-login{color:#6b6b6b; font-size:14px; font-weight:400;}
-.opc-wrapper-opc .text-login a{color:#80683c;text-transform:uppercase;font-weight:600;text-decoration: none;cursor:pointer;}
+.opc-wrapper-opc .text-login a{color:#80683c;text-transform:uppercase;font-weight:600;text-decoration: none;cursor:pointer;font-style: italic;}
 .opc-wrapper-opc .form-list .input-box{width:100%}
 .opc-wrapper-opc .form-list .input-box input[type="text"],
 .opc-wrapper-opc .form-list .input-box input[type="password"]{width:100%}
