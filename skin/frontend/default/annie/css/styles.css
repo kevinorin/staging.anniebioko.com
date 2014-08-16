@@ -2895,6 +2895,7 @@ button.button{position:absolute}
     position: relative;
 }
 .product-personalization .product-personalization-content, .product-options .product-personalization-content{width:100% !important}
+.catalog-product-view .product-shop.options { width:400px; }
 
 #shopping-cart-table tr th:nth-child(1),
 #shopping-cart-table tr td:nth-child(3) {
