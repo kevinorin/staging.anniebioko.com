@@ -97,7 +97,7 @@
                 
                 <div class="detais">
                                 <h6><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h6>
-                                <p>consists a motif design in many West African cloth worn by women...</p>
+                                <p><?php echo $_product->getShortDescription() ?></p>
                 </div>
 
 
