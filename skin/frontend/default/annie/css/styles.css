@@ -2948,6 +2948,13 @@ display: none;
   margin: 5px !important;
 }
 
+#photos img:nth-child(2), #photos img:nth-child(7) {
+    height: 200px !important;
+}
+#photos img:nth-child(3), #photos img:nth-child(5) {
+    height: 150px !important;
+}
+
 @media (max-width: 1200px) {
   #photos {
   -moz-column-count:    4;
