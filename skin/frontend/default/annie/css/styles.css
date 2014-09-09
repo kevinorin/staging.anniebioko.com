@@ -2945,7 +2945,7 @@ display: none;
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
-  margin: 5px 5px 0;
+  margin: 5px !important;
 }
 
 @media (max-width: 1200px) {
