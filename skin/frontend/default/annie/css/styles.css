@@ -2021,7 +2021,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .annie_copy h2 {float: left; font-size: 24px; letter-spacing: 0.25em; padding: 18px 0 36px; width: 100%; font-weight:normal;}
 .annie_copy a {border: 1px solid #000000; color: #000000; display: inline-block; font-size:14px; letter-spacing: 0.04em; line-height: 22px;
     padding: 10px 0; text-align: center; text-decoration: none; width: 241px;}
-.product_detail{width:88%; float:left; background:#fff; padding:6%; text-align:left; font-size:14px; letter-spacing:0.04em; text-transform:none; color:#000;}
+.product_detail{width:88%; float:left; background:#fff; padding:0 6% 6% 6%; text-align:left; font-size:14px; letter-spacing:0.04em; text-transform:none; color:#000;}
 .product_detail .product_main{width:384px; float:left;}
 .product_main .breadcrumb{color: #666666; float: left; font-size: 12px; padding-bottom: 33px; text-transform: uppercase; width: 100%;}
 .product_main .breadcrumb a{float:left; padding-right:6px; color:#666666; text-decoration:none;}
