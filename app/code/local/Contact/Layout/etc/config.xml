@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<config>
+    <modules>
+        <1Col_Contact>
+            <version>0.0.1</version>
+        </1Col_Contact>
+    </modules>
+    <global>
+        <page>
+            <layouts> 
+                <lookbook module="page" translate="label">
+                    <label>Lookbook</label>
+                    <template>page/1column-lookbook.phtml</template>
+                    <layout_handle>lookbook</layout_handle>
+                </lookbook> 
+            </layouts>
+        </page>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <1Col_Contact>
+                    <file>1Col_Contact.xml</file>
+                </1Col_Contact>
+            </updates>
+        </layout>
+    </frontend>
+</config>
