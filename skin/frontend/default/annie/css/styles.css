@@ -2420,6 +2420,13 @@ button.btn-checkout span span{ padding:0px;}
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
     .follow_us span{color:#000;}
+    .follow_us img {
+        width: 24px;
+        position: relative;
+        margin: -5px 0 0 0 !important;
+        padding: 0 !important;
+        vertical-align: middle;
+    }
     .follow_us a.facebook{background: url('../images/fb1.png') repeat scroll 0 0 transparent;}
     .follow_us a.twitter{background: url('../images/tw1.png') repeat scroll 0 0 transparent;}
     .follow_us a.pintrest{background: url('../images/pint1.png') repeat scroll 0 0 transparent;}
