@@ -584,7 +584,12 @@ tr.summary-details-excluded { font-style:italic; }
 .header-container { background: none repeat scroll 0 0 #FFFFFF; border-bottom: 1px solid #DEDFE2; float: left; padding: 20px 0 0; position: relative; width: 100%;}
 .header { margin: 0 auto; width: 100%;}
 .header header{ float: left; width: 100%;}
-.header .logo { float:left; margin:3px 0 10px 12px; text-decoration:none !important; }
+.header .logo { position: absolute;
+    margin: 3px 0 10px 12px;
+    text-decoration: none !important;
+    width: 205px;
+    margin-left: -103px;
+    left: 50%; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
 .header h1.logo { margin:0; }
 .header .quick-access { float:right; width:600px; padding:28px 10px 0 0; }
@@ -612,7 +617,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header-container .top-container { clear:both; padding:5px 10px 0 12px; text-align:right; }
 .header-container .top-container a { font-size:11px; color:#ebbc58; }
 
-.header header nav{width:328px; float:left; font-size:13px; color:#353535; text-transform:uppercase;}
+.header header nav{max-width: 265px; float:left; font-size:13px; color:#353535; text-transform:uppercase;}
 .header header nav ul{ float:left; list-style:none;}
 .header header nav ul li{float:left; padding: 25px 10px;}
 .header header nav ul li:first-child{padding-left:0;}
