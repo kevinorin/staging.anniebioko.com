@@ -2014,8 +2014,8 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .follow_us a{margin-left:18px;}
 #mailing_list{width:454px; float:right;}
 #mailing_list label{float:left; line-height:42px; font-size:14px; color:#000;}
-#mailing_list .newsletter{border:1px solid #80683c; float:right; background:url(../images/mailing_list.png) 0 0 no-repeat; width:254px; height:40px; line-height:40px;}
-.newsletter input[type="text"]{float:left; width:120px; height:27px; padding-left:10px; font-size:11px; letter-spacing:2px; border:none; background:none;}
+#mailing_list .newsletter{border:1px solid #80683c; float:right; background:url(../images/mailing_list.png) 0 0 no-repeat; background-position: 0px center; width:254px; height:30px; line-height:30px;}
+.newsletter input[type="text"]{float:left; width:120px; height:25px; padding-left:10px; font-size:11px; letter-spacing:2px; border:none; background:none;}
 .newsletter input[type="submit"]{float:right; border:none; background:none; width:113px; height:40px; cursor:pointer;}
 #grey_area{ display: none; width:100%; float:left; background:#e5e5e5; padding:30px 0 70px 0; text-align:center; color:#000; text-transform:uppercase; letter-spacing:2px;}
 #grey_area h1{float:left; width:100%; padding-bottom:20px; padding-top:60px; font-size:24px; letter-spacing:0.28em; font-weight:normal;}
