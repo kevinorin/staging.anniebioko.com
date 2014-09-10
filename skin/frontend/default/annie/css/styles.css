@@ -2358,66 +2358,61 @@ button.btn-checkout span span{ padding:0px;}
 }
 .header_right .search{ width:0; margin-left:50px;}
 .header_right .search span{ display:none;}
-.header .logo{ margin-left:35px;}
 .search .search_item{ right:0px;}
 }
 
 @media only screen and (max-width : 568px) {
-.mini-cart{ width: 30%;}
-.header header nav ul li{ padding:20px 12px;}
-.header header .header_right {
-    float: right;
-    width: 90px;
-}
-.header_right .search {
-    margin-left: 0;
-}
+    .mini-cart{ width: 30%;}
+    .header header nav ul li{ padding:20px 12px;}
+    .header header .header_right {
+        float: right;
+        width: 90px;
+    }
+    .header_right .search {
+        margin-left: 0;
+    }
 }
 
 @media only screen and (max-width : 480px) {
-.mini-cart{ width: 36%;}
-#billing-new-address-form ul { float: left; width: 290px !important;}
-.header header nav ul li{ padding:20px 12px;}
-#checkout-step-billing ul.form-list li#billing-new-address-form .input-box input.input-text{ width:100% !important;}
-.opc .step{ padding:15px 0px;}
-.form-list li.wide .input-box { width: 100%;}
-#billing-new-address-form ul { float: left; width: 98% !important;}
-#checkout-step-billing #billing-new-address-form{ width:100%;}
-.col2-set .col-1{ width:100%;}
-.col2-set .col-2{ width:100%; margin-top:25px;}
+    .mini-cart{ width: 36%;}
+    #billing-new-address-form ul { float: left; width: 290px !important;}
+    .header header nav ul li{ padding:20px 12px;}
+    #checkout-step-billing ul.form-list li#billing-new-address-form .input-box input.input-text{ width:100% !important;}
+    .opc .step{ padding:15px 0px;}
+    .form-list li.wide .input-box { width: 100%;}
+    #billing-new-address-form ul { float: left; width: 98% !important;}
+    #checkout-step-billing #billing-new-address-form{ width:100%;}
+    .col2-set .col-1{ width:100%;}
+    .col2-set .col-2{ width:100%; margin-top:25px;}
 
-.cart { overflow-x: scroll; width: 100%;}
-.col-right { float: left; width: 100%;}
-ol#checkoutSteps li#opc-login a.f-left{ width:100%; text-align:left;}
+    .cart { overflow-x: scroll; width: 100%;}
+    .col-right { float: left; width: 100%;}
+    ol#checkoutSteps li#opc-login a.f-left{ width:100%; text-align:left;}
 
-#checkout-step-shipping #shipping-new-address-form{ width:100%;}
-#checkout-step-shipping .form-list input.input-text{ width:98% !important;}
-.form-list .field, .form-list .input-box, .form-list input.input-text{ width:100%;}
-#checkout-step-shipping #billing-new-address-form {width: 100%;}
-#checkout-step-shipping .form-list li.wide input.input-text {width: 98% !important;}
-.form-list .field{ float: left; width: 100% !important; margin-top:10px;}
-.input-box select{ width:100%; margin-top:6px;}
-.buttons-set button.button{ float:right;}
+    #checkout-step-shipping #shipping-new-address-form{ width:100%;}
+    #checkout-step-shipping .form-list input.input-text{ width:98% !important;}
+    .form-list .field, .form-list .input-box, .form-list input.input-text{ width:100%;}
+    #checkout-step-shipping #billing-new-address-form {width: 100%;}
+    #checkout-step-shipping .form-list li.wide input.input-text {width: 98% !important;}
+    .form-list .field{ float: left; width: 100% !important; margin-top:10px;}
+    .input-box select{ width:100%; margin-top:6px;}
+    .buttons-set button.button{ float:right;}
 
-#checkout-review-load > div{ width:100%; overflow-x:scroll; padding-bottom:12px;}
-#opc-review .buttons-set{ padding:0px;}
-#review-buttons-container{ width:100%;}
-button.btn-checkout span{ padding:0px;}
-ol#checkoutSteps button.button{ padding:12px 6px;}
-button.btn-checkout span span{ padding:0px 0px 0px 0px;}
+    #checkout-review-load > div{ width:100%; overflow-x:scroll; padding-bottom:12px;}
+    #opc-review .buttons-set{ padding:0px;}
+    #review-buttons-container{ width:100%;}
+    button.btn-checkout span{ padding:0px;}
+    ol#checkoutSteps button.button{ padding:12px 6px;}
+    button.btn-checkout span span{ padding:0px 0px 0px 0px;}
 
-ol#checkoutSteps button.button{ float:right;}
-.header{ width:94%;}
-.header header nav{ width:125px;}
-.header .logo {
-    margin-left: 12px;
-}
-.header header .header_right {
-    float: right;
-    width: 80px;
-}
+    ol#checkoutSteps button.button{ float:right;}
+    .header{ width:94%;}
+    .header header nav{ width:125px;}
 
-
+    .header header .header_right {
+        float: right;
+        width: 80px;
+    }
 }
 
 @media only screen and (max-width : 360px) {
@@ -2572,7 +2567,6 @@ ul.account{float:none; display:inline-block}
 .header header nav{width:80px; line-height:normal !important}
 .menu-collapser{text-indent:-999px; width:auto !important}
 .collapse-button{position:relative !important; margin-top:19px}
-.header .logo { margin: 0 auto !important; position: relative; width: 205px;}
 
 .header_right{width:auto;}
 .hidden-ph{display:none}
