@@ -72,10 +72,10 @@ h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial, sans-
 
 /* Hide Slider Controls */
 .gen-slider-pager1-pos-bottom-right .control-nav { display: none !important; }
- .add-to-cart button.button,
- .account-login button span span,
- button.btn-checkout span,
- .totals a {
+.add-to-cart button.button,
+.account-login button span span,
+button.btn-checkout span,
+.totals a {
     font-family: 'Avenir Next Regular', Arial !important;
     color: #80683c !important;
     font-style: italic;
