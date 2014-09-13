@@ -70,6 +70,8 @@ h4            { font-size:14px; font-family: 'Avenir Next Regular', Arial, sans-
 h5            { font-size:12px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 
+/* Hide Slider Controls */
+.gen-slider-pager1-pos-bottom-right .control-nav { display: none !important; }
  .add-to-cart button.button,
  .account-login button span span,
  button.btn-checkout span,
