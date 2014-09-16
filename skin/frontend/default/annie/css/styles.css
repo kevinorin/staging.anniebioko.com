@@ -649,7 +649,7 @@ ul.account li a { color: #353535; font-size: 13px; text-decoration: none; letter
 .ballon, .ballon-text { display: inline-block; }
 
 .cms-collection #carrousel_area, .cms-journey #carrousel_area {display: none;}
-.collection-item {display:block; margin:0 auto; text-align:center; width:90%;}
+.collection-item {display:block; margin:0 auto; margin-bottom:30px; text-align:center; width:90%;}
 #carrousel_area{width:100%; float:left;}
 #carrousel_area .carrousel{width:100%; list-style:none; text-align:center; position:relative; float:left;}
 #carrousel_area1 .carrousel{width:100%; list-style:none; text-align:center; position:relative; float:left;}
