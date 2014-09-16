@@ -678,7 +678,7 @@ ul.account li a { color: #353535; font-size: 13px; text-decoration: none; letter
 .account-login  .content a:hover{background:none;color:#000000}
 .service{width:100%; float:left;}
 .service ul{width:100%; float:left; list-style:none;}
-.service ul li{width:264px; float:left; padding:60px 18px; /*min-height: 280px;*/ text-align:center; background:#fff;}
+.service ul li{width:264px; float:left; padding:60px 18px 30px; /*min-height: 280px;*/ text-align:center; background:#fff;}
 .service ul li+li{margin-left:20px;}
 .service ul li h2{width:100%; float:left; text-align:center; padding-top:10px; font-size:18px; color:#000; font-weight:normal;}
 .service ul li p{float:left; line-height:20px; color:#666666; padding:22px 0 0 0 !important; text-transform:none; font-size:14px;
