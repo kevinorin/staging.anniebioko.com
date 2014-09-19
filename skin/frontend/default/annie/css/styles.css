@@ -586,12 +586,15 @@ tr.summary-details-excluded { font-style:italic; }
 .header-container { background: none repeat scroll 0 0 #FFFFFF; border-bottom: 1px solid #DEDFE2; float: left; padding: 20px 0 0; position: relative; width: 100%;}
 .header { margin: 0 auto; width: 100%;}
 .header header{ float: left; width: 100%;}
-.header .logo { position: absolute;
+.header .logo { 
+    position: absolute;
     margin: 3px 0 10px 12px;
     text-decoration: none !important;
-    width: 205px;
-    margin-left: -103px;
-    left: 50%; }
+    width: 150px;
+    margin-left: -75px;
+    left: 50%;
+    top: 6px; 
+}
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
 .header h1.logo { margin:0; }
 .header .quick-access { float:right; width:600px; padding:28px 10px 0 0; }
