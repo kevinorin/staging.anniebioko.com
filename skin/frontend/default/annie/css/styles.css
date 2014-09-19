@@ -674,7 +674,7 @@ ul.account li a { color: #353535; font-size: 13px; text-decoration: none; letter
     display: inline-block; height: 10px; overflow: hidden; padding: 0; width: 11px;}
 .description_box .pagination a:hover{background-position:0 -10px;}
 
-.carrousel .banner_copy{width:56%; position:absolute; left:0; top:0;  background:#fff; height:100%;}
+.carrousel .banner_copy{width:50%; position:absolute; left:0; top:0;  background:#fff; height:100%;}
 .banner_copy .content{width:100%; float:left; text-align:center; margin-top:100px; color:#000; letter-spacing:0.25em; text-transform:uppercase;}
 .content h2{width:100%; float:left; font-size:24px; padding-bottom:22px;font-weight: normal;color: #000;}
 .content span{width:100%; float:left; font-size:14px; color:#666666; padding-bottom:24px; }
