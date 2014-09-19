@@ -148,7 +148,7 @@ ul,ol         { list-style:none; }
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
-.main-container { background: none repeat scroll 0 0 #ffffff; color: #000000; float: left; letter-spacing: 2px; padding: 30px 0 30px; /* text-align: center; text-transform: uppercase; */
+.main-container { background: none repeat scroll 0 0 #ffffff; color: #000000; float: left; letter-spacing: 2px; padding: 0 0 30px; /* text-align: center; text-transform: uppercase; */
 width: 100%; }
 .main {  margin: 0 auto; width: 940px;}
 
@@ -657,7 +657,7 @@ ul.account li a { color: #353535; font-size: 13px; text-decoration: none; letter
     display: block;
     overflow: hidden;
 }
-#carrousel_area .carrousel{width:100%; height:100%; list-style:none; text-align:center; position:relative; float:left;}
+#carrousel_area .carrousel{width:100%; height:100%; max-height:275px; list-style:none; text-align:center; position:relative; float:left;}
 #carrousel_area1 .carrousel{width:100%; list-style:none; text-align:center; position:relative; float:left;}
 #carrousel_area .carrousel img{width:100%; float:right;}
 #carrousel_area .carrousel .banner_description {width:545px; height:280px; border-radius:35px; background:#fff; zoom: 1; filter: alpha(opacity=80); opacity: 0.8; position:absolute;
@@ -684,7 +684,7 @@ ul.account li a { color: #353535; font-size: 13px; text-decoration: none; letter
 .account-login  .content a:hover{background:none;color:#000000}
 .service{width:100%; float:left;}
 .service ul{width:100%; float:left; list-style:none;}
-.service ul li{width:264px; float:left; padding:60px 18px 30px; /*min-height: 280px;*/ text-align:center; background:#fff;}
+.service ul li{width:264px; float:left; padding:45px 18px 30px; /*min-height: 280px;*/ text-align:center; background:#fff;}
 .service ul li+li{margin-left:20px;}
 .service ul li h2{width:100%; float:left; text-align:center; padding-top:10px; font-size:18px; color:#000; font-weight:normal;}
 .service ul li p{float:left; line-height:20px; color:#666666; padding:22px 0 0 0 !important; text-transform:none; font-size:14px;
