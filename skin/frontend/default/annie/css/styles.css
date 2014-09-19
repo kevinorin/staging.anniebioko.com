@@ -771,7 +771,7 @@ letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; tex
 /* Sidebar =============================================================================== */
 .block { border:1px solid #c4c1bc; margin:0 0 15px; }
 .block .block-title { /* background:url(../images/bkg_block-title.gif) 0 0 repeat-x; */ background:#fff; border-bottom:1px solid #ddd; padding:2px 9px; }
-.block .block-title strong { display:block; font-size:16px; font-family: 'Avenir Next Regular', Arial, sans-serif; min-height:16px; padding:1px 0 1px; text-transform:uppercase; color:#e26703; }
+.block .block-title strong { display:block; font-size:16px; font-family: 'Avenir Next Regular', Arial, sans-serif; min-height:16px; padding:1px 0 1px; text-transform:uppercase; color:#e26703; font-weight:400 !important; }
 .block .block-title strong span {}
 .block .block-title a { text-decoration:none !important; }
 .block .block-subtitle { margin:0; padding:5px 9px; font-size:1em; font-weight:bold; color:#0a263c; background:#fff; }
