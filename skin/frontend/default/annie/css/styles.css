@@ -154,8 +154,8 @@ width: 100%; }
 
 /* Base Columns */
 .col-left { float:left; width:195px; padding:0 0 1px; }
-.col-main { float:left; width:685px; padding:0 0 1px; }
-.col-right { float:right; width:195px; padding:0 0 1px; }
+.col-main { float:left; width:685px; padding:20px 0 0 0; }
+.col-right { float:right; width:195px; padding:0; }
 
 /* 1 Column Layout */
 .col1-layout .col-main { float:none; width:auto; }
@@ -2048,7 +2048,7 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 .product_main .breadcrumb{color: #666666; float: left; font-size: 12px; padding-bottom: 33px; text-transform: uppercase; width: 100%;}
 .product_main .breadcrumb a{float:left; padding-right:6px; color:#666666; text-decoration:none;}
 .product_main .breadcrumb a:hover{color:#010000;}
-.product_main .breadcrumb strong{color: #000000;}
+.product_main .breadcrumb strong{color: #000000; font-weight:400 !important;}
 .product_detail .thumbs{width:100%; float:left;}
 .thumbs .title{width:100%; float:left; font-size:12px; color:#666666; text-transform:uppercase; padding-bottom:15px;}
 .thumbs ul{width:100%; float:left; list-style:none;}
