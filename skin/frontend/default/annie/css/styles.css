@@ -715,8 +715,7 @@ letter-spacing:0.01em; }
 .contact .address span{width:100%; padding-bottom:15px;}
 .contact .address strong{font-weight:normal;}
 .contact .address p{line-height:22px; padding:0 !important; text-transform:none; letter-spacing:0.04em; }
-.contact .form ul li button { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #000000; color: #000000; cursor: pointer; float: left; font-size:14px; height: 41px;
-letter-spacing: normal; line-height: 41px; text-align: center; width: 151px; text-transform:uppercase; }
+.contact .form ul li button { background: none; color: #80683c; cursor: pointer; float: left; font-size:16px; font-style: italic; height: 41px; line-height: 41px; text-align: center; width: 151px; text-transform:uppercase; }
 
 /********** < Navigation */
 .nav-container { background:#0a263d url(../images/bkg_nav0.jpg) 50% 0 repeat-y; }
