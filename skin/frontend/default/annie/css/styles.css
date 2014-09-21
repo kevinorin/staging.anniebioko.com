@@ -2528,6 +2528,13 @@ ol#checkoutSteps button.button{ float:right;}
 .header header .header_right {
     width: 28%;}
 }
+.persColor {
+    width:15px; 
+    height:15px; 
+    float:left;
+    margin-right:5px; 
+    border-radius: 2px;
+}
 .product-personalization-header
 {
 display:none;
