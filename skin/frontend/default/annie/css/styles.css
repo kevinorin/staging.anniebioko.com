@@ -699,7 +699,7 @@ letter-spacing:0.01em; }
 .faq ul li { float: left; padding: 18px 0; width: 100%; font-size: 14px;}
 .faq ul li label { float: left; text-transform: uppercase; width: 45%;}
 .faq ul li .content { float: right; width: 55%; letter-spacing:0.04em;}
-.faq h3 { float: left; font-size: 14px; padding-bottom: 10px; padding-top: 20px; width: 100%; color: #000;}
+.faq h3 { float: left; font-size: 14px; font-weight:400; padding-bottom: 10px; padding-top: 20px; width: 100%; color: #000;}
 .faq_bottom p { float: left; font-size: 14px; /*  padding: 0 6% */}
 .contact{width:90%; float:left; background:#fff; padding:5%;}
 .contact .form{width:488px; float:left; font-size:14px; text-align:left;}
