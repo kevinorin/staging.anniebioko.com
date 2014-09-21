@@ -1,8 +1,11 @@
 <div class="product-personalization" id="product-personalization-options-wrapper">
 	<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed leo in neque congue fermentum. In vel nisl eu mauris ultrices ultrices. Proin sit amet purus at neque fermentum viverra. Mauris non eros tortor, id vulputate justo. Nunc feugiat laoreet odio in scelerisque.</p>-->
-    <?php echo $this->getChildHtml('', true, true);?>
+    <p style="position:relative; left:10px;">
+	
+	<?php echo $this->getChildHtml('', true, true);?>
     <?php if ($this->hasRequiredOptions()):?>
         <p class="required" style="display:none;"><?php echo $this->__('* Required Fields') ?></p>
     <?php endif;?>
+    </p>
 </div>
 
