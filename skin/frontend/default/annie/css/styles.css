@@ -1153,6 +1153,7 @@ background-color:#fff; }
 .add-to-cart button.button { /*float:left;margin-top:-9px; */position: relative;
 cursor: pointer; display: inline-block; font-size:16px; text-decoration: none; text-transform: capitalize;
 font-style: italic;}
+.social{  left: 8px;position: relative;}
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:15px !important;}
 .add-to-cart{ margin-top:20px;left:8px;position:relative}
