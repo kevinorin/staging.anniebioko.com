@@ -428,7 +428,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .title-buttons h6 { float:left; }
 
 .subtitle,
-.sub-title { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
+.sub-title { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#80683c ; }
 
 /* Pager */
 .pager { font-size:11px; background:#fff url(../images/bkg_toolbar.gif) 0 100% repeat-x; padding:4px 8px; border-top:1px solid #e2e2e2; text-align:center; }
@@ -2053,7 +2053,7 @@ background-color:#fff; }
 .home-callout { margin-bottom:12px; }
 .home-callout img { display:block }
 .home-spot { float:left; width:470px; margin-left:20px; }
-.best-selling h3 { margin:12px 0 6px 0; color:#e25203; font-size:1.2em; }
+.best-selling h3 { margin:12px 0 6px 0; color:#80683c ; font-size:1.2em; }
 .best-selling table { border-top:1px solid #ccc; }
 .best-selling tr.odd { background:#eee url(../images/best_selling_tr_odd_bg.gif) 0 100% repeat-x; }
 .best-selling tr.even { background:#fff url(../images/best_selling_tr_even_bg.gif) 0 100% repeat-x; }

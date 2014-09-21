@@ -26,7 +26,7 @@
 /* Widgets =============================================================================== */
 .widget { display:inline; }
 .widget .widget-title { clear:both; padding:15px 0 0; margin:0 0 7px; }
-.widget .widget-title h2 { font-size:15px; font-weight:bold; color:#e25203; }
+.widget .widget-title h2 { font-size:15px; font-weight:bold; color:#80683c ; }
 
 .widget .mini-products-images-list .product-image { display:block; width:76px; height:76px; border:1px solid #a9a9a9; margin:0 auto; }
 .widget .mini-products-images-list li.item { float:left; width:77px; height:77px; border:0 !important; padding:5px 9px !important; }
