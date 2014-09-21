@@ -58,9 +58,6 @@ class Mage_Catalog_Block_Product_View_Options_Type_Select
             if ($_option->getType() == Mage_Catalog_Model_Product_Option::OPTION_TYPE_DROP_DOWN) {
                 $select->setName('options['.$_option->getid().']')
                     ->addOption('', $this->__('Choose your selection'));
-            } else {
-                $select->setName('options['.$_option->getid().'][]');
-                $select->setClass('multiselect'.$require.' product-custom-option');
             }
             foreach ($_option->getValues() as $_value) {
                 $priceStr = $this->_formatPrice(array(
