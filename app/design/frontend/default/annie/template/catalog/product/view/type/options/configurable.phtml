@@ -31,7 +31,7 @@ $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
 ?>
 <?php if ($_product->isSaleable() && count($_attributes)):?>
     <dl>
-    <?php foreach($_attributes as $_attribute): ?>
+   
         <dt><label class="required"><em>*</em><?php echo $_attribute->getLabel() ?></label></dt>
         <dd<?php if ($_attribute->decoratedIsLast){?> class="last"<?php }?>>
             <div class="input-box">
@@ -40,7 +40,7 @@ $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
                   </select>
               </div>
         </dd>
-    <?php endforeach; ?>
+  
     </dl>
     <script type="text/javascript">
         var spConfig = new Product.Config(<?php echo $this->getJsonConfig() ?>);
