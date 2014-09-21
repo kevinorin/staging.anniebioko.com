@@ -785,7 +785,7 @@ background-color:#fff; }
 .block .block-content .product-name { color:#1e7ec8; }
 .block .btn-remove,
 .block .btn-edit { float:right; margin:1px 0 2px 5px; }
-.block .actions { background:#dee5e8 url(../images/bkg_block-actions.gif) 0 0 repeat-x; padding:6px 9px; text-align:right; }
+.block .actions { padding:6px 9px; text-align:right; }
 .block .actions a { float:left; }
 .block .actions button.button { float:right; }
 .block .empty { margin:0; padding:5px 9px; }
@@ -2116,7 +2116,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
 .data-table thead th{ background:none;}
 .data-table{ border:none;}
 .data-table thead th{ border-right:none; border-bottom:solid 1px #a3a3a3;}
-.data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #a3a3a3 !important;}
+.data-table tr.last th, .data-table tr.last td{ border-bottom:solid 1px #ddd !important;}
 .data-table tbody th, .data-table tbody td{ border:none;}
 .data-table tfoot tr.first td{ background:none;}
 .nobr{ color: #666666; font-size: 13px; font-weight: normal; text-transform: uppercase; }
