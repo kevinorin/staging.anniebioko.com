@@ -1153,10 +1153,10 @@ background-color:#fff; }
 .add-to-cart button.button { /*float:left;margin-top:-9px; */position: relative;
 cursor: pointer; display: inline-block; font-size:16px; text-decoration: none; text-transform: capitalize;
 font-style: italic;}
-.social{  left: 8px;position: relative;}
+.social{  left: 10px;position: relative;}
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:15px !important;}
-.add-to-cart{ margin-top:20px;left:8px;position:relative}
+.add-to-cart{ margin-top:20px;left:10px;position:relative}
 .add-to-cart .paypal-logo { clear:left; margin:0; text-align:right; }
 .add-to-cart .paypal-logo .paypal-or { clear:both; display:block; margin:5px 60px 5px 0; }
 .product-view .add-to-cart .paypal-logo { margin:0; }
