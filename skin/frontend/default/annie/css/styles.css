@@ -140,7 +140,7 @@ ul,ol         { list-style:none; }
 
 .personal_txt{ width:100%; float:left;}
 .personal_txt_top{ width:100%; float:left; margin-top:3px; font-size:10px; font-weight:bold;}
-.personal_txt_next{ width:100%; float:left; margin-top:-2px;}
+.personal_txt_next{ width:100%; float:left; margin:0 0 10px;}
 
 
 .wrapper { width:100%; max-width:1024px; margin:0 auto; }
