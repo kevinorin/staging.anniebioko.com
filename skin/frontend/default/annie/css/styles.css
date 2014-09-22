@@ -1150,6 +1150,9 @@ background-color:#fff; }
 /* Add to Cart */
 .add-to-cart label {  margin-right:5px;margin-left:5px; font-weight:bold; color:#666; display:none;}
 .add-to-cart .qty {  margin-right:5px;display:none; }
+input.input-text.qty {
+    font-family: 'Avenir Next UltraLight', Arial, sans-serif;
+}
 .add-to-cart button.button { /*float:left;margin-top:-9px; */position: relative;
 cursor: pointer; display: inline-block; font-size:16px; text-decoration: none; text-transform: capitalize;
 font-style: italic;}
@@ -1391,6 +1394,11 @@ font-style: italic;}
 .cart-table .btn-update,
 .cart-table .btn-empty { float:right; }
 .cart-table .btn-update { margin-left:10px; }
+button.button.btn-update {
+    font-family: 'Avenir Next UltraLight', Arial, sans-serif;
+    margin: 0;
+    float: none;
+}
 
 /* Shopping Cart Collateral boxes */
 .cart .cart-collaterals { padding:25px 0 0; }
