@@ -1182,6 +1182,11 @@ font-style: italic;}
 .product-collateral h2 { font-weight:bold; font-size:14px; color:#e26703; border-bottom:1px solid #e5dcc3; padding:0 0 1px; margin:0 0 15px; }
 .product-collateral .box-collateral { margin:0 0 25px; }
 
+.the-slideshow-wrapper.nested-container.clearer {
+    max-height: 400px;
+    overflow: hidden;
+}
+
 /* Product Images */
 .product-view .product-img-box { float:left; width:267px; }
 .col3-layout .product-view .product-img-box { float:none; margin:0 auto; }
