@@ -584,7 +584,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Header ================================================================================ */
 .logo { float:left; }
-.header-container { background: none repeat scroll 0 0 #FFFFFF; border-bottom: 1px solid #DEDFE2; float: left; padding: 20px 0 0; position: relative; width: 100%;}
+.header-container { background: none repeat scroll 0 0 #FFFFFF; border-bottom: 1px solid #DEDFE2; float: left; padding: 20px 0 10px; position: relative; width: 100%;}
 .header { margin: 0 auto; width: 100%;}
 .header header{ float: left; width: 100%;}
 .header .logo { 
