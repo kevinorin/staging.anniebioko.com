@@ -1182,9 +1182,15 @@ font-style: italic;}
 .product-collateral h2 { font-weight:bold; font-size:14px; color:#e26703; border-bottom:1px solid #e5dcc3; padding:0 0 1px; margin:0 0 15px; }
 .product-collateral .box-collateral { margin:0 0 25px; }
 
+/* slider edits */
 .the-slideshow-wrapper.nested-container.clearer {
     max-height: 400px;
     overflow: hidden;
+}
+ul.direction-nav {
+    top: 175px;
+    display: block;
+    position: relative;
 }
 
 /* Product Images */
