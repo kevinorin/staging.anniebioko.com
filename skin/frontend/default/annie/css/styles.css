@@ -1763,8 +1763,10 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
     margin: 0 0 20px 0;
 }
 .customer-account-edit p.required,
+.customer-address-form p.required, .customer-address-form .buttons-set button.button,
 .customer-address-index .page-title.title-buttons {
     text-align: left !important;
+    float: none !important;
 }
 .my-account .title-buttons .link-rss { float:none; margin:0; }
 
