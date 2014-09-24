@@ -2997,7 +2997,7 @@ display: none;
 }
 #photos img {
   /* Just in case there are inline attributes */
-  width: 93% !important;
+  width: 99% !important;
   height: auto !important;
   margin: 5px 5px 0 !important;
 }
