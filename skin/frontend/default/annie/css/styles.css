@@ -65,7 +65,7 @@ h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
 h1            { font-size:20px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
-h3, h4, h5, h6 { font-family: 'Avenir Next UltraLight', Arial, sans-serif; font-weight:600; }
+.box-head h2, h3, h4, h5, h6 { font-family: 'Avenir Next UltraLight', Arial, sans-serif; font-weight:600; }
 
 /* Hide Slider Controls */
 .gen-slider-pager1-pos-bottom-right .control-nav { display: none !important; }
