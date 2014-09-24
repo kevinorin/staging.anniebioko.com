@@ -1760,6 +1760,10 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 
 /* My Account ============================================================================= */
+.customer-address-index .page-title.title-buttons {
+    margin: 0 0 20px 0;
+    text-align: left !important;
+}
 .my-account .title-buttons .link-rss { float:none; margin:0; }
 
 /********** < Dashboard */
