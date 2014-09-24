@@ -67,16 +67,6 @@ h1            { font-size:20px; font-family: 'Avenir Next Regular', Arial, sans-
 h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 .box-head h2, h3, h4, h5, h6 { font-family: 'Avenir Next UltraLight', Arial, sans-serif; font-weight:600; }
 
-.col-left .block-banner img,
-.col-left .block-content li:nth-child(05),
-.col-left .block-content li:nth-child(06),
-.col-left .block-content li:nth-child(07),
-.col-left .block-content li:nth-child(08),
-.col-left .block-content li:nth-child(09),
-.col-left .block-content li:nth-child(10),
-.col-left .block-content li:nth-child(11) {
-    display: none !important;
-}
 /* Hide Slider Controls */
 .gen-slider-pager1-pos-bottom-right .control-nav { display: none !important; }
 .add-to-cart button.button,
@@ -1760,8 +1750,20 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 
 /* My Account ============================================================================= */
+.col-left .block-banner img,
+.col-left .block-content li:nth-child(05),
+.col-left .block-content li:nth-child(06),
+.col-left .block-content li:nth-child(07),
+.col-left .block-content li:nth-child(08),
+.col-left .block-content li:nth-child(09),
+.col-left .block-content li:nth-child(11) {
+    display: none !important;
+}
 .customer-address-index .page-title.title-buttons {
     margin: 0 0 20px 0;
+}
+.customer-account-edit p.required,
+.customer-address-index .page-title.title-buttons {
     text-align: left !important;
 }
 .my-account .title-buttons .link-rss { float:none; margin:0; }
