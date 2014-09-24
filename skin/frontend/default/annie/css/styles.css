@@ -68,7 +68,11 @@ h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-
 .box-head h2, h3, h4, h5, h6 { font-family: 'Avenir Next UltraLight', Arial, sans-serif; font-weight:600; }
 
 .col-left .block-banner img,
-.col-left .block-content li:nth-child(04) {
+.col-left .block-content li:nth-child(05),
+.col-left .block-content li:nth-child(06),
+.col-left .block-content li:nth-child(07),
+.col-left .block-content li:nth-child(08),
+.col-left .block-content li:nth-child(09) {
     display: none !important;
 }
 /* Hide Slider Controls */
