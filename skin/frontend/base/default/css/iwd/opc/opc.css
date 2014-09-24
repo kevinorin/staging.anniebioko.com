@@ -230,7 +230,7 @@
 
 .opc-wrapper-opc .btn-checkout.button-disabled{}
 .opc-wrapper-opc .btn-checkout.button-disabled span span{}
-.opc-wrapper-opc .btn-checkout.button-disabled span {cursor: default;background-color:#80683c; text-shadow:none}
+.opc-wrapper-opc .btn-checkout.button-disabled span {cursor: default; text-shadow:none}
 
 .design_package_rwd .btn-checkout.button-disabled{background-color:transparent;}
 
