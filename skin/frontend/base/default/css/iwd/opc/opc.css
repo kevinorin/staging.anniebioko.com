@@ -54,11 +54,11 @@
 
 /** BASE OPC ELEMENTS **/
 .opc-wrapper-opc{overflow: hidden;margin: 0 auto;}
-.opc-wrapper-opc *{color:#80683c;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.opc-wrapper-opc *{font-family: 'Avenir Next UltraLight', Arial, sans-serif !important;  color:#80683c;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 .opc-wrapper-opc label{color:#393939;font-weight:normal;font-size:14px;line-height: 1.25em;margin-bottom:2px;text-align: left;}
 .opc-wrapper-opc h3{color:#404040; font-size:16px;text-align:left;border-bottom:1px solid #b6b6b6;padding-bottom:8px;line-height: 1;margin-bottom: 20px;}
 .opc-wrapper-opc .validation-advice{font-weight:normal;text-align: left;}
-.opc-wrapper-opc h2{color:#4a4a4a; font-family: 'Avenir Next UltraLight', Arial, sans-serif; font-size:22px; font-weight:600;text-align:left}
+.opc-wrapper-opc h2{color:#4a4a4a; font-size:22px; font-weight:600;text-align:left}
 .opc-wrapper-opc p{font-size:16px; color:#393939;text-align:left;margin: 0 0 10px;}
 .opc-wrapper-opc input{box-shadow:none;background: none}
 .opc-wrapper-opc input:focus{box-shadow:none;}
