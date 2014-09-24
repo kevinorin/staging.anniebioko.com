@@ -1750,7 +1750,9 @@ font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; text-decora
 
 
 /* My Account ============================================================================= */
-.block-cart .block-title strong, .block-cart .block-title { background: transparent !important; background-image: none !important;}
+.block-cart .block-title strong, 
+.block-cart .block-title,
+.block-reorder .block-title strong, .block-reorder .block-title { background: transparent !important; background-image: none !important;}
 .col-left .block-banner img,
 .col-left .block-content li:nth-child(05),
 .col-left .block-content li:nth-child(06),
