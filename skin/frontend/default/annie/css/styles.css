@@ -72,7 +72,9 @@ h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-
 .col-left .block-content li:nth-child(06),
 .col-left .block-content li:nth-child(07),
 .col-left .block-content li:nth-child(08),
-.col-left .block-content li:nth-child(09) {
+.col-left .block-content li:nth-child(09),
+.col-left .block-content li:nth-child(10),
+.col-left .block-content li:nth-child(11) {
     display: none !important;
 }
 /* Hide Slider Controls */
