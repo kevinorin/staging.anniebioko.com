@@ -65,10 +65,7 @@ h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c;}
 h1            { font-size:20px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
 h2            { font-size:18px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
-h3            { font-size:16px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
-h4            { font-size:14px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
-h5            { font-size:12px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
-h6            { font-size:11px; font-family: 'Avenir Next Regular', Arial, sans-serif;}
+h3, h4, h5, h6 { font-family: 'Avenir Next UltraLight', Arial, sans-serif; font-weight:600; }
 
 /* Hide Slider Controls */
 .gen-slider-pager1-pos-bottom-right .control-nav { display: none !important; }
@@ -826,7 +823,7 @@ background-color:#fff; }
 
 /* Block: Account */
 .block-account { border-color:#bbb; }
-.block-account .block-title { background:#fc9d36 url(../images/bkg_block-title-account.gif) 0 100% repeat-x; border:0; padding:3px 10px; }
+.block-account .block-title { border:0; padding:3px 10px; }
 .block-account .block-title strong { font-size:13px; color:#fff; }
 .block-account .block-content { background:#fbfaf6; padding:7px 10px 7px; }
 .block-account .block-content li a { display:block; border-bottom:1px solid #ddd; padding:3px 0; color:#5f5d5c; text-decoration:none !important; }
