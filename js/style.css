@@ -880,9 +880,9 @@ background-color:#fff; }
 .block-account .block-title strong { font-size:13px; color:#fff; }
 .block-account .block-content { background:#fbfaf6; padding:7px 10px 7px; }
 .block-account .block-content li a { display:block; border-bottom:1px solid #ddd; padding:3px 0; color:#5f5d5c; text-decoration:none !important; }
-.block-account .block-content li a:hover { color:#ea7900; }
+.block-account .block-content li a:hover { color:#80683c; }
 .block-account .block-content li.last a { border-bottom:0; }
-.block-account .block-content li.current { border-bottom:1px solid #ddd; padding:3px 0; color:#ea7900; }
+.block-account .block-content li.current { border-bottom:1px solid #ddd; padding:3px 0; color:#80683c; }
 .block-account .block-content li.current.last { border-bottom:0; }
 
 /* Block: Currency Switcher */
@@ -1826,7 +1826,7 @@ background-color:#fff; }
 /* General Box */
 .box-account { background:#fff url(../images/bkg_account_box.gif) 0 0 repeat-x; border:1px solid #ccc; border-color:#ccc #999 #999 #ccc; padding:15px; margin: 0 0 20px; }
 .box-account .box-head { border-bottom:1px solid #d9dde3; margin:0 0 10px; text-align:right; }
-.box-account .box-head h2 { float:left; margin:0; font-size:13px; font-weight:bold; text-transform:uppercase; background-position:0 0; background-repeat:no-repeat; padding-left:21px; color:#e65505; }
+.box-account .box-head h2 { float:left; margin:0; font-size:13px; font-weight:bold; text-transform:uppercase; background-position:0 0; background-repeat:no-repeat; padding-left:21px; color:#80683c; }
 
 .dashboard .box .box-title { background:url(../images/bkg_divider1.gif) 0 100% repeat-x; padding:0 0 2px; margin:0 0 8px; text-align:right; }
 .dashboard .box .box-title h3,
