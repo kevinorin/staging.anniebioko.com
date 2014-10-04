@@ -73,11 +73,6 @@ table { scrollbar-face-color:expression(runtimeStyle.scrollbarFaceColor = '#fff'
 /* Clearer */
 .clearer { display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 
-#photos img {
-  /* Just in case there are inline attributes */
-  width: auto !important;
-}
-
 /* Clears and hasLayout fixes */
 .header-container,
 .header-container .top-container,

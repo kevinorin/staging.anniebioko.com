@@ -71,7 +71,6 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
         <?php if ($isVisibleProduct): ?>
         <a style="display:none;" href="<?php echo $this->getConfigureUrl() ?>" title="<?php echo $this->__('Edit item parameters') ?>"><?php echo $this->__('Edit') ?></a>
         <?php endif ?>
-		
     </td>
     <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
     <td class="a-center">
@@ -82,9 +81,8 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
     <?php endif ?>
      <td class="a-center">
         <input name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" /><br/>
-         <?php if ($isVisibleProduct): ?>
-         <!--<a href="<?php echo $this->getConfigureUrl() ?>" title="<?php echo $this->__('Edit item parameters') ?>"><?php echo $this->__('Update') ?></a>-->
-		 <button type="submit" name="update_cart_action" value="update_qty" title="<?php echo $this->__('Update'); ?>" class="button btn-update"><?php echo $this->__('Update'); ?></button>
+          <?php if ($isVisibleProduct): ?>
+        <a href="<?php echo $this->getConfigureUrl() ?>" title="<?php echo $this->__('Edit item parameters') ?>"><?php echo $this->__('Update') ?></a>
         <?php endif ?>
     </td>
 
@@ -186,7 +184,7 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
         <?php endif; ?>
     <?php endif; ?>
     <td class="a-center">
-        <!--<input name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" /><br/>-->
+        <input name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" /><br/>
          <?php if ($isVisibleProduct): ?>
         <a href="<?php echo $this->getConfigureUrl() ?>" title="<?php echo $this->__('Edit item parameters') ?>"><?php echo $this->__('Update') ?></a>
         <?php endif ?>
