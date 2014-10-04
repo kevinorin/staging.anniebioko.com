@@ -54,7 +54,7 @@
 
 /** BASE OPC ELEMENTS **/
 .opc-wrapper-opc{overflow: hidden;margin: 0 auto;}
-.opc-wrapper-opc *{font-family: 'Avenir Next Regular', Arial, sans-serif; color:#80683c;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.opc-wrapper-opc *{font-family: 'Avenir Next UltraLight', Arial, sans-serif !important;  color:#80683c;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 .opc-wrapper-opc label{color:#393939;font-weight:normal;font-size:14px;line-height: 1.25em;margin-bottom:2px;text-align: left;}
 .opc-wrapper-opc h3{color:#404040; font-size:16px;text-align:left;border-bottom:1px solid #b6b6b6;padding-bottom:8px;line-height: 1;margin-bottom: 20px;}
 .opc-wrapper-opc .validation-advice{font-weight:normal;text-align: left;}
@@ -207,8 +207,8 @@
 .opc-message-container{text-align: center;}
 .opc-messages-action{text-align:center;margin-top:20px}
 .opc-messages-action .button{display:block;height:44px;border:none;margin: 0 auto;}
-.opc-messages-action .button span{background:#80683c;border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;}
-.opc-messages-action .button span span{background:#80683c;color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 20px}
+.opc-messages-action .button span{border:none;height:40px;line-height:40px;-webkit-border-radius: 3px;border-radius: 3px;}
+.opc-messages-action .button span span{color:#ffffff;font-size:16px;font-weight:bold;text-transform:uppercase;padding:0 20px}
 .close-message-wrapper {background: url("images/close.png") no-repeat scroll 0 0 transparent;display: block;height: 8px;position: absolute;width: 8px;z-index: 1005;right: 18px;top: 15px;cursor:pointer}
 
 .design_package_rwd .opc-messages-action .button span{background:none !important;border:none;height:auto !important;line-height:24px !important;-webkit-border-radius: 0 !important;border-radius: 0 !important;}
@@ -216,8 +216,8 @@
 
 /** BUTTONS */
 .opc-wrapper-opc .btn{height:35px;border:none;margin: 0 auto;background:none !important;cursor:pointer}
-.opc-wrapper-opc .btn span{background:#80683c;border:none;height:35px;line-height:35px;-webkit-border-radius: 3px;border-radius: 3px;display:block;padding: 0;}
-.opc-wrapper-opc .btn span span{background:#80683c;color:#ffffff;font-size:12px;font-weight:bold;text-transform:uppercase;text-shadow:0 1px 1px #02484f;padding:0 10px}
+.opc-wrapper-opc .btn span{border:none;height:35px;line-height:35px;-webkit-border-radius: 3px;border-radius: 3px;display:block;padding: 0;}
+.opc-wrapper-opc .btn span span{color:#80683c;font-size:12px;font-weight:bold;text-transform:uppercase;padding:0 10px}
 
 .opc-wrapper-opc .btn-checkout{display:block;width:100%;height:45px;}
 .opc-wrapper-opc .btn-checkout span{width:100%;line-height: 46px;padding: 0 !important;height: 45px;padding: 0;}
@@ -230,7 +230,7 @@
 
 .opc-wrapper-opc .btn-checkout.button-disabled{}
 .opc-wrapper-opc .btn-checkout.button-disabled span span{}
-.opc-wrapper-opc .btn-checkout.button-disabled span {cursor: default;background-color:#80683c; text-shadow:none}
+.opc-wrapper-opc .btn-checkout.button-disabled span {cursor: default; text-shadow:none}
 
 .design_package_rwd .btn-checkout.button-disabled{background-color:transparent;}
 
