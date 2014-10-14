@@ -72,10 +72,13 @@
            personal_information_.style.fontFamily=this.value;
          }); 
          
-
-        jj(".product-custom-option").each(function(){
-            jj(this).wrap("<span class='select-wrapper'></span>");
-            jj(this).after("<span class='holder'></span>");
+		var count=0;
+		var rcolorswatch;
+       jj(".product-custom-option").each(function(){
+           rcolorswatch="scolor"+count;
+		   jj(this).wrap("<span class='select-wrapper "+rcolorswatch+"'></span>");
+        	jj(this).after("<span class='holder'></span>");
+			count++;
         });
         jj(".product-custom-option").change(function(){
             var selectedOption = jj(this).find(":selected").text();
@@ -92,5 +95,7 @@
             jj(this).next(".holder").text(selectedOption);
         }).trigger('change');
     })
+    
+	jj(".select-wrapper").after( "<p>Test</p>");
 </script>
 

@@ -1,0 +1,7 @@
+<layout>
+	<catalog_product_view>
+		<reference name="product.info.media">
+			<action method="setTemplate"><template>aicod_lightbox/catalog/product/view/media.phtml</template></action>
+		</reference>
+	</catalog_product_view>
+</layout>

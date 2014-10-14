@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aicod_Lightbox>
+            <active>1</active>
+            <codePool>community</codePool>
+        </Aicod_Lightbox>
+
+
+				<depends>
+						<Aicod_WebAssets />
+            <Aicod_JqueryLibs />
+        </depends>
+
+    </modules>
+</config>

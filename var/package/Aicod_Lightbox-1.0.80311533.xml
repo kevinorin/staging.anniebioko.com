@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Aicod_Lightbox</name>
+    <version>1.0.80311533</version>
+    <stability>stable</stability>
+    <license uri="http://www.ecommercegrow.com/license">http://www.ecommercegrow.com/license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>www.ecommercegrow.com</summary>
+    <description>www.ecommercegrow.com</description>
+    <notes>www.ecommercegrow.com</notes>
+    <authors>
+      <author>
+        <name>ecommercegrow</name>
+        <user>ecommercegrow</user>
+        <email>info@ecommercegrow.com</email>
+      </author>
+    </authors>
+    <compatible/>
+    <dependencies>
+      <required>
+        <php>
+          <min>5.2.0</min>
+          <max>6.0.0</max>
+        </php>
+      </required>
+    </dependencies>
+    <date>2013-06-25</date>
+    <time>16:38:33</time>
+    <contents>
+      <target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Aicod_Lightbox.xml" hash="b791c44f0b342c33b0b7c356221f6ddf"/></dir></dir><dir name="code"><dir name="community"><dir name="Aicod"><dir name="Lightbox"><dir name="etc"><file name="config.xml" hash="6e7419f830da6fe24b8e517c02c79d9b"/><file name="system.xml" hash="1b46faaad852f58250987104eb0f1921"/></dir><file name="LICENSE.TXT" hash="b92e3a09e0ec51ac8d9a5caf61932035"/><file name="README.TXT" hash="b2de4fac158a21a119b29c7df11c1a0f"/></dir></dir></dir></dir><dir name="design"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="aicod_lightbox"><dir name="catalog"><dir name="product"><dir name="view"><file name="media.phtml" hash="39fdbb17d84413a413506819ced7c15f"/></dir></dir></dir></dir></dir><dir name="layout"><dir name="aicod_lightbox"><file name="aicod_lightbox.xml" hash="ce50893251431c6418b5551d22ccd992"/></dir></dir></dir></dir></dir></dir></dir></target>
+    </contents>
+</package>

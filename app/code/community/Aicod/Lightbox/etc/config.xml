@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Aicod_Lightbox>
+      <version>1.0</version>
+    </Aicod_Lightbox>
+  </modules>
+  
+
+
+    <frontend>
+        <layout>
+            <updates>
+                <aicod_lightbox>
+                    <file>aicod_lightbox/aicod_lightbox.xml</file>
+                </aicod_lightbox>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+      <catalog>
+        <lightbox>
+          <product>1</product>
+        </lightbox>
+      </catalog>
+    </default>
+
+    
+  </config>
