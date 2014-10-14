@@ -1,7 +1,0 @@
-<div class="product-personalization-header">
-	<ul>
-		<?php foreach($this->getLinks() as $link) : ?>
-		<li <?php if ($link->getCurrent()) : ?>class="current"<?php endif; ?>><a href="<?php echo $link->getUrl() ?>"><?php echo $link->getLabel() ?></a></li>
-		<?php endforeach; ?>
-	</ul>
-</div>
