@@ -475,7 +475,7 @@ if (count($_options) || ((string)Mage::getConfig()->getModuleConfig('OrganicInte
                 var ul = $('ul_swatch_' + optionId);
                 if (!ul) return;
                 
-                var span = $('span_swatch_' + optionId);
+                var span = $('span_swatch');
                 if (span) span.remove();
                 
                 <?php if ($helper->isDependentEnabled()) { ?>

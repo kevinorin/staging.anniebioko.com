@@ -1162,8 +1162,8 @@ background-color:#fff; }
 .add-to-links .separator { display:none; }
 
 /* Add to Cart */
-.add-to-cart label {  margin-right:5px;margin-left:5px; font-weight:bold; color:#666; display:none;}
-.add-to-cart .qty {  margin-right:5px;display:none; }
+.add-to-cart label {  margin-right:5px; margin-left:5px; font-weight:bold; color:#666; }
+.add-to-cart .qty {  margin-right:5px; }
 input.input-text.qty {
     font-family: 'Avenir Next UltraLight', Arial, sans-serif;
 }
@@ -1176,12 +1176,9 @@ input.input-text.qty {
     position: relative;
     text-decoration: none;
     text-transform: capitalize;
-	margin-top:65px;
 }
-.social{  left: 10px;position: relative;}
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:15px !important;}
-.add-to-cart{ margin-top:20px;left:10px;/*position:relative*/}
 .add-to-cart .paypal-logo { clear:left; margin:0; text-align:right; }
 .add-to-cart .paypal-logo .paypal-or { clear:both; display:block; margin:5px 60px 5px 0; }
 .product-view .add-to-cart .paypal-logo { margin:0; }
@@ -1265,16 +1262,15 @@ ul.direction-nav {
     border-bottom: 0 none;
     padding-bottom: 5px;
 }
+.label_textarea_246 { display: block !important;}
 .product-options dd input.input-text { width:98%; }
 .product-options dd input.datetime-picker { width:150px; }
 .product-options dd .time-picker { display:-moz-inline-box; display:inline-block; padding:2px 0; vertical-align:middle; }
 .product-options dd textarea { 
-	 border: 1px solid #b4b4b4;
+    border: 1px solid #b4b4b4;
     height: 80px;
-    min-height: 81px;
     padding: 7px;
     resize: none;
-    width: 174%;
 }
 .product-options dd select {/* position: relative; */width: 201px;z-index: 5; background:#fff; }
 .product-options dd .multiselect option { border-bottom:1px dotted #d9e5ee; padding:2px 4px; }
@@ -2174,7 +2170,7 @@ color: #000; font-size: 12px; background: url(../images/select.jpg) right 5px no
     display:none;
 } */
 
-.product-shop.options .product-options { padding-bottom:30px; }
+.product-shop.options .product-options { padding-bottom:10px; }
 .product-options-bottom .price-box { display:none;}
 .product-options-bottom ul.add-to-links li { float:left; padding:6px;}
 
@@ -2220,9 +2216,9 @@ ol#checkoutSteps button.button{ color:#000000; padding:12px 15px; border:1px sol
 
 .step-title{border-bottom:1px solid #a3a3a3 !important; border-top:none !important; border-left:none !important; border-right:none !important;}
 .step.a-item {border: medium none !important;}
-.select-wrapper{ float: left; display: inline-block; /*border: 1px solid #d8d8d8; */  background: url("../images/select.jpg") no-repeat right center; cursor: pointer;}
-.select-wrapper, .select-wrapper select{ width: 200px; height: 26px; line-height: 26px; font-size:12px; color:#000000; text-transform:capitalize;
-position: relative; /* right: -14px; */ margin-top:10px;}
+.select-wrapper{ display: inline-block; /*border: 1px solid #d8d8d8; */  background: url("../images/select.jpg") no-repeat right center; cursor: pointer;}
+.select-wrapper, .select-wrapper select{ line-height: 26px; font-size:12px; color:#000000; text-transform:capitalize;
+position: relative;}
 .select-wrapper:hover { background: url("../images/select.jpg") no-repeat right center; border-color: #239fdb;}
 .select-wrapper .holder{ display: block; margin: 0 35px 0 0; white-space: nowrap; overflow: hidden; cursor: pointer; z-index: -1; letter-spacing:0.05em;}
 .select-wrapper select{ margin: 0; position: absolute; z-index: 2; cursor: pointer; outline: none; opacity: 0; /* CSS hacks for older browsers */
@@ -3105,13 +3101,9 @@ div.swatch {
 {
 	display:none;
 }
-.label-248 {
+.label-248 /* font color */ {
     display: block !important;
-    float: left;
-    font-size: 10px;
-    font-weight: bold;
-    margin-left: 9px;
-    margin-top: 3px;
+    font-size: 11px;
 }
 #span_swatch_248
 {
@@ -3119,12 +3111,8 @@ div.swatch {
     font-size: 10px;
     font-weight: bold;
     margin-top: 3px;
-    
 }
-.label_textarea_246 {
-    display: block !important;
-    margin-left: 8px;
-}
+
 
 @media screen and (max-width : 320px){ 
 		
