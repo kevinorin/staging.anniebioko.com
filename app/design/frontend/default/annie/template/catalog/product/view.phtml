@@ -43,57 +43,47 @@
 <!-- Body -->
 <div class="product-view product_detail">
     <?php echo $this->getLayout()->getBlock("breadcrumbs")->toHtml(); ?>
-
+    
     <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
-        <?php echo $this->getBlockHtml('formkey') ?>
-        <div class="no-display">
-            <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
-            <input type="hidden" name="related_product" id="related-products-field" value="" />
-        </div>
-
-        <div class="product-shop description">
-            <div class="product-name">
-                <h5><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h5>
-                 <?php echo $this->getChildHtml('product_type_data') ?>
-                <p><?php echo $_helper->productAttribute($_product, nl2br($_product->getDescription()), 'description') ?></p>
+        <!-- left side -->
+        <div class="prodViewLeft">
+            <?php echo $this->getBlockHtml('formkey') ?>
+            <div class="no-display">
+                <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
+                <input type="hidden" name="related_product" id="related-products-field" value="" />
             </div>
-   <!--  <select onchange="personal_information_.style.fontfamily=this">
-     <option value="Raleigh" selected="selected">Raleigh</option>
-     <option value="MRS Eaves">MRS Eaves</option>
-     <option value="Gill Sans">Gill Sans</option>
-     <option value="Baker Script">Baker Script</option>
-     <option value="Baker Script">Parisian</option>
-     </select>
-    <a href="#" onclick="personal_information_.style.color='Red'">Red</a>
-    <a href="#" onclick="personal_information_.style.color='Green'">Red</a>-->
 
-            <?php //echo $this->getReviewsSummaryHtml($_product, false, true)?>
-            <?php //echo $this->getChildHtml('alert_urls') ?>
-            <?php //echo $this->getChildHtml('product_type_data') ?>
-            <?php //echo $this->getTierPriceHtml() ?>
-            <?php //echo $this->getChildHtml('extrahint') ?>
-            <?php //echo $this->getChildHtml('addtocart') ?>
-
-            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-                <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
-            <?php endif;?>
-
+        
+            <div class="product-img-box">
+                <?php echo $this->getChildHtml('media') ?>
+            </div>
         </div>
+        <!-- /left side -->
+        <!-- right side -->
+        <div class="prodViewRight">
+            <div class="product-shop description">
+                <div class="product-name">
+                    <h5><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h5>
+                     <?php echo $this->getChildHtml('product_type_data') ?>
+                    <p><?php echo $_helper->productAttribute($_product, nl2br($_product->getDescription()), 'description') ?></p>
+                </div>
 
-        <div class="product-img-box">
-            <?php echo $this->getChildHtml('media') ?>
+                <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                    <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
+                <?php endif;?>
+            </div>
+
+            <div class="product-shop options">
+                <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                    <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+                    <?php echo $this->getChildHtml('other') ?>
+                    <?php echo $this->getChildHtml('prices') ?>
+                    <?php echo $this->getChildHtml('addtocart') ?>
+                    <?php echo $this->getChildHtml('addto') ?>
+                <?php endif;?>
+            </div>
         </div>
-
-        <div class="product-shop options">
-            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-                <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
-                <?php echo $this->getChildHtml('other') ?>
-                <?php echo $this->getChildHtml('prices') ?>
-                <?php echo $this->getChildHtml('addtocart') ?>
-                <?php echo $this->getChildHtml('addto') ?>
-            <?php endif;?>
-        </div>
-
+        <!-- /right side-->
     </form>
     <script type="text/javascript">
     //<![CDATA[
