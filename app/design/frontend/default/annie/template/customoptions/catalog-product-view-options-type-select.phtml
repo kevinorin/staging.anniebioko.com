@@ -37,7 +37,7 @@ $valuesHtml = $this->getValuesHtml();
 if ($valuesHtml): ?>
 
 <?php if(strpos($_option->getTitle(),'Style') !== false):?>
-	<div class="personalizetext">Personalization (optional):</div>
+	<div class="personalizetext">Personalization (optional): Please select a font style, font color and enter personalized information to avoid delays in your order.</div>
 <?php endif; ?>
 
 <div <?php if ($helper->hideDependentOption() && $_option->getIsDependent() || $_option->getViewMode()==2) { ?>style="display: none;"<?php } ?> class="option<?php if ($helper->isSpecifyingCssClassEnabled() && $_option->getDivClass()) echo ' '.$_option->getDivClass() ?>">

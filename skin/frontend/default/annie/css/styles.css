@@ -145,7 +145,13 @@ ul,ol         { list-style:none; clear:both}
     height: 37px;
     padding:7px;}
 .product-personalization-content .field-row textarea{ width:95% !important;}
-.personalizetext { display: none; }
+.personalizetext { 
+    border-top: 1px dashed red;
+    padding-top: 10px;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    font-weight: 600; 
+}
 
 .personal_txt{ width:100%; float:left;}
 .personal_txt_top{ width:100%; float:left; margin-top:3px; font-size:10px; font-weight:bold;}
@@ -1262,7 +1268,11 @@ ul.direction-nav {
     border-bottom: 0 none;
     padding-bottom: 5px;
 }
-.label_textarea_246 { display: block !important;}
+.label_textarea_246 {
+    display: block !important;
+    margin-top: 10px;
+    font-size: 12px;
+}
 .product-options dd input.input-text { width:98%; }
 .product-options dd input.datetime-picker { width:150px; }
 .product-options dd .time-picker { display:-moz-inline-box; display:inline-block; padding:2px 0; vertical-align:middle; }
@@ -3103,7 +3113,7 @@ div.swatch {
 }
 .swatchLabel, span.swatchColor /* font color */ {
     display: inline-block !important;
-    font-size: 11px;
+    font-size: 12px;
 }
 #span_swatch_248
 {
