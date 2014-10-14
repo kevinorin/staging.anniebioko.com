@@ -41,7 +41,7 @@ if ($valuesHtml): ?>
 <?php endif; ?>
 
 <div <?php if ($helper->hideDependentOption() && $_option->getIsDependent() || $_option->getViewMode()==2) { ?>style="display: none;"<?php } ?> class="option<?php if ($helper->isSpecifyingCssClassEnabled() && $_option->getDivClass()) echo ' '.$_option->getDivClass() ?>">
-<dl><dt><label <?php if(strpos($_option->getTitle(),'color') !== false):?>class="label-248" <?php endif;?>><?php echo $this->htmlEscape($_option->getTitle()) ?><?php if ($_option->getIsRequire(true)): ?><span class="required">&nbsp;*</span><?php endif; ?></label>
+<dl><dt><label <?php if(strpos($_option->getTitle(),'color') !== false):?>class="swatchLabel" <?php endif;?>><?php echo $this->htmlEscape($_option->getTitle()) ?><?php if ($_option->getIsRequire(true)): ?><span class="required">&nbsp;*</span><?php endif; ?></label>
 
 <?php if ($_option->getDescription()): ?><p class="note"><?php echo $_option->getDescription() ?></p><?php endif; ?></dt>
 <dd<?php if ($_option->decoratedIsLast) { ?> class="last"<?php } ?>>

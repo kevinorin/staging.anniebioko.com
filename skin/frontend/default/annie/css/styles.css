@@ -3101,8 +3101,8 @@ div.swatch {
 {
 	display:none;
 }
-.label-248 /* font color */ {
-    display: block !important;
+.swatchLabel, span.swatchColor /* font color */ {
+    display: inline-block !important;
     font-size: 11px;
 }
 #span_swatch_248
