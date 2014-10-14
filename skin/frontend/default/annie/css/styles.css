@@ -128,10 +128,16 @@ ul,ol         { list-style:none; clear:both}
 .no-bg        { background:none !important; }
 /* ======================================================================================= */
 
+.prodViewRight{
+    float: right !important;
+}
 .prodViewRight, .prodViewLeft {
-    display: block;
     float: left;
-    width: 50%;
+    width: 46%;
+    padding: 0 2%;
+    overflow: hidden;
+    display: inline-block;
+    min-height: 100px;
 }
 
 /* Layout ================================================================================ */
