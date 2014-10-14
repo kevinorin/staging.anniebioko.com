@@ -41,12 +41,11 @@
 <div id="messages_product_view"><?php //echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
 
 <!-- Body -->
-<div class="product-view product_detail">
-    <?php echo $this->getLayout()->getBlock("breadcrumbs")->toHtml(); ?>
-    
+<div class="product-view product_detail">    
     <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
         <!-- left side -->
         <div class="prodViewLeft">
+            <?php echo $this->getLayout()->getBlock("breadcrumbs")->toHtml(); ?>
             <?php echo $this->getBlockHtml('formkey') ?>
             <div class="no-display">
                 <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
