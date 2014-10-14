@@ -145,6 +145,7 @@ ul,ol         { list-style:none; clear:both}
     height: 37px;
     padding:7px;}
 .product-personalization-content .field-row textarea{ width:95% !important;}
+.personalizetext { display: none; }
 
 .personal_txt{ width:100%; float:left;}
 .personal_txt_top{ width:100%; float:left; margin-top:3px; font-size:10px; font-weight:bold;}
@@ -1253,13 +1254,13 @@ ul.direction-nav {
 
 /* Product Options */
 .product-options {  padding:0px; position:relative; }
-.product-options dt { padding:10px 0 0; font-weight:normal;clear:both }
+.product-options dt { padding:0; font-weight:normal;clear:both }
 .product-options dt label { font-weight:bold; color:#2f2f2f; display:none; }
 .product-options dt label.required em { color:#796238; margin-left:5px; }
 .product-options dd .qty-holder { display:block; padding:10px 0 0; }
 .product-options dd .qty-holder label { vertical-align:middle; }
 .product-options dt .qty-disabled { background:none; border:0; padding:3px; color:#2f2f2f; }
-.product-options dd { padding:5px 10px 15px;/* margin:0 0 5px; border-bottom:1px solid #e4e4e4; */}
+.product-options dd { padding:0;}
 .product-options dl.last dd.last {
     border-bottom: 0 none;
     padding-bottom: 5px;
@@ -1285,14 +1286,6 @@ ul.direction-nav {
 .product-options ul.options-list label { font-weight:normal; }
 .product-options ul.validation-failed { padding:0 7px; }
 
-.product-options p.note {
-    font-size: 11px;
-    left: 10px;
-    margin: 0;
-    position: relative;
-    top: -6px;
-	display:none!important;
-}
 .product-options p.required { position:absolute; right:20px; top:20px;display:none!important }
 
 .product-options-bottom {/* background-color:#fffada;  padding:15px 20px; */ /*border:1px solid #e4e4e4; border-top:0;*/ width:400px; float:right;}
@@ -3100,9 +3093,7 @@ display: none;
     width: 15px !important;
     border-radius: 2px !important;
 }
-.product-options dd {
-    padding: 0 8px !important;
-}
+
 .option .small-image-preview {
     padding:0 !important;
 
@@ -3134,23 +3125,9 @@ div.swatch {
     display: block !important;
     margin-left: 8px;
 }
-.personalizetext {
-    left: -199px;
-    padding-bottom: 35px;
-    position: relative;
-    text-align: left;
-    top: 54px;
-}
+
 @media screen and (max-width : 320px){ 
 		
-		.personalizetext {
-			left: -105px;
-			padding-bottom: 35px;
-			position: relative;
-			right: 114px;
-			text-align: right;
-			top: 54px;
-		}
 		.-main > img {
 			width: 237px;
 		}
@@ -3219,13 +3196,6 @@ div.swatch {
     width: 65%;
 }
 
-.personalizetext {
-    left: 10px;
-    padding-bottom: 39px;
-    position: relative;
-    text-align: left;
-    top: 54px;
-}
 .product-options dd textarea {
     border: 1px solid #b4b4b4;
     height: 80px;

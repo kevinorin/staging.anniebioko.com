@@ -52,7 +52,11 @@ if ($helper->isDependentEnabled() && $_option->getIsDependent()) {
         <textarea id="options_<?php echo $_option->getId() ?>_text" onchange="opConfig.reloadPrice()" <?php echo $disabled; ?> class="<?php echo $_option->getIsRequire(true) ?($_option->getIsDependent()?' required-dependent':' required-entry') : '' ?> <?php echo $_option->getMaxCharacters() ? ' validate-length maximum-length-'.$_option->getMaxCharacters() : '' ?> product-custom-option" name="options[<?php echo $_option->getId() ?>]" rows="5" cols="25"><?php echo $this->htmlEscape($defaultValue) ?></textarea>
 <?php endif; ?>
 <?php if ($_option->getMaxCharacters()): ?>
-<p class="note"><?php echo Mage::helper('catalog')->__('Maximum number of characters:')?> <strong><?php echo $_option->getMaxCharacters() ?></strong></p>
+
+<p class="note" style="display: none;">
+	<?php echo Mage::helper('catalog')->__('Maximum number of characters:')?><strong><?php echo $_option->getMaxCharacters() ?></strong>
+</p>
+
 <?php endif; ?>
 </dd>
 <?php if (!$helper->isImagesAboveOptions()) echo $helper->getImgHtml($_option->getImagePath(), $_option->getId()); ?>
