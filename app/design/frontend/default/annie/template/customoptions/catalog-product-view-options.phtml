@@ -475,7 +475,7 @@ if (count($_options) || ((string)Mage::getConfig()->getModuleConfig('OrganicInte
                 var ul = $('ul_swatch_' + optionId);
                 if (!ul) return;
                 
-                var span = $('span_swatch');
+                var span = $('span_swatch_' + optionId);
                 if (span) span.remove();
                 
                 <?php if ($helper->isDependentEnabled()) { ?>
@@ -515,7 +515,7 @@ if (count($_options) || ((string)Mage::getConfig()->getModuleConfig('OrganicInte
                 if (noteText.length>0) {
                     var dtEl = ul.up('dl').down('dt');
                     var pNoteEl = dtEl.down('p.note');
-                    var spanSwatch  = '<span id="span_swatch_' + optionId + '"> - ' + noteText.join(', ') + '</span>';
+                    var spanSwatch  = '<span class="swatchColor" id="span_swatch_' + optionId + '"> - ' + noteText.join(', ') + '</span>';
                     if (pNoteEl) {
                         Element.insert($(pNoteEl), {'before':spanSwatch});
                     } else {
