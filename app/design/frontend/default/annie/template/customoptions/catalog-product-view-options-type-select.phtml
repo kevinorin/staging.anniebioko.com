@@ -35,9 +35,11 @@ $helper = Mage::helper('customoptions');
 $valuesHtml = $this->getValuesHtml(); 
 
 if ($valuesHtml): ?>
+
 <?php if(strpos($_option->getTitle(),'Style') !== false):?>
-	<div class="personalizetext"> Personalization (optional):</div>
+	<div class="personalizetext">Personalization (optional):</div>
 <?php endif; ?>
+
 <div <?php if ($helper->hideDependentOption() && $_option->getIsDependent() || $_option->getViewMode()==2) { ?>style="display: none;"<?php } ?> class="option<?php if ($helper->isSpecifyingCssClassEnabled() && $_option->getDivClass()) echo ' '.$_option->getDivClass() ?>">
 <dl><dt><label <?php if(strpos($_option->getTitle(),'color') !== false):?>class="label-248" <?php endif;?>><?php echo $this->htmlEscape($_option->getTitle()) ?><?php if ($_option->getIsRequire(true)): ?><span class="required">&nbsp;*</span><?php endif; ?></label>
 
