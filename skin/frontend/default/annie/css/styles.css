@@ -135,7 +135,6 @@ ul,ol         { list-style:none; clear:both}
     float: left;
     width: 46%;
     padding: 0 2%;
-    overflow: hidden;
     display: inline-block;
     min-height: 100px;
 }
@@ -145,8 +144,12 @@ ul,ol         { list-style:none; clear:both}
     height: 37px;
     padding:7px;}
 .product-personalization-content .field-row textarea{ width:95% !important;}
+.personalizetext h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
 .personalizetext { 
-    border-top: 1px dashed red;
+    border-top: 1px dashed #80683c;
     padding-top: 10px;
     font-size: 12px !important;
 }
@@ -1177,11 +1180,11 @@ input.input-text.qty {
     display: inline-block;
     font-size: 16px;
     font-style: italic;
-     padding-left: 12px;
     position: relative;
     text-decoration: none;
     text-transform: capitalize;
 }
+.social { margin: 15px 0 !important; float: none !important;}
 .social a img{ width:24px; height:24px;}
 .product-options-bottom .social{ margin-top:15px !important;}
 .add-to-cart .paypal-logo { clear:left; margin:0; text-align:right; }
@@ -2305,12 +2308,9 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
     .form-list .field, .form-list .input-box, .form-list input.input-text {    width: 100%;}
     .account-login .buttons-set a{ font-size:11px;}
     .col1-layout .product-view .product-shop { width: 44%;}
-    .add-to-cart button.button{ margin-top:20px;}
-    .product-options-bottom .add-to-cart button.button{ margin-top:0px;}
     .products-grid li.item { width: 44.1%;}
     .product-options-bottom{ width:225px;}
     .product-options { width: 232px;}
-    .product-options-bottom .add-to-cart button.button { margin-top: 20px;}
     .header header nav { width:50px !important; max-width:60px; }
 }
 
@@ -2350,7 +2350,6 @@ _noFocusLine: expression(this.hideFocus=true);  -ms-filter:"progid:DXImageTransf
 .products-grid li.item { width: 90%;}
 .product-options-bottom{ width:100%;}
 .product-options { width: 100%;}
-.product-options-bottom .add-to-cart button.button { margin-top: 0px;}
 }
 
 @media only screen and (max-width : 360px) {
@@ -2512,7 +2511,6 @@ button.btn-checkout span span{ padding:0px;}
 }
 
 @media only screen and (max-width : 360px) {
-    #strip{position:relative; background:#fff;}
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
     .follow_us span{color:#000;}
@@ -2527,7 +2525,7 @@ button.btn-checkout span span{ padding:0px;}
     .follow_us a.twitter{background: url('../images/tw1.png') repeat scroll 0 0 transparent;}
     .follow_us a.pintrest{background: url('../images/pint1.png') repeat scroll 0 0 transparent;}
     #mailing_list label{color:#000; width:100%;text-align: center;}
-    .newsletter input[type="text"]{padding-left:19px;height:34px;border:1px solid;border-right:none;}
+    .newsletter input[type="text"]{padding-left:7px;height:27px;}
       #carrousel_area1 .carrousel .banner_description{width:300px;margin-left:-151px;top:26px;height:145px;}
       .the-slideshow-wrapper ul li img {height:202px;}
 .mini-cart{ margin-top: 264px !important; width: 50% !important;}
@@ -2558,16 +2556,14 @@ button.btn-checkout span span{ padding:0px;}
 }
 
 @media only screen and (max-width : 320px) {
-    #strip{position:relative;top:832px; background:#fff;}
     #grey_area{position:relative;bottom:173px;}
     #carrousel_area{position:relative;bottom:172px;}
     .follow_us span{color:#000;width:100%;display:block;}
-     .newsletter input[type="text"]{}
+     .newsletter input[type="text"]{padding-left:7px;height:27px;}
     .follow_us a.facebook{background: url('../images/fb1.png') repeat scroll 0 0 transparent;}
     .follow_us a.twitter{background: url('../images/tw1.png') repeat scroll 0 0 transparent;}
     .follow_us a.pintrest{background: url('../images/pint1.png') repeat scroll 0 0 transparent;}
     #mailing_list label{color:#000; width:100%;text-align: center;}
-    .newsletter input[type="text"]{padding-left:19px;height:34px;border:1px solid;border-right:none;}
     #carrousel_area1 .carrousel .banner_description{width:300px;margin-left:-151px;top:26px;height:145px;}
     .the-slideshow-wrapper ul li img {height:202px;}
 .mini-cart{ margin-top: 264px !important; width: 56% !important;}
@@ -2740,6 +2736,11 @@ button.button{position:absolute}
   td.visible-xs {
     display: table-cell !important;
   }
+    .prodViewRight, .prodViewLeft {
+        float: none !important;
+        width: 96% !important;
+        padding: 0 2% !important;
+    }
 }
 @media (max-width: 767px) {
   .visible-xs-block {
@@ -3135,14 +3136,6 @@ div.swatch {
 			width: 61%;
 		}
 
-			
-		
-		/*.add-to-cart button.button {
-			left: 2%;
-			margin-top: 20px;
-			position: relative;
-			top: 110%;
-		}*/
 		.social {
 			left: 151px;
 			position: relative;
@@ -3220,30 +3213,12 @@ div.swatch {
     overflow: hidden;
 }
 
-
-.add-to-cart button.button {
-    left: 34%;
-    margin-top: 20px;
-    position: relative;
-    top: 103%;
-}
-.add-to-cart button.button {
-    left: 34%;
-    margin-top: 20px;
-    position: relative;
-    top: 105%;
-}
 .social {
     left: 144px;
     position: relative;
     top: 25px;
 }
-.add-to-cart button.button {
-    left: 34%;
-    margin-top: 20px;
-    position: relative;
-    top: 103%;
-}
+
 .cart .totals .checkout-types {
     float: right;
     font-size: 14px;
