@@ -149,6 +149,7 @@ ul,ol         { list-style:none; clear:both}
     text-transform: uppercase;
 }
 .personalizetext { 
+    border-top: 1px solid #DEDFE2;
     padding-top: 10px;
     font-size: 12px !important;
 }
