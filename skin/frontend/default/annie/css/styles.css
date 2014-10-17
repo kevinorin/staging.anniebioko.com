@@ -146,12 +146,13 @@ ul,ol         { list-style:none; clear:both}
 .product-personalization-content .field-row textarea{ width:95% !important;}
 .personalizetext h5 {
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .personalizetext { 
     border-top: 1px solid #DEDFE2;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 12px !important;
+    margin-top: 10px;
 }
 
 
@@ -1171,7 +1172,7 @@ background-color:#fff; }
 
 /* Add to Cart */
 .add-to-cart label {  margin-right:5px; margin-left:5px; font-weight:bold; color:#666; }
-.add-to-cart .qty {  margin-right:5px; }
+.add-to-cart .qty {  margin-right:15px; }
 input.input-text.qty {
     font-family: 'Avenir Next UltraLight', Arial, sans-serif;
 }
